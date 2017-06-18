@@ -269,6 +269,19 @@
                 "local": "api"
               }
             ]
+          },
+          {
+            "source": "routes/protobuf",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "protobuf"
+              }
+            ]
           }
         ],
         "exports": {
@@ -468,7 +481,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _api = require('./routes/api');\n\nvar _api2 = _interopRequireDefault(_api);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.use('/', _api2.default);\n\napp.use(function (req, res, next) {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\napp.use(function (err, req, res, next) {\n  res.status(err.status || 500);\n  res.send(err.stack);\n});\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsInVzZSIsInJlcSIsInJlcyIsIm5leHQiLCJlcnIiLCJFcnJvciIsInN0YXR1cyIsInNlbmQiLCJzdGFjayIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBQ0EsSUFBTUEsTUFBTSx3QkFBWjs7QUFFQUEsSUFBSUMsR0FBSixDQUFRLEdBQVI7O0FBRUFELElBQUlDLEdBQUosQ0FBUSxVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBV0MsSUFBWCxFQUFvQjtBQUMxQixNQUFJQyxNQUFNLElBQUlDLEtBQUosQ0FBVSxXQUFWLENBQVY7QUFDQUQsTUFBSUUsTUFBSixHQUFhLEdBQWI7QUFDQUgsT0FBS0MsR0FBTDtBQUNELENBSkQ7O0FBTUFMLElBQUlDLEdBQUosQ0FBUSxVQUFDSSxHQUFELEVBQU1ILEdBQU4sRUFBV0MsR0FBWCxFQUFnQkMsSUFBaEIsRUFBeUI7QUFDL0JELE1BQUlJLE1BQUosQ0FBV0YsSUFBSUUsTUFBSixJQUFjLEdBQXpCO0FBQ0FKLE1BQUlLLElBQUosQ0FBU0gsSUFBSUksS0FBYjtBQUNELENBSEQ7O0FBS0FULElBQUlVLE1BQUosQ0FBVyxJQUFYLEVBQWlCLFlBQU07QUFDckJDLFVBQVFDLEdBQVIsQ0FBWSx5QkFBWjtBQUNELENBRkQiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgYXBpIGZyb20gJ3JvdXRlcy9hcGknO1xuY29uc3QgYXBwID0gZXhwcmVzcygpO1xuXG5hcHAudXNlKCcvJywgYXBpKTtcblxuYXBwLnVzZSgocmVxLCByZXMsIG5leHQpID0+IHtcbiAgdmFyIGVyciA9IG5ldyBFcnJvcignTm90IEZvdW5kJyk7XG4gIGVyci5zdGF0dXMgPSA0MDQ7XG4gIG5leHQoZXJyKTtcbn0pO1xuXG5hcHAudXNlKChlcnIsIHJlcSwgcmVzLCBuZXh0KSA9PiB7XG4gIHJlcy5zdGF0dXMoZXJyLnN0YXR1cyB8fCA1MDApO1xuICByZXMuc2VuZChlcnIuc3RhY2spO1xufSk7XG5cbmFwcC5saXN0ZW4oMzAwMCwgKCkgPT4ge1xuICBjb25zb2xlLmxvZygnTGlzdGVuaW5nIG9uIHBvcnQgMzYwMCEnKTtcbn0pO1xuIl19",
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _api = require('./routes/api');\n\nvar _api2 = _interopRequireDefault(_api);\n\nvar _protobuf = require('./routes/protobuf');\n\nvar _protobuf2 = _interopRequireDefault(_protobuf);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.get('/protobuf', _protobuf2.default);\n\napp.use('/', _api2.default);\n\napp.use(function (req, res, next) {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\napp.use(function (err, req, res, next) {\n  res.status(err.status || 500);\n  res.send(err.stack);\n});\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImdldCIsInVzZSIsInJlcSIsInJlcyIsIm5leHQiLCJlcnIiLCJFcnJvciIsInN0YXR1cyIsInNlbmQiLCJzdGFjayIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7Ozs7QUFDQSxJQUFNQSxNQUFNLHdCQUFaOztBQUVBQSxJQUFJQyxHQUFKLENBQVEsV0FBUjs7QUFFQUQsSUFBSUUsR0FBSixDQUFRLEdBQVI7O0FBRUFGLElBQUlFLEdBQUosQ0FBUSxVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBV0MsSUFBWCxFQUFvQjtBQUMxQixNQUFJQyxNQUFNLElBQUlDLEtBQUosQ0FBVSxXQUFWLENBQVY7QUFDQUQsTUFBSUUsTUFBSixHQUFhLEdBQWI7QUFDQUgsT0FBS0MsR0FBTDtBQUNELENBSkQ7O0FBTUFOLElBQUlFLEdBQUosQ0FBUSxVQUFDSSxHQUFELEVBQU1ILEdBQU4sRUFBV0MsR0FBWCxFQUFnQkMsSUFBaEIsRUFBeUI7QUFDL0JELE1BQUlJLE1BQUosQ0FBV0YsSUFBSUUsTUFBSixJQUFjLEdBQXpCO0FBQ0FKLE1BQUlLLElBQUosQ0FBU0gsSUFBSUksS0FBYjtBQUNELENBSEQ7O0FBS0FWLElBQUlXLE1BQUosQ0FBVyxJQUFYLEVBQWlCLFlBQU07QUFDckJDLFVBQVFDLEdBQVIsQ0FBWSx5QkFBWjtBQUNELENBRkQiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgYXBpIGZyb20gJ3JvdXRlcy9hcGknO1xuaW1wb3J0IHByb3RvYnVmIGZyb20gJ3JvdXRlcy9wcm90b2J1Zic7XG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5cbmFwcC5nZXQoJy9wcm90b2J1ZicsIHByb3RvYnVmKTtcblxuYXBwLnVzZSgnLycsIGFwaSk7XG5cbmFwcC51c2UoKHJlcSwgcmVzLCBuZXh0KSA9PiB7XG4gIHZhciBlcnIgPSBuZXcgRXJyb3IoJ05vdCBGb3VuZCcpO1xuICBlcnIuc3RhdHVzID0gNDA0O1xuICBuZXh0KGVycik7XG59KTtcblxuYXBwLnVzZSgoZXJyLCByZXEsIHJlcywgbmV4dCkgPT4ge1xuICByZXMuc3RhdHVzKGVyci5zdGF0dXMgfHwgNTAwKTtcbiAgcmVzLnNlbmQoZXJyLnN0YWNrKTtcbn0pO1xuXG5hcHAubGlzdGVuKDMwMDAsICgpID0+IHtcbiAgY29uc29sZS5sb2coJ0xpc3RlbmluZyBvbiBwb3J0IDM2MDAhJyk7XG59KTtcbiJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -477,6 +490,7 @@
       ],
       "names": [
         "app",
+        "get",
         "use",
         "req",
         "res",
@@ -490,14 +504,14 @@
         "console",
         "log"
       ],
-      "mappings": ";;AAAA;;;;AACA;;;;;;AACA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,GAAR;;AAEAD,IAAIC,GAAJ,CAAQ,UAACC,GAAD,EAAMC,GAAN,EAAWC,IAAX,EAAoB;AAC1B,MAAIC,MAAM,IAAIC,KAAJ,CAAU,WAAV,CAAV;AACAD,MAAIE,MAAJ,GAAa,GAAb;AACAH,OAAKC,GAAL;AACD,CAJD;;AAMAL,IAAIC,GAAJ,CAAQ,UAACI,GAAD,EAAMH,GAAN,EAAWC,GAAX,EAAgBC,IAAhB,EAAyB;AAC/BD,MAAII,MAAJ,CAAWF,IAAIE,MAAJ,IAAc,GAAzB;AACAJ,MAAIK,IAAJ,CAASH,IAAII,KAAb;AACD,CAHD;;AAKAT,IAAIU,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;;;AACA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,WAAR;;AAEAD,IAAIE,GAAJ,CAAQ,GAAR;;AAEAF,IAAIE,GAAJ,CAAQ,UAACC,GAAD,EAAMC,GAAN,EAAWC,IAAX,EAAoB;AAC1B,MAAIC,MAAM,IAAIC,KAAJ,CAAU,WAAV,CAAV;AACAD,MAAIE,MAAJ,GAAa,GAAb;AACAH,OAAKC,GAAL;AACD,CAJD;;AAMAN,IAAIE,GAAJ,CAAQ,UAACI,GAAD,EAAMH,GAAN,EAAWC,GAAX,EAAgBC,IAAhB,EAAyB;AAC/BD,MAAII,MAAJ,CAAWF,IAAIE,MAAJ,IAAc,GAAzB;AACAJ,MAAIK,IAAJ,CAASH,IAAII,KAAb;AACD,CAHD;;AAKAV,IAAIW,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
       "file": "index.js",
       "sourceRoot": "/home/app",
       "sourcesContent": [
-        "import express from 'express';\nimport api from 'routes/api';\nconst app = express();\n\napp.use('/', api);\n\napp.use((req, res, next) => {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\napp.use((err, req, res, next) => {\n  res.status(err.status || 500);\n  res.send(err.stack);\n});\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
+        "import express from 'express';\nimport api from 'routes/api';\nimport protobuf from 'routes/protobuf';\nconst app = express();\n\napp.get('/protobuf', protobuf);\n\napp.use('/', api);\n\napp.use((req, res, next) => {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\napp.use((err, req, res, next) => {\n  res.status(err.status || 500);\n  res.send(err.stack);\n});\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
       ]
     },
-    "mtime": 1497677741000
+    "mtime": 1497768853000
   },
   "{\"filename\":\"/home/app/routes/test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
@@ -1245,5 +1259,552 @@
       ]
     },
     "mtime": 1497678883000
+  },
+  "{\"filename\":\"/home/app/routes/protobuf.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "lib/gtfs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gtfs"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/routes/protobuf.js",
+      "filenameRelative": "/home/app/routes/protobuf.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "protobuf.js",
+      "sourceFileName": "protobuf.js",
+      "sourceRoot": "/home/app/routes",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/routes",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "protobuf"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('../lib/gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var buffer;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.prev = 0;\n            _context.next = 3;\n            return (0, _gtfs2.default)('http://transit.tsomobile.com/miami/RealTimeFeed-miami');\n\n          case 3:\n            buffer = _context.sent;\n\n            res.send(buffer);\n            _context.next = 11;\n            break;\n\n          case 7:\n            _context.prev = 7;\n            _context.t0 = _context['catch'](0);\n\n            console.log(_context.t0);\n            res.send('Epic Fail');\n\n          case 11:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this, [[0, 7]]);\n  }));\n\n  function protobuf(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return protobuf;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb3RvYnVmLmpzIl0sIm5hbWVzIjpbInJlcSIsInJlcyIsImJ1ZmZlciIsInNlbmQiLCJjb25zb2xlIiwibG9nIiwicHJvdG9idWYiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7Ozs7Ozs7dURBRWUsaUJBQXdCQSxHQUF4QixFQUE2QkMsR0FBN0I7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUVVLG9CQUNuQix1REFEbUIsQ0FGVjs7QUFBQTtBQUVMQyxrQkFGSzs7QUFLWEQsZ0JBQUlFLElBQUosQ0FBU0QsTUFBVDtBQUxXO0FBQUE7O0FBQUE7QUFBQTtBQUFBOztBQU9YRSxvQkFBUUMsR0FBUjtBQUNBSixnQkFBSUUsSUFBSixDQUFTLFdBQVQ7O0FBUlc7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsRzs7V0FBZUcsUTs7OztTQUFBQSxRIiwiZmlsZSI6InByb3RvYnVmLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcC9yb3V0ZXMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ3RmcyBmcm9tICdsaWIvZ3Rmcyc7XG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIHByb3RvYnVmKHJlcSwgcmVzKSB7XG4gIHRyeSB7XG4gICAgY29uc3QgYnVmZmVyID0gYXdhaXQgZ3RmcyhcbiAgICAgICdodHRwOi8vdHJhbnNpdC50c29tb2JpbGUuY29tL21pYW1pL1JlYWxUaW1lRmVlZC1taWFtaSdcbiAgICApO1xuICAgIHJlcy5zZW5kKGJ1ZmZlcik7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5sb2coZXJyb3IpO1xuICAgIHJlcy5zZW5kKCdFcGljIEZhaWwnKTtcbiAgfVxufVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "protobuf.js"
+      ],
+      "names": [
+        "req",
+        "res",
+        "buffer",
+        "send",
+        "console",
+        "log",
+        "protobuf"
+      ],
+      "mappings": ";;;;;;AAAA;;;;;;;;;uDAEe,iBAAwBA,GAAxB,EAA6BC,GAA7B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAEU,oBACnB,uDADmB,CAFV;;AAAA;AAELC,kBAFK;;AAKXD,gBAAIE,IAAJ,CAASD,MAAT;AALW;AAAA;;AAAA;AAAA;AAAA;;AAOXE,oBAAQC,GAAR;AACAJ,gBAAIE,IAAJ,CAAS,WAAT;;AARW;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeG,Q;;;;SAAAA,Q",
+      "file": "protobuf.js",
+      "sourceRoot": "/home/app/routes",
+      "sourcesContent": [
+        "import gtfs from 'lib/gtfs';\n\nexport default async function protobuf(req, res) {\n  try {\n    const buffer = await gtfs(\n      'http://transit.tsomobile.com/miami/RealTimeFeed-miami'\n    );\n    res.send(buffer);\n  } catch (error) {\n    console.log(error);\n    res.send('Epic Fail');\n  }\n}\n"
+      ]
+    },
+    "mtime": 1497768532000
+  },
+  "{\"filename\":\"/home/app/lib/gtfs/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/lib/gtfs\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "protobufjs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "ProtoBuf"
+              }
+            ]
+          },
+          {
+            "source": "request",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "request"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "gtfs",
+            "url"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "gtfs",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "url",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/lib/gtfs/index.js",
+      "filenameRelative": "/home/app/lib/gtfs/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "/home/app/lib/gtfs",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/lib/gtfs",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = gtfs;\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _protobufjs = require('protobufjs');\n\nvar _protobufjs2 = _interopRequireDefault(_protobufjs);\n\nvar _request = require('request');\n\nvar _request2 = _interopRequireDefault(_request);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction decode(feedBuffer) {\n  var builder = _protobufjs2.default.loadProtoFile('lib/gtfs/gtfs-realtime.proto');\n  var transit = builder.build('transit_realtime');\n  var result = transit.FeedMessage.decode(feedBuffer);\n  return result;\n}\n\nfunction loadGTFSRealtimeFeed(options) {\n  return new Promise(function (resolve, reject) {\n    (0, _request2.default)(options, function (err, res, body) {\n      if (err) {\n        console.error(err, body);\n        reject(err);\n      }\n      if (res.statusCode !== 200) {\n        console.error(body);\n        reject(body);\n      }\n      resolve(body);\n    });\n  });\n}\n\nfunction gtfs(url) {\n  var options = {\n    url: url,\n    method: 'get',\n    encoding: null\n  };\n\n  return loadGTFSRealtimeFeed(options).then(function (feedBuffer) {\n    var result = decode(feedBuffer);\n    return result;\n  }).catch(function (err) {\n    return err;\n  });\n}\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImd0ZnMiLCJkZWNvZGUiLCJmZWVkQnVmZmVyIiwiYnVpbGRlciIsImxvYWRQcm90b0ZpbGUiLCJ0cmFuc2l0IiwiYnVpbGQiLCJyZXN1bHQiLCJGZWVkTWVzc2FnZSIsImxvYWRHVEZTUmVhbHRpbWVGZWVkIiwib3B0aW9ucyIsIlByb21pc2UiLCJyZXNvbHZlIiwicmVqZWN0IiwiZXJyIiwicmVzIiwiYm9keSIsImNvbnNvbGUiLCJlcnJvciIsInN0YXR1c0NvZGUiLCJ1cmwiLCJtZXRob2QiLCJlbmNvZGluZyIsInRoZW4iLCJjYXRjaCJdLCJtYXBwaW5ncyI6Ijs7Ozs7a0JBMkJ3QkEsSTs7QUEzQnhCOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBRUEsU0FBU0MsTUFBVCxDQUFnQkMsVUFBaEIsRUFBNEI7QUFDMUIsTUFBTUMsVUFBVSxxQkFBU0MsYUFBVCxDQUF1Qiw4QkFBdkIsQ0FBaEI7QUFDQSxNQUFNQyxVQUFVRixRQUFRRyxLQUFSLENBQWMsa0JBQWQsQ0FBaEI7QUFDQSxNQUFNQyxTQUFTRixRQUFRRyxXQUFSLENBQW9CUCxNQUFwQixDQUEyQkMsVUFBM0IsQ0FBZjtBQUNBLFNBQU9LLE1BQVA7QUFDRDs7QUFFRCxTQUFTRSxvQkFBVCxDQUE4QkMsT0FBOUIsRUFBdUM7QUFDckMsU0FBTyxJQUFJQyxPQUFKLENBQVksVUFBQ0MsT0FBRCxFQUFVQyxNQUFWLEVBQXFCO0FBQ3RDLDJCQUFRSCxPQUFSLEVBQWlCLFVBQUNJLEdBQUQsRUFBTUMsR0FBTixFQUFXQyxJQUFYLEVBQW9CO0FBQ25DLFVBQUlGLEdBQUosRUFBUztBQUNQRyxnQkFBUUMsS0FBUixDQUFjSixHQUFkLEVBQW1CRSxJQUFuQjtBQUNBSCxlQUFPQyxHQUFQO0FBQ0Q7QUFDRCxVQUFJQyxJQUFJSSxVQUFKLEtBQW1CLEdBQXZCLEVBQTRCO0FBQzFCRixnQkFBUUMsS0FBUixDQUFjRixJQUFkO0FBQ0FILGVBQU9HLElBQVA7QUFDRDtBQUNESixjQUFRSSxJQUFSO0FBQ0QsS0FWRDtBQVdELEdBWk0sQ0FBUDtBQWFEOztBQUVjLFNBQVNoQixJQUFULENBQWNvQixHQUFkLEVBQW1CO0FBQ2hDLE1BQU1WLFVBQVU7QUFDZFUsU0FBS0EsR0FEUztBQUVkQyxZQUFRLEtBRk07QUFHZEMsY0FBVTtBQUhJLEdBQWhCOztBQU1BLFNBQU9iLHFCQUFxQkMsT0FBckIsRUFDSmEsSUFESSxDQUNDLHNCQUFjO0FBQ2xCLFFBQU1oQixTQUFTTixPQUFPQyxVQUFQLENBQWY7QUFDQSxXQUFPSyxNQUFQO0FBQ0QsR0FKSSxFQUtKaUIsS0FMSSxDQUtFLGVBQU87QUFDWixXQUFPVixHQUFQO0FBQ0QsR0FQSSxDQUFQO0FBUUQiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL2xpYi9ndGZzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5pbXBvcnQgUHJvdG9CdWYgZnJvbSAncHJvdG9idWZqcyc7XG5pbXBvcnQgcmVxdWVzdCBmcm9tICdyZXF1ZXN0JztcblxuZnVuY3Rpb24gZGVjb2RlKGZlZWRCdWZmZXIpIHtcbiAgY29uc3QgYnVpbGRlciA9IFByb3RvQnVmLmxvYWRQcm90b0ZpbGUoJ2xpYi9ndGZzL2d0ZnMtcmVhbHRpbWUucHJvdG8nKTtcbiAgY29uc3QgdHJhbnNpdCA9IGJ1aWxkZXIuYnVpbGQoJ3RyYW5zaXRfcmVhbHRpbWUnKTtcbiAgY29uc3QgcmVzdWx0ID0gdHJhbnNpdC5GZWVkTWVzc2FnZS5kZWNvZGUoZmVlZEJ1ZmZlcik7XG4gIHJldHVybiByZXN1bHQ7XG59XG5cbmZ1bmN0aW9uIGxvYWRHVEZTUmVhbHRpbWVGZWVkKG9wdGlvbnMpIHtcbiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHtcbiAgICByZXF1ZXN0KG9wdGlvbnMsIChlcnIsIHJlcywgYm9keSkgPT4ge1xuICAgICAgaWYgKGVycikge1xuICAgICAgICBjb25zb2xlLmVycm9yKGVyciwgYm9keSk7XG4gICAgICAgIHJlamVjdChlcnIpO1xuICAgICAgfVxuICAgICAgaWYgKHJlcy5zdGF0dXNDb2RlICE9PSAyMDApIHtcbiAgICAgICAgY29uc29sZS5lcnJvcihib2R5KTtcbiAgICAgICAgcmVqZWN0KGJvZHkpO1xuICAgICAgfVxuICAgICAgcmVzb2x2ZShib2R5KTtcbiAgICB9KTtcbiAgfSk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGd0ZnModXJsKSB7XG4gIGNvbnN0IG9wdGlvbnMgPSB7XG4gICAgdXJsOiB1cmwsXG4gICAgbWV0aG9kOiAnZ2V0JyxcbiAgICBlbmNvZGluZzogbnVsbCxcbiAgfTtcblxuICByZXR1cm4gbG9hZEdURlNSZWFsdGltZUZlZWQob3B0aW9ucylcbiAgICAudGhlbihmZWVkQnVmZmVyID0+IHtcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGRlY29kZShmZWVkQnVmZmVyKTtcbiAgICAgIHJldHVybiByZXN1bHQ7XG4gICAgfSlcbiAgICAuY2F0Y2goZXJyID0+IHtcbiAgICAgIHJldHVybiBlcnI7XG4gICAgfSk7XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "gtfs",
+        "decode",
+        "feedBuffer",
+        "builder",
+        "loadProtoFile",
+        "transit",
+        "build",
+        "result",
+        "FeedMessage",
+        "loadGTFSRealtimeFeed",
+        "options",
+        "Promise",
+        "resolve",
+        "reject",
+        "err",
+        "res",
+        "body",
+        "console",
+        "error",
+        "statusCode",
+        "url",
+        "method",
+        "encoding",
+        "then",
+        "catch"
+      ],
+      "mappings": ";;;;;kBA2BwBA,I;;AA3BxB;;;;AACA;;;;AACA;;;;;;AAEA,SAASC,MAAT,CAAgBC,UAAhB,EAA4B;AAC1B,MAAMC,UAAU,qBAASC,aAAT,CAAuB,8BAAvB,CAAhB;AACA,MAAMC,UAAUF,QAAQG,KAAR,CAAc,kBAAd,CAAhB;AACA,MAAMC,SAASF,QAAQG,WAAR,CAAoBP,MAApB,CAA2BC,UAA3B,CAAf;AACA,SAAOK,MAAP;AACD;;AAED,SAASE,oBAAT,CAA8BC,OAA9B,EAAuC;AACrC,SAAO,IAAIC,OAAJ,CAAY,UAACC,OAAD,EAAUC,MAAV,EAAqB;AACtC,2BAAQH,OAAR,EAAiB,UAACI,GAAD,EAAMC,GAAN,EAAWC,IAAX,EAAoB;AACnC,UAAIF,GAAJ,EAAS;AACPG,gBAAQC,KAAR,CAAcJ,GAAd,EAAmBE,IAAnB;AACAH,eAAOC,GAAP;AACD;AACD,UAAIC,IAAII,UAAJ,KAAmB,GAAvB,EAA4B;AAC1BF,gBAAQC,KAAR,CAAcF,IAAd;AACAH,eAAOG,IAAP;AACD;AACDJ,cAAQI,IAAR;AACD,KAVD;AAWD,GAZM,CAAP;AAaD;;AAEc,SAAShB,IAAT,CAAcoB,GAAd,EAAmB;AAChC,MAAMV,UAAU;AACdU,SAAKA,GADS;AAEdC,YAAQ,KAFM;AAGdC,cAAU;AAHI,GAAhB;;AAMA,SAAOb,qBAAqBC,OAArB,EACJa,IADI,CACC,sBAAc;AAClB,QAAMhB,SAASN,OAAOC,UAAP,CAAf;AACA,WAAOK,MAAP;AACD,GAJI,EAKJiB,KALI,CAKE,eAAO;AACZ,WAAOV,GAAP;AACD,GAPI,CAAP;AAQD",
+      "file": "index.js",
+      "sourceRoot": "/home/app/lib/gtfs",
+      "sourcesContent": [
+        "import path from 'path';\nimport ProtoBuf from 'protobufjs';\nimport request from 'request';\n\nfunction decode(feedBuffer) {\n  const builder = ProtoBuf.loadProtoFile('lib/gtfs/gtfs-realtime.proto');\n  const transit = builder.build('transit_realtime');\n  const result = transit.FeedMessage.decode(feedBuffer);\n  return result;\n}\n\nfunction loadGTFSRealtimeFeed(options) {\n  return new Promise((resolve, reject) => {\n    request(options, (err, res, body) => {\n      if (err) {\n        console.error(err, body);\n        reject(err);\n      }\n      if (res.statusCode !== 200) {\n        console.error(body);\n        reject(body);\n      }\n      resolve(body);\n    });\n  });\n}\n\nexport default function gtfs(url) {\n  const options = {\n    url: url,\n    method: 'get',\n    encoding: null,\n  };\n\n  return loadGTFSRealtimeFeed(options)\n    .then(feedBuffer => {\n      const result = decode(feedBuffer);\n      return result;\n    })\n    .catch(err => {\n      return err;\n    });\n}\n"
+      ]
+    },
+    "mtime": 1497770160000
   }
 }

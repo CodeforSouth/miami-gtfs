@@ -1,6 +1,9 @@
 import express from 'express';
 import api from 'routes/api';
+import protobuf from 'routes/protobuf';
 const app = express();
+
+app.get('/protobuf', protobuf);
 
 app.use('/', api);
 
