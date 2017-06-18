@@ -1,0 +1,1249 @@
+{
+  "{\"filename\":\"/home/app/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/index.js",
+      "filenameRelative": "/home/app/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "/home/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.get('/', function (req, res) {\n  res.send('Hello World!');\n});\n\napp.listen(3000, function () {\n  console.log('Example app listening on port 3000!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImdldCIsInJlcSIsInJlcyIsInNlbmQiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7Ozs7QUFDQSxJQUFNQSxNQUFNLHdCQUFaOztBQUVBQSxJQUFJQyxHQUFKLENBQVEsR0FBUixFQUFhLFVBQVNDLEdBQVQsRUFBY0MsR0FBZCxFQUFtQjtBQUM5QkEsTUFBSUMsSUFBSixDQUFTLGNBQVQ7QUFDRCxDQUZEOztBQUlBSixJQUFJSyxNQUFKLENBQVcsSUFBWCxFQUFpQixZQUFXO0FBQzFCQyxVQUFRQyxHQUFSLENBQVkscUNBQVo7QUFDRCxDQUZEIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuY29uc3QgYXBwID0gZXhwcmVzcygpO1xuXG5hcHAuZ2V0KCcvJywgZnVuY3Rpb24ocmVxLCByZXMpIHtcbiAgcmVzLnNlbmQoJ0hlbGxvIFdvcmxkIScpO1xufSk7XG5cbmFwcC5saXN0ZW4oMzAwMCwgZnVuY3Rpb24oKSB7XG4gIGNvbnNvbGUubG9nKCdFeGFtcGxlIGFwcCBsaXN0ZW5pbmcgb24gcG9ydCAzMDAwIScpO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "app",
+        "get",
+        "req",
+        "res",
+        "send",
+        "listen",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;;;;;AACA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,GAAR,EAAa,UAASC,GAAT,EAAcC,GAAd,EAAmB;AAC9BA,MAAIC,IAAJ,CAAS,cAAT;AACD,CAFD;;AAIAJ,IAAIK,MAAJ,CAAW,IAAX,EAAiB,YAAW;AAC1BC,UAAQC,GAAR,CAAY,qCAAZ;AACD,CAFD",
+      "file": "index.js",
+      "sourceRoot": "/home/app",
+      "sourcesContent": [
+        "import express from 'express';\nconst app = express();\n\napp.get('/', function(req, res) {\n  res.send('Hello World!');\n});\n\napp.listen(3000, function() {\n  console.log('Example app listening on port 3000!');\n});\n"
+      ]
+    },
+    "mtime": 1497575089000
+  },
+  "{\"filename\":\"/home/app/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "routes/api",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "api"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/index.js",
+      "filenameRelative": "/home/app/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "/home/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _api = require('./routes/api');\n\nvar _api2 = _interopRequireDefault(_api);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.use('/', _api2.default);\n\napp.use(function (req, res, next) {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\napp.use(function (err, req, res, next) {\n  res.status(err.status || 500);\n  res.send(err.stack);\n});\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsInVzZSIsInJlcSIsInJlcyIsIm5leHQiLCJlcnIiLCJFcnJvciIsInN0YXR1cyIsInNlbmQiLCJzdGFjayIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBQ0EsSUFBTUEsTUFBTSx3QkFBWjs7QUFFQUEsSUFBSUMsR0FBSixDQUFRLEdBQVI7O0FBRUFELElBQUlDLEdBQUosQ0FBUSxVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBV0MsSUFBWCxFQUFvQjtBQUMxQixNQUFJQyxNQUFNLElBQUlDLEtBQUosQ0FBVSxXQUFWLENBQVY7QUFDQUQsTUFBSUUsTUFBSixHQUFhLEdBQWI7QUFDQUgsT0FBS0MsR0FBTDtBQUNELENBSkQ7O0FBTUFMLElBQUlDLEdBQUosQ0FBUSxVQUFDSSxHQUFELEVBQU1ILEdBQU4sRUFBV0MsR0FBWCxFQUFnQkMsSUFBaEIsRUFBeUI7QUFDL0JELE1BQUlJLE1BQUosQ0FBV0YsSUFBSUUsTUFBSixJQUFjLEdBQXpCO0FBQ0FKLE1BQUlLLElBQUosQ0FBU0gsSUFBSUksS0FBYjtBQUNELENBSEQ7O0FBS0FULElBQUlVLE1BQUosQ0FBVyxJQUFYLEVBQWlCLFlBQU07QUFDckJDLFVBQVFDLEdBQVIsQ0FBWSx5QkFBWjtBQUNELENBRkQiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgYXBpIGZyb20gJ3JvdXRlcy9hcGknO1xuY29uc3QgYXBwID0gZXhwcmVzcygpO1xuXG5hcHAudXNlKCcvJywgYXBpKTtcblxuYXBwLnVzZSgocmVxLCByZXMsIG5leHQpID0+IHtcbiAgdmFyIGVyciA9IG5ldyBFcnJvcignTm90IEZvdW5kJyk7XG4gIGVyci5zdGF0dXMgPSA0MDQ7XG4gIG5leHQoZXJyKTtcbn0pO1xuXG5hcHAudXNlKChlcnIsIHJlcSwgcmVzLCBuZXh0KSA9PiB7XG4gIHJlcy5zdGF0dXMoZXJyLnN0YXR1cyB8fCA1MDApO1xuICByZXMuc2VuZChlcnIuc3RhY2spO1xufSk7XG5cbmFwcC5saXN0ZW4oMzAwMCwgKCkgPT4ge1xuICBjb25zb2xlLmxvZygnTGlzdGVuaW5nIG9uIHBvcnQgMzYwMCEnKTtcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "app",
+        "use",
+        "req",
+        "res",
+        "next",
+        "err",
+        "Error",
+        "status",
+        "send",
+        "stack",
+        "listen",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AACA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,GAAR;;AAEAD,IAAIC,GAAJ,CAAQ,UAACC,GAAD,EAAMC,GAAN,EAAWC,IAAX,EAAoB;AAC1B,MAAIC,MAAM,IAAIC,KAAJ,CAAU,WAAV,CAAV;AACAD,MAAIE,MAAJ,GAAa,GAAb;AACAH,OAAKC,GAAL;AACD,CAJD;;AAMAL,IAAIC,GAAJ,CAAQ,UAACI,GAAD,EAAMH,GAAN,EAAWC,GAAX,EAAgBC,IAAhB,EAAyB;AAC/BD,MAAII,MAAJ,CAAWF,IAAIE,MAAJ,IAAc,GAAzB;AACAJ,MAAIK,IAAJ,CAASH,IAAII,KAAb;AACD,CAHD;;AAKAT,IAAIU,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
+      "file": "index.js",
+      "sourceRoot": "/home/app",
+      "sourcesContent": [
+        "import express from 'express';\nimport api from 'routes/api';\nconst app = express();\n\napp.use('/', api);\n\napp.use((req, res, next) => {\n  var err = new Error('Not Found');\n  err.status = 404;\n  next(err);\n});\n\napp.use((err, req, res, next) => {\n  res.status(err.status || 500);\n  res.send(err.stack);\n});\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
+      ]
+    },
+    "mtime": 1497677741000
+  },
+  "{\"filename\":\"/home/app/routes/test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [
+            "test",
+            "req",
+            "res"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "test",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "req",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "res",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/routes/test.js",
+      "filenameRelative": "/home/app/routes/test.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "test.js",
+      "sourceFileName": "test.js",
+      "sourceRoot": "/home/app/routes",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/routes",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "test"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = test;\nfunction test(req, res) {\n  res.send('sup!');\n}\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QuanMiXSwibmFtZXMiOlsidGVzdCIsInJlcSIsInJlcyIsInNlbmQiXSwibWFwcGluZ3MiOiI7Ozs7O2tCQUF3QkEsSTtBQUFULFNBQVNBLElBQVQsQ0FBY0MsR0FBZCxFQUFtQkMsR0FBbkIsRUFBd0I7QUFDckNBLE1BQUlDLElBQUosQ0FBUyxNQUFUO0FBQ0QiLCJmaWxlIjoidGVzdC5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9hcHAvcm91dGVzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gdGVzdChyZXEsIHJlcykge1xuICByZXMuc2VuZCgnc3VwIScpO1xufVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "test.js"
+      ],
+      "names": [
+        "test",
+        "req",
+        "res",
+        "send"
+      ],
+      "mappings": ";;;;;kBAAwBA,I;AAAT,SAASA,IAAT,CAAcC,GAAd,EAAmBC,GAAnB,EAAwB;AACrCA,MAAIC,IAAJ,CAAS,MAAT;AACD",
+      "file": "test.js",
+      "sourceRoot": "/home/app/routes",
+      "sourcesContent": [
+        "export default function test(req, res) {\n  res.send('sup!');\n}\n"
+      ]
+    },
+    "mtime": 1497575871000
+  },
+  "{\"filename\":\"/home/app/routes/api.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "knexfile.js",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "knexconfig"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/routes/api.js",
+      "filenameRelative": "/home/app/routes/api.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "api.js",
+      "sourceFileName": "api.js",
+      "sourceRoot": "/home/app/routes",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/routes",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "api"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _knexfile = require('../knexfile.js');\n\nvar _knexfile2 = _interopRequireDefault(_knexfile);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar router = require('express').Router();\n\nvar knex = require('knex')(_knexfile2.default);\nvar gtfsdb = require('gtfsdb')(knex);\n\n/* Enable CORS */\n/*router.all('*', function(req, res, next) {\n  res.header('Access-Control-Allow-Origin', '*');\n  res.header('Access-Control-Allow-Headers', 'X-Requested-With');\n  next();\n});*/\n\nrouter.get('/agency', function (req, res, next) {\n  gtfsdb.getAllAgencies().then(function (agencies) {\n    res.send(agencies);\n  }).catch(next);\n});\n\n//router.get('/agenciesNearby/:lat/:lon', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//\n//  gtfs.getAgenciesByDistance(lat, lon, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No agencies within default radius'\n//    });\n//  });\n//});\n\n//router.get('/agenciesNearby/:lat/:lon/:radiusInMiles', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//  const radius = req.params.radiusInMiles;\n//\n//  gtfs.getAgenciesByDistance(lat, lon, radius, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No agencies within radius of ' + radius + ' miles'\n//    });\n//  });\n//});\n\nrouter.get('/agency/:agency', function (req, res, next) {\n  var agencyKey = req.params.agency;\n  gtfsdb.getAgencies(agencyKey).then(function (agencies) {\n    res.send(agencies);\n  }).catch(next);\n});\n\nrouter.get('/agency/:agency/route', function (req, res, next) {\n  var agency_key = req.params.agency;\n  gtfsdb.getRoutes(agency_key).then(function (agencies) {\n    res.send(agencies);\n  }).catch(next);\n});\n\nrouter.get('/agency/:agency/route/:routeId', function (req, res, next) {\n  var agencyKey = req.params.agency;\n  var routeId = req.params.routeId;\n  Promise.all([gtfsdb.getRoute(agencyKey, routeId), gtfsdb.getRouteTrips(agencyKey, routeId)]).then(function (values) {\n    res.send(values);\n  }\n  //gtfsdb.getRoute(req.params.agency, req.params.routeId)\n  //.then(function(agencies) {\n  //  gtfsdb.getRouteTrips(req.params.agency, req.params.routeId)\n  //\n  //  res.send(agencies);\n  //})\n  ).catch(next);\n});\n\nrouter.get('/agency/:agency/trip', function (req, res, next) {\n  gtfsdb.getTrips(req.params.agency).then(function (agencies) {\n    res.send(agencies);\n  }).catch(next);\n});\n\n//router.get('/routesNearby/:lat/:lon/:radiusInMiles', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//  const radius = req.params.radiusInMiles;\n//\n//  gtfs.getRoutesByDistance(lat, lon, radius, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No routes within radius of ' + radius + ' miles'\n//    });\n//  });\n//});\n\n//router.get('/routesNearby/:lat/:lon', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//\n//  gtfs.getRoutesByDistance(lat, lon, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No routes within default radius'\n//    });\n//  });\n//});\n\nrouter.get('/agency/:agency/stop', function (req, res, next) {\n  gtfsdb.getStops(req.params.agency).then(function (stops) {\n    res.send(stops);\n  }).catch(next);\n});\n\nrouter.get('/agency/:agency/stop/:stopId', function (req, res, next) {\n  gtfsdb.getStop(req.params.agency, req.params.stopId).then(function (stop) {\n    res.send(stop);\n  }).catch(next);\n});\n\n//router.get('/agency/:agency/stop/:stopId/timetables', function(req, res, next) {\n//});\n\nrouter.get('/agency/:agency/stop/:stopId/timetables', function (req, res, next) {\n  var agencyKey = req.params.agency;\n  var stopId = req.params.stopId;\n\n  Promise.all([gtfsdb.getStop(agencyKey, stopId), gtfsdb.getStopTimes(agencyKey, stopId)]).then(function (values) {\n    res.send(values);\n  }).catch(next);\n});\n\nexports.default = router;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwaS5qcyJdLCJuYW1lcyI6WyJyb3V0ZXIiLCJyZXF1aXJlIiwiUm91dGVyIiwia25leCIsImd0ZnNkYiIsImdldCIsInJlcSIsInJlcyIsIm5leHQiLCJnZXRBbGxBZ2VuY2llcyIsInRoZW4iLCJhZ2VuY2llcyIsInNlbmQiLCJjYXRjaCIsImFnZW5jeUtleSIsInBhcmFtcyIsImFnZW5jeSIsImdldEFnZW5jaWVzIiwiYWdlbmN5X2tleSIsImdldFJvdXRlcyIsInJvdXRlSWQiLCJQcm9taXNlIiwiYWxsIiwiZ2V0Um91dGUiLCJnZXRSb3V0ZVRyaXBzIiwidmFsdWVzIiwiZ2V0VHJpcHMiLCJnZXRTdG9wcyIsInN0b3BzIiwiZ2V0U3RvcCIsInN0b3BJZCIsInN0b3AiLCJnZXRTdG9wVGltZXMiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUVBOzs7Ozs7QUFGQSxJQUFNQSxTQUFTQyxtQkFBbUJDLE1BQW5CLEVBQWY7O0FBR0EsSUFBTUMsT0FBT0YsbUNBQWI7QUFDQSxJQUFNRyxTQUFTSCxrQkFBa0JFLElBQWxCLENBQWY7O0FBRUE7QUFDQTs7Ozs7O0FBTUFILE9BQU9LLEdBQVAsQ0FBVyxTQUFYLEVBQXNCLFVBQVNDLEdBQVQsRUFBY0MsR0FBZCxFQUFtQkMsSUFBbkIsRUFBeUI7QUFDN0NKLFNBQ0dLLGNBREgsR0FFR0MsSUFGSCxDQUVRLFVBQVNDLFFBQVQsRUFBbUI7QUFDdkJKLFFBQUlLLElBQUosQ0FBU0QsUUFBVDtBQUNELEdBSkgsRUFLR0UsS0FMSCxDQUtTTCxJQUxUO0FBTUQsQ0FQRDs7QUFTQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQVIsT0FBT0ssR0FBUCxDQUFXLGlCQUFYLEVBQThCLFVBQVNDLEdBQVQsRUFBY0MsR0FBZCxFQUFtQkMsSUFBbkIsRUFBeUI7QUFDckQs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QU1jLFNBQVN4QixJQUFJUyxNQUFKLENBQVdlLE1BQTFCOztBQUVBVCxVQUFRQyxHQUFSLENBQVksQ0FDVmxCLE9BQU95QixPQUFQLENBQWVmLFNBQWYsRUFBMEJnQixNQUExQixDQURVLEVBRVYxQixPQUFPNEIsWUFBUCxDQUFvQmxCLFNBQXBCLEVBQStCZ0IsTUFBL0IsQ0FGVSxDQUFaLEVBSUdwQixJQUpILENBSVEsa0JBQVU7QUFDZEgsUUFBSUssSUFBSixDQUFTYSxNQUFUO0FBQ0QsR0FOSCxFQU9HWixLQVBILENBT1NMLElBUFQ7QUFRRCxDQVpEOztrQkFjZVIsTSIsImZpbGUiOiJhcGkuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3JvdXRlcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHJvdXRlciA9IHJlcXVpcmUoJ2V4cHJlc3MnKS5Sb3V0ZXIoKTtcblxuaW1wb3J0IGtuZXhjb25maWcgZnJvbSAna25leGZpbGUuanMnO1xuY29uc3Qga25leCA9IHJlcXVpcmUoJ2tuZXgnKShrbmV4Y29uZmlnKTtcbmNvbnN0IGd0ZnNkYiA9IHJlcXVpcmUoJ2d0ZnNkYicpKGtuZXgpO1xuXG4vKiBFbmFibGUgQ09SUyAqL1xuLypyb3V0ZXIuYWxsKCcqJywgZnVuY3Rpb24ocmVxLCByZXMsIG5leHQpIHtcbiAgcmVzLmhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJywgJyonKTtcbiAgcmVzLmhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycycsICdYLVJlcXVlc3RlZC1XaXRoJyk7XG4gIG5leHQoKTtcbn0pOyovXG5cbnJvdXRlci5nZXQoJy9hZ2VuY3knLCBmdW5jdGlvbihyZXEsIHJlcywgbmV4dCkge1xuICBndGZzZGJcbiAgICAuZ2V0QWxsQWdlbmNpZXMoKVxuICAgIC50aGVuKGZ1bmN0aW9uKGFnZW5jaWVzKSB7XG4gICAgICByZXMuc2VuZChhZ2VuY2llcyk7XG4gICAgfSlcbiAgICAuY2F0Y2gobmV4dCk7XG59KTtcblxuLy9yb3V0ZXIuZ2V0KCcvYWdlbmNpZXNOZWFyYnkvOmxhdC86bG9uJywgZnVuY3Rpb24ocmVxLCByZXMsIG5leHQpIHtcbi8vICBjb25zdCBsYXQgPSByZXEucGFyYW1zLmxhdDtcbi8vICBjb25zdCBsb24gPSByZXEucGFyYW1zLmxvbjtcbi8vXG4vLyAgZ3Rmcy5nZXRBZ2VuY2llc0J5RGlzdGFuY2UobGF0LCBsb24sIGZ1bmN0aW9uKGUsIGRhdGEpIHtcbi8vICAgIGlmKGUpIHJldHVybiBuZXh0KGUpO1xuLy8gICAgcmVzLnNlbmQoZGF0YSB8fCB7XG4vLyAgICAgIGVycm9yOiAnTm8gYWdlbmNpZXMgd2l0aGluIGRlZmF1bHQgcmFkaXVzJ1xuLy8gICAgfSk7XG4vLyAgfSk7XG4vL30pO1xuXG4vL3JvdXRlci5nZXQoJy9hZ2VuY2llc05lYXJieS86bGF0Lzpsb24vOnJhZGl1c0luTWlsZXMnLCBmdW5jdGlvbihyZXEsIHJlcywgbmV4dCkge1xuLy8gIGNvbnN0IGxhdCA9IHJlcS5wYXJhbXMubGF0O1xuLy8gIGNvbnN0IGxvbiA9IHJlcS5wYXJhbXMubG9uO1xuLy8gIGNvbnN0IHJhZGl1cyA9IHJlcS5wYXJhbXMucmFkaXVzSW5NaWxlcztcbi8vXG4vLyAgZ3Rmcy5nZXRBZ2VuY2llc0J5RGlzdGFuY2UobGF0LCBsb24sIHJhZGl1cywgZnVuY3Rpb24oZSwgZGF0YSkge1xuLy8gICAgaWYoZSkgcmV0dXJuIG5leHQoZSk7XG4vLyAgICByZXMuc2VuZChkYXRhIHx8IHtcbi8vICAgICAgZXJyb3I6ICdObyBhZ2VuY2llcyB3aXRoaW4gcmFkaXVzIG9mICcgKyByYWRpdXMgKyAnIG1pbGVzJ1xuLy8gICAgfSk7XG4vLyAgfSk7XG4vL30pO1xuXG5yb3V0ZXIuZ2V0KCcvYWdlbmN5LzphZ2VuY3knLCBmdW5jdGlvbihyZXEsIHJlcywgbmV4dCkge1xuICBjb25zdCBhZ2VuY3lLZXkgPSByZXEucGFyYW1zLmFnZW5jeTtcbiAgZ3Rmc2RiXG4gICAgLmdldEFnZW5jaWVzKGFnZW5jeUtleSlcbiAgICAudGhlbihmdW5jdGlvbihhZ2VuY2llcykge1xuICAgICAgcmVzLnNlbmQoYWdlbmNpZXMpO1xuICAgIH0pXG4gICAgLmNhdGNoKG5leHQpO1xufSk7XG5cbnJvdXRlci5nZXQoJy9hZ2VuY3kvOmFnZW5jeS9yb3V0ZScsIGZ1bmN0aW9uKHJlcSwgcmVzLCBuZXh0KSB7XG4gIGNvbnN0IGFnZW5jeV9rZXkgPSByZXEucGFyYW1zLmFnZW5jeTtcbiAgZ3Rmc2RiXG4gICAgLmdldFJvdXRlcyhhZ2VuY3lfa2V5KVxuICAgIC50aGVuKGZ1bmN0aW9uKGFnZW5jaWVzKSB7XG4gICAgICByZXMuc2VuZChhZ2VuY2llcyk7XG4gICAgfSlcbiAgICAuY2F0Y2gobmV4dCk7XG59KTtcblxucm91dGVyLmdldCgnL2FnZW5jeS86YWdlbmN5L3JvdXRlLzpyb3V0ZUlkJywgZnVuY3Rpb24ocmVxLCByZXMsIG5leHQpIHtcbiAgY29uc3QgYWdlbmN5S2V5ID0gcmVxLnBhcmFtcy5hZ2VuY3k7XG4gIGNvbnN0IHJvdXRlSWQgPSByZXEucGFyYW1zLnJvdXRlSWQ7XG4gIFByb21pc2UuYWxsKFtcbiAgICBndGZzZGIuZ2V0Um91dGUoYWdlbmN5S2V5LCByb3V0ZUlkKSxcbiAgICBndGZzZGIuZ2V0Um91dGVUcmlwcyhhZ2VuY3lLZXksIHJvdXRlSWQpLFxuICBdKVxuICAgIC50aGVuKHZhbHVlcyA9PiB7XG4gICAgICByZXMuc2VuZCh2YWx1ZXMpO1xuICAgIH0pXG4gICAgLy9ndGZzZGIuZ2V0Um91dGUocmVxLnBhcmFtcy5hZ2VuY3ksIHJlcS5wYXJhbXMucm91dGVJZClcbiAgICAvLy50aGVuKGZ1bmN0aW9uKGFnZW5jaWVzKSB7XG4gICAgLy8gIGd0ZnNkYi5nZXRSb3V0ZVRyaXBzKHJlcS5wYXJhbXMuYWdlbmN5LCByZXEucGFyYW1zLnJvdXRlSWQpXG4gICAgLy9cbiAgICAvLyAgcmVzLnNlbmQoYWdlbmNpZXMpO1xuICAgIC8vfSlcbiAgICAuY2F0Y2gobmV4dCk7XG59KTtcblxucm91dGVyLmdldCgnL2FnZW5jeS86YWdlbmN5L3RyaXAnLCBmdW5jdGlvbihyZXEsIHJlcywgbmV4dCkge1xuICBndGZzZGJcbiAgICAuZ2V0VHJpcHMocmVxLnBhcmFtcy5hZ2VuY3kpXG4gICAgLnRoZW4oZnVuY3Rpb24oYWdlbmNpZXMpIHtcbiAgICAgIHJlcy5zZW5kKGFnZW5jaWVzKTtcbiAgICB9KVxuICAgIC5jYXRjaChuZXh0KTtcbn0pO1xuXG4vL3JvdXRlci5nZXQoJy9yb3V0ZXNOZWFyYnkvOmxhdC86bG9uLzpyYWRpdXNJbk1pbGVzJywgZnVuY3Rpb24ocmVxLCByZXMsIG5leHQpIHtcbi8vICBjb25zdCBsYXQgPSByZXEucGFyYW1zLmxhdDtcbi8vICBjb25zdCBsb24gPSByZXEucGFyYW1zLmxvbjtcbi8vICBjb25zdCByYWRpdXMgPSByZXEucGFyYW1zLnJhZGl1c0luTWlsZXM7XG4vL1xuLy8gIGd0ZnMuZ2V0Um91dGVzQnlEaXN0YW5jZShsYXQsIGxvbiwgcmFkaXVzLCBmdW5jdGlvbihlLCBkYXRhKSB7XG4vLyAgICBpZihlKSByZXR1cm4gbmV4dChlKTtcbi8vICAgIHJlcy5zZW5kKGRhdGEgfHwge1xuLy8gICAgICBlcnJvcjogJ05vIHJvdXRlcyB3aXRoaW4gcmFkaXVzIG9mICcgKyByYWRpdXMgKyAnIG1pbGVzJ1xuLy8gICAgfSk7XG4vLyAgfSk7XG4vL30pO1xuXG4vL3JvdXRlci5nZXQoJy9yb3V0ZXNOZWFyYnkvOmxhdC86bG9uJywgZnVuY3Rpb24ocmVxLCByZXMsIG5leHQpIHtcbi8vICBjb25zdCBsYXQgPSByZXEucGFyYW1zLmxhdDtcbi8vICBjb25zdCBsb24gPSByZXEucGFyYW1zLmxvbjtcbi8vXG4vLyAgZ3Rmcy5nZXRSb3V0ZXNCeURpc3RhbmNlKGxhdCwgbG9uLCBmdW5jdGlvbihlLCBkYXRhKSB7XG4vLyAgICBpZihlKSByZXR1cm4gbmV4dChlKTtcbi8vICAgIHJlcy5zZW5kKGRhdGEgfHwge1xuLy8gICAgICBlcnJvcjogJ05vIHJvdXRlcyB3aXRoaW4gZGVmYXVsdCByYWRpdXMnXG4vLyAgICB9KTtcbi8vICB9KTtcbi8vfSk7XG5cbnJvdXRlci5nZXQoJy9hZ2VuY3kvOmFnZW5jeS9zdG9wJywgZnVuY3Rpb24ocmVxLCByZXMsIG5leHQpIHtcbiAgZ3Rmc2RiXG4gICAgLmdldFN0b3BzKHJlcS5wYXJhbXMuYWdlbmN5KVxuICAgIC50aGVuKGZ1bmN0aW9uKHN0b3BzKSB7XG4gICAgICByZXMuc2VuZChzdG9wcyk7XG4gICAgfSlcbiAgICAuY2F0Y2gobmV4dCk7XG59KTtcblxucm91dGVyLmdldCgnL2FnZW5jeS86YWdlbmN5L3N0b3AvOnN0b3BJZCcsIGZ1bmN0aW9uKHJlcSwgcmVzLCBuZXh0KSB7XG4gIGd0ZnNkYlxuICAgIC5nZXRTdG9wKHJlcS5wYXJhbXMuYWdlbmN5LCByZXEucGFyYW1zLnN0b3BJZClcbiAgICAudGhlbihmdW5jdGlvbihzdG9wKSB7XG4gICAgICByZXMuc2VuZChzdG9wKTtcbiAgICB9KVxuICAgIC5jYXRjaChuZXh0KTtcbn0pO1xuXG4vL3JvdXRlci5nZXQoJy9hZ2VuY3kvOmFnZW5jeS9zdG9wLzpzdG9wSWQvdGltZXRhYmxlcycsIGZ1bmN0aW9uKHJlcSwgcmVzLCBuZXh0KSB7XG4vL30pO1xuXG5yb3V0ZXIuZ2V0KCcvYWdlbmN5LzphZ2VuY3kvc3RvcC86c3RvcElkL3RpbWV0YWJsZXMnLCBmdW5jdGlvbihyZXEsIHJlcywgbmV4dCkge1xuICBjb25zdCBhZ2VuY3lLZXkgPSByZXEucGFyYW1zLmFnZW5jeTtcbiAgY29uc3Qgc3RvcElkID0gcmVxLnBhcmFtcy5zdG9wSWQ7XG5cbiAgUHJvbWlzZS5hbGwoW1xuICAgIGd0ZnNkYi5nZXRTdG9wKGFnZW5jeUtleSwgc3RvcElkKSxcbiAgICBndGZzZGIuZ2V0U3RvcFRpbWVzKGFnZW5jeUtleSwgc3RvcElkKSxcbiAgXSlcbiAgICAudGhlbih2YWx1ZXMgPT4ge1xuICAgICAgcmVzLnNlbmQodmFsdWVzKTtcbiAgICB9KVxuICAgIC5jYXRjaChuZXh0KTtcbn0pO1xuXG5leHBvcnQgZGVmYXVsdCByb3V0ZXI7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "api.js"
+      ],
+      "names": [
+        "router",
+        "require",
+        "Router",
+        "knex",
+        "gtfsdb",
+        "get",
+        "req",
+        "res",
+        "next",
+        "getAllAgencies",
+        "then",
+        "agencies",
+        "send",
+        "catch",
+        "agencyKey",
+        "params",
+        "agency",
+        "getAgencies",
+        "agency_key",
+        "getRoutes",
+        "routeId",
+        "Promise",
+        "all",
+        "getRoute",
+        "getRouteTrips",
+        "values",
+        "getTrips",
+        "getStops",
+        "stops",
+        "getStop",
+        "stopId",
+        "stop",
+        "getStopTimes"
+      ],
+      "mappings": "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",
+      "file": "api.js",
+      "sourceRoot": "/home/app/routes",
+      "sourcesContent": [
+        "const router = require('express').Router();\n\nimport knexconfig from 'knexfile.js';\nconst knex = require('knex')(knexconfig);\nconst gtfsdb = require('gtfsdb')(knex);\n\n/* Enable CORS */\n/*router.all('*', function(req, res, next) {\n  res.header('Access-Control-Allow-Origin', '*');\n  res.header('Access-Control-Allow-Headers', 'X-Requested-With');\n  next();\n});*/\n\nrouter.get('/agency', function(req, res, next) {\n  gtfsdb\n    .getAllAgencies()\n    .then(function(agencies) {\n      res.send(agencies);\n    })\n    .catch(next);\n});\n\n//router.get('/agenciesNearby/:lat/:lon', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//\n//  gtfs.getAgenciesByDistance(lat, lon, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No agencies within default radius'\n//    });\n//  });\n//});\n\n//router.get('/agenciesNearby/:lat/:lon/:radiusInMiles', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//  const radius = req.params.radiusInMiles;\n//\n//  gtfs.getAgenciesByDistance(lat, lon, radius, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No agencies within radius of ' + radius + ' miles'\n//    });\n//  });\n//});\n\nrouter.get('/agency/:agency', function(req, res, next) {\n  const agencyKey = req.params.agency;\n  gtfsdb\n    .getAgencies(agencyKey)\n    .then(function(agencies) {\n      res.send(agencies);\n    })\n    .catch(next);\n});\n\nrouter.get('/agency/:agency/route', function(req, res, next) {\n  const agency_key = req.params.agency;\n  gtfsdb\n    .getRoutes(agency_key)\n    .then(function(agencies) {\n      res.send(agencies);\n    })\n    .catch(next);\n});\n\nrouter.get('/agency/:agency/route/:routeId', function(req, res, next) {\n  const agencyKey = req.params.agency;\n  const routeId = req.params.routeId;\n  Promise.all([\n    gtfsdb.getRoute(agencyKey, routeId),\n    gtfsdb.getRouteTrips(agencyKey, routeId),\n  ])\n    .then(values => {\n      res.send(values);\n    })\n    //gtfsdb.getRoute(req.params.agency, req.params.routeId)\n    //.then(function(agencies) {\n    //  gtfsdb.getRouteTrips(req.params.agency, req.params.routeId)\n    //\n    //  res.send(agencies);\n    //})\n    .catch(next);\n});\n\nrouter.get('/agency/:agency/trip', function(req, res, next) {\n  gtfsdb\n    .getTrips(req.params.agency)\n    .then(function(agencies) {\n      res.send(agencies);\n    })\n    .catch(next);\n});\n\n//router.get('/routesNearby/:lat/:lon/:radiusInMiles', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//  const radius = req.params.radiusInMiles;\n//\n//  gtfs.getRoutesByDistance(lat, lon, radius, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No routes within radius of ' + radius + ' miles'\n//    });\n//  });\n//});\n\n//router.get('/routesNearby/:lat/:lon', function(req, res, next) {\n//  const lat = req.params.lat;\n//  const lon = req.params.lon;\n//\n//  gtfs.getRoutesByDistance(lat, lon, function(e, data) {\n//    if(e) return next(e);\n//    res.send(data || {\n//      error: 'No routes within default radius'\n//    });\n//  });\n//});\n\nrouter.get('/agency/:agency/stop', function(req, res, next) {\n  gtfsdb\n    .getStops(req.params.agency)\n    .then(function(stops) {\n      res.send(stops);\n    })\n    .catch(next);\n});\n\nrouter.get('/agency/:agency/stop/:stopId', function(req, res, next) {\n  gtfsdb\n    .getStop(req.params.agency, req.params.stopId)\n    .then(function(stop) {\n      res.send(stop);\n    })\n    .catch(next);\n});\n\n//router.get('/agency/:agency/stop/:stopId/timetables', function(req, res, next) {\n//});\n\nrouter.get('/agency/:agency/stop/:stopId/timetables', function(req, res, next) {\n  const agencyKey = req.params.agency;\n  const stopId = req.params.stopId;\n\n  Promise.all([\n    gtfsdb.getStop(agencyKey, stopId),\n    gtfsdb.getStopTimes(agencyKey, stopId),\n  ])\n    .then(values => {\n      res.send(values);\n    })\n    .catch(next);\n});\n\nexport default router;\n"
+      ]
+    },
+    "mtime": 1497678092000
+  },
+  "{\"filename\":\"/home/app/knexfile.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/knexfile.js",
+      "filenameRelative": "/home/app/knexfile.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "knexfile.js",
+      "sourceFileName": "knexfile.js",
+      "sourceRoot": "/home/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "knexfile"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nmodule.exports = {\n  client: 'postgresql',\n  connection: {\n    host: 'postgres',\n    database: 'postgres',\n    user: 'postgres',\n    password: '',\n    charset: 'utf8'\n  },\n\n  migrations: {\n    directory: './node_modules/gtfsdb/migrations'\n  }\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImtuZXhmaWxlLmpzIl0sIm5hbWVzIjpbIm1vZHVsZSIsImV4cG9ydHMiLCJjbGllbnQiLCJjb25uZWN0aW9uIiwiaG9zdCIsImRhdGFiYXNlIiwidXNlciIsInBhc3N3b3JkIiwiY2hhcnNldCIsIm1pZ3JhdGlvbnMiLCJkaXJlY3RvcnkiXSwibWFwcGluZ3MiOiI7O0FBQUFBLE9BQU9DLE9BQVAsR0FBaUI7QUFDZkMsVUFBUSxZQURPO0FBRWZDLGNBQVk7QUFDVkMsVUFBTSxVQURJO0FBRVZDLGNBQVUsVUFGQTtBQUdWQyxVQUFNLFVBSEk7QUFJVkMsY0FBVSxFQUpBO0FBS1ZDLGFBQVM7QUFMQyxHQUZHOztBQVVmQyxjQUFZO0FBQ1ZDLGVBQVc7QUFERDtBQVZHLENBQWpCIiwiZmlsZSI6ImtuZXhmaWxlLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcCIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0ge1xuICBjbGllbnQ6ICdwb3N0Z3Jlc3FsJyxcbiAgY29ubmVjdGlvbjoge1xuICAgIGhvc3Q6ICdwb3N0Z3JlcycsXG4gICAgZGF0YWJhc2U6ICdwb3N0Z3JlcycsXG4gICAgdXNlcjogJ3Bvc3RncmVzJyxcbiAgICBwYXNzd29yZDogJycsXG4gICAgY2hhcnNldDogJ3V0ZjgnLFxuICB9LFxuXG4gIG1pZ3JhdGlvbnM6IHtcbiAgICBkaXJlY3Rvcnk6ICcuL25vZGVfbW9kdWxlcy9ndGZzZGIvbWlncmF0aW9ucycsXG4gIH0sXG59O1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "knexfile.js"
+      ],
+      "names": [
+        "module",
+        "exports",
+        "client",
+        "connection",
+        "host",
+        "database",
+        "user",
+        "password",
+        "charset",
+        "migrations",
+        "directory"
+      ],
+      "mappings": ";;AAAAA,OAAOC,OAAP,GAAiB;AACfC,UAAQ,YADO;AAEfC,cAAY;AACVC,UAAM,UADI;AAEVC,cAAU,UAFA;AAGVC,UAAM,UAHI;AAIVC,cAAU,EAJA;AAKVC,aAAS;AALC,GAFG;;AAUfC,cAAY;AACVC,eAAW;AADD;AAVG,CAAjB",
+      "file": "knexfile.js",
+      "sourceRoot": "/home/app",
+      "sourcesContent": [
+        "module.exports = {\n  client: 'postgresql',\n  connection: {\n    host: 'postgres',\n    database: 'postgres',\n    user: 'postgres',\n    password: '',\n    charset: 'utf8',\n  },\n\n  migrations: {\n    directory: './node_modules/gtfsdb/migrations',\n  },\n};\n"
+      ]
+    },
+    "mtime": 1497678883000
+  }
+}
