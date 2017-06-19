@@ -11,6 +11,7 @@ services:
 
   server:
     build: ./node
+    image: node-gtfs
     command: sh /home/app/start.sh
     ports:
       - '3600:3000'
