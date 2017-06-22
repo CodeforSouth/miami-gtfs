@@ -245,6 +245,32 @@
       "modules": {
         "imports": [
           {
+            "source": "gtfs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gtfs"
+              }
+            ]
+          },
+          {
+            "source": "mongoose",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "mongoose"
+              }
+            ]
+          },
+          {
             "source": "express",
             "imported": [
               "default"
@@ -293,6 +319,19 @@
                 "kind": "named",
                 "imported": "default",
                 "local": "protobuf"
+              }
+            ]
+          },
+          {
+            "source": "routes/importGTFS",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "importGTFS"
               }
             ]
           }
@@ -494,7 +533,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _routes = require('./routes/routes');\n\nvar _routes2 = _interopRequireDefault(_routes);\n\nvar _trips = require('./routes/trips');\n\nvar _trips2 = _interopRequireDefault(_trips);\n\nvar _protobuf = require('./routes/protobuf');\n\nvar _protobuf2 = _interopRequireDefault(_protobuf);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\nvar json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/protobuf', _protobuf2.default);\napp.post('/api/v1/routes', _routes2.default);\napp.post('/api/v1/trips', _trips2.default);\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImpzb24iLCJyZXF1aXJlIiwidXNlIiwiZ2V0IiwicG9zdCIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUNBLElBQU1BLE1BQU0sd0JBQVo7QUFDQSxJQUFNQyxPQUFPQyx1QkFBdUJELElBQXZCLEVBQWI7O0FBRUFELElBQUlHLEdBQUosQ0FBUUYsSUFBUjs7QUFFQUQsSUFBSUksR0FBSixDQUFRLFdBQVI7QUFDQUosSUFBSUssSUFBSixDQUFTLGdCQUFUO0FBQ0FMLElBQUlLLElBQUosQ0FBUyxlQUFUOztBQUVBTCxJQUFJTSxNQUFKLENBQVcsSUFBWCxFQUFpQixZQUFNO0FBQ3JCQyxVQUFRQyxHQUFSLENBQVkseUJBQVo7QUFDRCxDQUZEIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IHJvdXRlcyBmcm9tICdyb3V0ZXMvcm91dGVzJztcbmltcG9ydCB0cmlwcyBmcm9tICdyb3V0ZXMvdHJpcHMnO1xuaW1wb3J0IHByb3RvYnVmIGZyb20gJ3JvdXRlcy9wcm90b2J1Zic7XG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5jb25zdCBqc29uID0gcmVxdWlyZSgnYm9keS1wYXJzZXInKS5qc29uKCk7XG5cbmFwcC51c2UoanNvbik7XG5cbmFwcC5nZXQoJy9wcm90b2J1ZicsIHByb3RvYnVmKTtcbmFwcC5wb3N0KCcvYXBpL3YxL3JvdXRlcycsIHJvdXRlcyk7XG5hcHAucG9zdCgnL2FwaS92MS90cmlwcycsIHRyaXBzKTtcblxuYXBwLmxpc3RlbigzMDAwLCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdMaXN0ZW5pbmcgb24gcG9ydCAzNjAwIScpO1xufSk7XG4iXX0=",
+    "code": "'use strict';\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nvar _mongoose = require('mongoose');\n\nvar _mongoose2 = _interopRequireDefault(_mongoose);\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _routes = require('./routes/routes');\n\nvar _routes2 = _interopRequireDefault(_routes);\n\nvar _trips = require('./routes/trips');\n\nvar _trips2 = _interopRequireDefault(_trips);\n\nvar _protobuf = require('./routes/protobuf');\n\nvar _protobuf2 = _interopRequireDefault(_protobuf);\n\nvar _importGTFS = require('./routes/importGTFS');\n\nvar _importGTFS2 = _interopRequireDefault(_importGTFS);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar config = require('./config.json');\n\n_mongoose2.default.Promise = global.Promise;\n_mongoose2.default.connect(config.mongoUrl);\n\nvar app = (0, _express2.default)();\nvar json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/import', _importGTFS2.default);\napp.get('/protobuf', _protobuf2.default);\napp.post('/api/v1/routes', _routes2.default);\napp.post('/api/v1/trips', _trips2.default);\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImNvbmZpZyIsInJlcXVpcmUiLCJQcm9taXNlIiwiZ2xvYmFsIiwiY29ubmVjdCIsIm1vbmdvVXJsIiwiYXBwIiwianNvbiIsInVzZSIsImdldCIsInBvc3QiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFNQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7Ozs7QUFUQSxJQUFNQSxTQUFTQyxRQUFRLGVBQVIsQ0FBZjs7QUFFQSxtQkFBU0MsT0FBVCxHQUFtQkMsT0FBT0QsT0FBMUI7QUFDQSxtQkFBU0UsT0FBVCxDQUFpQkosT0FBT0ssUUFBeEI7O0FBT0EsSUFBTUMsTUFBTSx3QkFBWjtBQUNBLElBQU1DLE9BQU9OLHVCQUF1Qk0sSUFBdkIsRUFBYjs7QUFFQUQsSUFBSUUsR0FBSixDQUFRRCxJQUFSOztBQUVBRCxJQUFJRyxHQUFKLENBQVEsU0FBUjtBQUNBSCxJQUFJRyxHQUFKLENBQVEsV0FBUjtBQUNBSCxJQUFJSSxJQUFKLENBQVMsZ0JBQVQ7QUFDQUosSUFBSUksSUFBSixDQUFTLGVBQVQ7O0FBRUFKLElBQUlLLE1BQUosQ0FBVyxJQUFYLEVBQWlCLFlBQU07QUFDckJDLFVBQVFDLEdBQVIsQ0FBWSx5QkFBWjtBQUNELENBRkQiLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGd0ZnMgZnJvbSAnZ3Rmcyc7XG5pbXBvcnQgbW9uZ29vc2UgZnJvbSAnbW9uZ29vc2UnO1xuY29uc3QgY29uZmlnID0gcmVxdWlyZSgnLi9jb25maWcuanNvbicpO1xuXG5tb25nb29zZS5Qcm9taXNlID0gZ2xvYmFsLlByb21pc2U7XG5tb25nb29zZS5jb25uZWN0KGNvbmZpZy5tb25nb1VybCk7XG5cbmltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IHJvdXRlcyBmcm9tICdyb3V0ZXMvcm91dGVzJztcbmltcG9ydCB0cmlwcyBmcm9tICdyb3V0ZXMvdHJpcHMnO1xuaW1wb3J0IHByb3RvYnVmIGZyb20gJ3JvdXRlcy9wcm90b2J1Zic7XG5pbXBvcnQgaW1wb3J0R1RGUyBmcm9tICdyb3V0ZXMvaW1wb3J0R1RGUyc7XG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5jb25zdCBqc29uID0gcmVxdWlyZSgnYm9keS1wYXJzZXInKS5qc29uKCk7XG5cbmFwcC51c2UoanNvbik7XG5cbmFwcC5nZXQoJy9pbXBvcnQnLCBpbXBvcnRHVEZTKTtcbmFwcC5nZXQoJy9wcm90b2J1ZicsIHByb3RvYnVmKTtcbmFwcC5wb3N0KCcvYXBpL3YxL3JvdXRlcycsIHJvdXRlcyk7XG5hcHAucG9zdCgnL2FwaS92MS90cmlwcycsIHRyaXBzKTtcblxuYXBwLmxpc3RlbigzMDAwLCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdMaXN0ZW5pbmcgb24gcG9ydCAzNjAwIScpO1xufSk7XG4iXX0=",
     "ast": null,
     "map": {
       "version": 3,
@@ -502,9 +541,14 @@
         "index.js"
       ],
       "names": [
+        "config",
+        "require",
+        "Promise",
+        "global",
+        "connect",
+        "mongoUrl",
         "app",
         "json",
-        "require",
         "use",
         "get",
         "post",
@@ -512,14 +556,14 @@
         "console",
         "log"
       ],
-      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;;;AACA,IAAMA,MAAM,wBAAZ;AACA,IAAMC,OAAOC,uBAAuBD,IAAvB,EAAb;;AAEAD,IAAIG,GAAJ,CAAQF,IAAR;;AAEAD,IAAII,GAAJ,CAAQ,WAAR;AACAJ,IAAIK,IAAJ,CAAS,gBAAT;AACAL,IAAIK,IAAJ,CAAS,eAAT;;AAEAL,IAAIM,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
+      "mappings": ";;AAAA;;;;AACA;;;;AAMA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;AATA,IAAMA,SAASC,QAAQ,eAAR,CAAf;;AAEA,mBAASC,OAAT,GAAmBC,OAAOD,OAA1B;AACA,mBAASE,OAAT,CAAiBJ,OAAOK,QAAxB;;AAOA,IAAMC,MAAM,wBAAZ;AACA,IAAMC,OAAON,uBAAuBM,IAAvB,EAAb;;AAEAD,IAAIE,GAAJ,CAAQD,IAAR;;AAEAD,IAAIG,GAAJ,CAAQ,SAAR;AACAH,IAAIG,GAAJ,CAAQ,WAAR;AACAH,IAAII,IAAJ,CAAS,gBAAT;AACAJ,IAAII,IAAJ,CAAS,eAAT;;AAEAJ,IAAIK,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
       "file": "index.js",
       "sourceRoot": "/home/app",
       "sourcesContent": [
-        "import express from 'express';\nimport routes from 'routes/routes';\nimport trips from 'routes/trips';\nimport protobuf from 'routes/protobuf';\nconst app = express();\nconst json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/protobuf', protobuf);\napp.post('/api/v1/routes', routes);\napp.post('/api/v1/trips', trips);\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
+        "import gtfs from 'gtfs';\nimport mongoose from 'mongoose';\nconst config = require('./config.json');\n\nmongoose.Promise = global.Promise;\nmongoose.connect(config.mongoUrl);\n\nimport express from 'express';\nimport routes from 'routes/routes';\nimport trips from 'routes/trips';\nimport protobuf from 'routes/protobuf';\nimport importGTFS from 'routes/importGTFS';\nconst app = express();\nconst json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/import', importGTFS);\napp.get('/protobuf', protobuf);\napp.post('/api/v1/routes', routes);\napp.post('/api/v1/trips', trips);\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
       ]
     },
-    "mtime": 1498103307000
+    "mtime": 1498109339000
   },
   "{\"filename\":\"/home/app/routes/test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
@@ -1825,7 +1869,7 @@
       "modules": {
         "imports": [
           {
-            "source": "lib/gtfsdb",
+            "source": "gtfs",
             "imported": [
               "default"
             ],
@@ -1833,7 +1877,7 @@
               {
                 "kind": "named",
                 "imported": "default",
-                "local": "gtfsdb"
+                "local": "gtfs"
               }
             ]
           }
@@ -2035,7 +2079,7 @@
       "basename": "routes"
     },
     "ignored": false,
-    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfsdb = require('../lib/gtfsdb');\n\nvar _gtfsdb2 = _interopRequireDefault(_gtfsdb);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var routes;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.next = 2;\n            return _gtfsdb2.default.getRoutes('miami');\n\n          case 2:\n            routes = _context.sent;\n\n            res.send({\n              success: true,\n              routes: routes\n            });\n\n          case 4:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function routes(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return routes;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyZXEiLCJyZXMiLCJnZXRSb3V0ZXMiLCJyb3V0ZXMiLCJzZW5kIiwic3VjY2VzcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7Ozs7Ozt1REFFZSxpQkFBc0JBLEdBQXRCLEVBQTJCQyxHQUEzQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUNRLGlCQUFPQyxTQUFQLENBQWlCLE9BQWpCLENBRFI7O0FBQUE7QUFDUEMsa0JBRE87O0FBRWJGLGdCQUFJRyxJQUFKLENBQVM7QUFDUEMsdUJBQVMsSUFERjtBQUVQRjtBQUZPLGFBQVQ7O0FBRmE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsRzs7V0FBZUEsTTs7OztTQUFBQSxNIiwiZmlsZSI6InJvdXRlcy5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9hcHAvcm91dGVzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGd0ZnNkYiBmcm9tICdsaWIvZ3Rmc2RiJztcblxuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gcm91dGVzKHJlcSwgcmVzKSB7XG4gIGNvbnN0IHJvdXRlcyA9IGF3YWl0IGd0ZnNkYi5nZXRSb3V0ZXMoJ21pYW1pJyk7XG4gIHJlcy5zZW5kKHtcbiAgICBzdWNjZXNzOiB0cnVlLFxuICAgIHJvdXRlcyxcbiAgfSk7XG59XG4iXX0=",
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var routes;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.next = 2;\n            return _gtfs2.default.getRoutesByAgency('miami');\n\n          case 2:\n            routes = _context.sent;\n\n            res.send({\n              success: true,\n              routes: routes\n            });\n\n          case 4:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function routes(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return routes;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyZXEiLCJyZXMiLCJnZXRSb3V0ZXNCeUFnZW5jeSIsInJvdXRlcyIsInNlbmQiLCJzdWNjZXNzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7Ozs7Ozs7O3VEQUVlLGlCQUFzQkEsR0FBdEIsRUFBMkJDLEdBQTNCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBQ1EsZUFBS0MsaUJBQUwsQ0FBdUIsT0FBdkIsQ0FEUjs7QUFBQTtBQUNQQyxrQkFETzs7QUFFYkYsZ0JBQUlHLElBQUosQ0FBUztBQUNQQyx1QkFBUyxJQURGO0FBRVBGO0FBRk8sYUFBVDs7QUFGYTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHOztXQUFlQSxNOzs7O1NBQUFBLE0iLCJmaWxlIjoicm91dGVzLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcC9yb3V0ZXMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ3RmcyBmcm9tICdndGZzJztcblxuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gcm91dGVzKHJlcSwgcmVzKSB7XG4gIGNvbnN0IHJvdXRlcyA9IGF3YWl0IGd0ZnMuZ2V0Um91dGVzQnlBZ2VuY3koJ21pYW1pJyk7XG4gIHJlcy5zZW5kKHtcbiAgICBzdWNjZXNzOiB0cnVlLFxuICAgIHJvdXRlcyxcbiAgfSk7XG59XG4iXX0=",
     "ast": null,
     "map": {
       "version": 3,
@@ -2045,19 +2089,19 @@
       "names": [
         "req",
         "res",
-        "getRoutes",
+        "getRoutesByAgency",
         "routes",
         "send",
         "success"
       ],
-      "mappings": ";;;;;;AAAA;;;;;;;;;uDAEe,iBAAsBA,GAAtB,EAA2BC,GAA3B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBACQ,iBAAOC,SAAP,CAAiB,OAAjB,CADR;;AAAA;AACPC,kBADO;;AAEbF,gBAAIG,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPF;AAFO,aAAT;;AAFa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeA,M;;;;SAAAA,M",
+      "mappings": ";;;;;;AAAA;;;;;;;;;uDAEe,iBAAsBA,GAAtB,EAA2BC,GAA3B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBACQ,eAAKC,iBAAL,CAAuB,OAAvB,CADR;;AAAA;AACPC,kBADO;;AAEbF,gBAAIG,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPF;AAFO,aAAT;;AAFa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeA,M;;;;SAAAA,M",
       "file": "routes.js",
       "sourceRoot": "/home/app/routes",
       "sourcesContent": [
-        "import gtfsdb from 'lib/gtfsdb';\n\nexport default async function routes(req, res) {\n  const routes = await gtfsdb.getRoutes('miami');\n  res.send({\n    success: true,\n    routes,\n  });\n}\n"
+        "import gtfs from 'gtfs';\n\nexport default async function routes(req, res) {\n  const routes = await gtfs.getRoutesByAgency('miami');\n  res.send({\n    success: true,\n    routes,\n  });\n}\n"
       ]
     },
-    "mtime": 1498090749000
+    "mtime": 1498106497000
   },
   "{\"filename\":\"/home/app/lib/gtfsdb.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/lib\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
@@ -2302,13 +2346,14 @@
   "{\"filename\":\"/home/app/routes/trips.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
       "usedHelpers": [
+        "asyncToGenerator",
         "interopRequireDefault"
       ],
       "marked": [],
       "modules": {
         "imports": [
           {
-            "source": "lib/gtfsdb",
+            "source": "gtfs",
             "imported": [
               "default"
             ],
@@ -2316,34 +2361,14 @@
               {
                 "kind": "named",
                 "imported": "default",
-                "local": "gtfsdb"
+                "local": "gtfs"
               }
             ]
           }
         ],
         "exports": {
-          "exported": [
-            "trips",
-            "req",
-            "res"
-          ],
-          "specifiers": [
-            {
-              "kind": "local",
-              "local": "trips",
-              "exported": "default"
-            },
-            {
-              "kind": "local",
-              "local": "req",
-              "exported": "default"
-            },
-            {
-              "kind": "local",
-              "local": "res",
-              "exported": "default"
-            }
-          ]
+          "exported": [],
+          "specifiers": []
         }
       }
     },
@@ -2538,7 +2563,7 @@
       "basename": "trips"
     },
     "ignored": false,
-    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = trips;\n\nvar _gtfsdb = require('../lib/gtfsdb');\n\nvar _gtfsdb2 = _interopRequireDefault(_gtfsdb);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction trips(req, res) {\n  var routeId = req.body.routeId;\n  _gtfsdb2.default.getRouteTrips('miami', routeId).then(function (res) {\n    console.log(res);\n    res.send({\n      success: true,\n      res: res\n    });\n  });\n}\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRyaXBzLmpzIl0sIm5hbWVzIjpbInRyaXBzIiwicmVxIiwicmVzIiwicm91dGVJZCIsImJvZHkiLCJnZXRSb3V0ZVRyaXBzIiwidGhlbiIsImNvbnNvbGUiLCJsb2ciLCJzZW5kIiwic3VjY2VzcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7a0JBRXdCQSxLOztBQUZ4Qjs7Ozs7O0FBRWUsU0FBU0EsS0FBVCxDQUFlQyxHQUFmLEVBQW9CQyxHQUFwQixFQUF5QjtBQUN0QyxNQUFNQyxVQUFVRixJQUFJRyxJQUFKLENBQVNELE9BQXpCO0FBQ0EsbUJBQU9FLGFBQVAsQ0FBcUIsT0FBckIsRUFBOEJGLE9BQTlCLEVBQXVDRyxJQUF2QyxDQUE0QyxlQUFPO0FBQ2pEQyxZQUFRQyxHQUFSLENBQVlOLEdBQVo7QUFDQUEsUUFBSU8sSUFBSixDQUFTO0FBQ1BDLGVBQVMsSUFERjtBQUVQUjtBQUZPLEtBQVQ7QUFJRCxHQU5EO0FBT0QiLCJmaWxlIjoidHJpcHMuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3JvdXRlcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndGZzZGIgZnJvbSAnbGliL2d0ZnNkYic7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHRyaXBzKHJlcSwgcmVzKSB7XG4gIGNvbnN0IHJvdXRlSWQgPSByZXEuYm9keS5yb3V0ZUlkO1xuICBndGZzZGIuZ2V0Um91dGVUcmlwcygnbWlhbWknLCByb3V0ZUlkKS50aGVuKHJlcyA9PiB7XG4gICAgY29uc29sZS5sb2cocmVzKTtcbiAgICByZXMuc2VuZCh7XG4gICAgICBzdWNjZXNzOiB0cnVlLFxuICAgICAgcmVzLFxuICAgIH0pO1xuICB9KTtcbn1cbiJdfQ==",
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var routeId, directions;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            routeId = req.body.routeId;\n            _context.next = 3;\n            return _gtfs2.default.getDirectionsByRoute('miami', routeId);\n\n          case 3:\n            directions = _context.sent;\n\n            res.send({\n              success: true,\n              directions: directions\n            });\n\n          case 5:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function trips(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return trips;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRyaXBzLmpzIl0sIm5hbWVzIjpbInJlcSIsInJlcyIsInJvdXRlSWQiLCJib2R5IiwiZ2V0RGlyZWN0aW9uc0J5Um91dGUiLCJkaXJlY3Rpb25zIiwic2VuZCIsInN1Y2Nlc3MiLCJ0cmlwcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7Ozs7Ozt1REFFZSxpQkFBcUJBLEdBQXJCLEVBQTBCQyxHQUExQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDUEMsbUJBRE8sR0FDR0YsSUFBSUcsSUFBSixDQUFTRCxPQURaO0FBQUE7QUFBQSxtQkFFWSxlQUFLRSxvQkFBTCxDQUEwQixPQUExQixFQUFtQ0YsT0FBbkMsQ0FGWjs7QUFBQTtBQUVQRyxzQkFGTzs7QUFHYkosZ0JBQUlLLElBQUosQ0FBUztBQUNQQyx1QkFBUyxJQURGO0FBRVBGO0FBRk8sYUFBVDs7QUFIYTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHOztXQUFlRyxLOzs7O1NBQUFBLEsiLCJmaWxlIjoidHJpcHMuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3JvdXRlcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndGZzIGZyb20gJ2d0ZnMnO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiB0cmlwcyhyZXEsIHJlcykge1xuICBjb25zdCByb3V0ZUlkID0gcmVxLmJvZHkucm91dGVJZDtcbiAgY29uc3QgZGlyZWN0aW9ucyA9IGF3YWl0IGd0ZnMuZ2V0RGlyZWN0aW9uc0J5Um91dGUoJ21pYW1pJywgcm91dGVJZCk7XG4gIHJlcy5zZW5kKHtcbiAgICBzdWNjZXNzOiB0cnVlLFxuICAgIGRpcmVjdGlvbnMsXG4gIH0pO1xufVxuIl19",
     "ast": null,
     "map": {
       "version": 3,
@@ -2546,25 +2571,270 @@
         "trips.js"
       ],
       "names": [
-        "trips",
         "req",
         "res",
         "routeId",
         "body",
-        "getRouteTrips",
-        "then",
-        "console",
-        "log",
+        "getDirectionsByRoute",
+        "directions",
         "send",
-        "success"
+        "success",
+        "trips"
       ],
-      "mappings": ";;;;;kBAEwBA,K;;AAFxB;;;;;;AAEe,SAASA,KAAT,CAAeC,GAAf,EAAoBC,GAApB,EAAyB;AACtC,MAAMC,UAAUF,IAAIG,IAAJ,CAASD,OAAzB;AACA,mBAAOE,aAAP,CAAqB,OAArB,EAA8BF,OAA9B,EAAuCG,IAAvC,CAA4C,eAAO;AACjDC,YAAQC,GAAR,CAAYN,GAAZ;AACAA,QAAIO,IAAJ,CAAS;AACPC,eAAS,IADF;AAEPR;AAFO,KAAT;AAID,GAND;AAOD",
+      "mappings": ";;;;;;AAAA;;;;;;;;;uDAEe,iBAAqBA,GAArB,EAA0BC,GAA1B;AAAA;AAAA;AAAA;AAAA;AAAA;AACPC,mBADO,GACGF,IAAIG,IAAJ,CAASD,OADZ;AAAA;AAAA,mBAEY,eAAKE,oBAAL,CAA0B,OAA1B,EAAmCF,OAAnC,CAFZ;;AAAA;AAEPG,sBAFO;;AAGbJ,gBAAIK,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPF;AAFO,aAAT;;AAHa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeG,K;;;;SAAAA,K",
       "file": "trips.js",
       "sourceRoot": "/home/app/routes",
       "sourcesContent": [
-        "import gtfsdb from 'lib/gtfsdb';\n\nexport default function trips(req, res) {\n  const routeId = req.body.routeId;\n  gtfsdb.getRouteTrips('miami', routeId).then(res => {\n    console.log(res);\n    res.send({\n      success: true,\n      res,\n    });\n  });\n}\n"
+        "import gtfs from 'gtfs';\n\nexport default async function trips(req, res) {\n  const routeId = req.body.routeId;\n  const directions = await gtfs.getDirectionsByRoute('miami', routeId);\n  res.send({\n    success: true,\n    directions,\n  });\n}\n"
       ]
     },
-    "mtime": 1498104802000
+    "mtime": 1498108324000
+  },
+  "{\"filename\":\"/home/app/routes/importGTFS.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "gtfs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gtfs"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/routes/importGTFS.js",
+      "filenameRelative": "/home/app/routes/importGTFS.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "importGTFS.js",
+      "sourceFileName": "importGTFS.js",
+      "sourceRoot": "/home/app/routes",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/routes",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "importGTFS"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nvar config = require('../config.json');\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            res.send('Starting import!');\n            _context.prev = 1;\n            _context.next = 4;\n            return _gtfs2.default.import(config);\n\n          case 4:\n            console.log('Successfully imported!');\n            _context.next = 10;\n            break;\n\n          case 7:\n            _context.prev = 7;\n            _context.t0 = _context['catch'](1);\n\n            console.log(_context.t0);\n\n          case 10:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this, [[1, 7]]);\n  }));\n\n  function importGTFS(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return importGTFS;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImltcG9ydEdURlMuanMiXSwibmFtZXMiOlsiY29uZmlnIiwicmVxdWlyZSIsInJlcSIsInJlcyIsInNlbmQiLCJpbXBvcnQiLCJjb25zb2xlIiwibG9nIiwiaW1wb3J0R1RGUyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7Ozs7O0FBQ0EsSUFBTUEsU0FBU0MsUUFBUSxnQkFBUixDQUFmOzs7dURBRWUsaUJBQTBCQyxHQUExQixFQUErQkMsR0FBL0I7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNiQSxnQkFBSUMsSUFBSixDQUFTLGtCQUFUO0FBRGE7QUFBQTtBQUFBLG1CQUdMLGVBQUtDLE1BQUwsQ0FBWUwsTUFBWixDQUhLOztBQUFBO0FBSVhNLG9CQUFRQyxHQUFSLENBQVksd0JBQVo7QUFKVztBQUFBOztBQUFBO0FBQUE7QUFBQTs7QUFNWEQsb0JBQVFDLEdBQVI7O0FBTlc7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsRzs7V0FBZUMsVTs7OztTQUFBQSxVIiwiZmlsZSI6ImltcG9ydEdURlMuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3JvdXRlcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndGZzIGZyb20gJ2d0ZnMnO1xuY29uc3QgY29uZmlnID0gcmVxdWlyZSgnLi4vY29uZmlnLmpzb24nKTtcblxuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gaW1wb3J0R1RGUyhyZXEsIHJlcykge1xuICByZXMuc2VuZCgnU3RhcnRpbmcgaW1wb3J0IScpO1xuICB0cnkge1xuICAgIGF3YWl0IGd0ZnMuaW1wb3J0KGNvbmZpZyk7XG4gICAgY29uc29sZS5sb2coJ1N1Y2Nlc3NmdWxseSBpbXBvcnRlZCEnKTtcbiAgfSBjYXRjaCAoZXJyKSB7XG4gICAgY29uc29sZS5sb2coZXJyKTtcbiAgfVxufVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "importGTFS.js"
+      ],
+      "names": [
+        "config",
+        "require",
+        "req",
+        "res",
+        "send",
+        "import",
+        "console",
+        "log",
+        "importGTFS"
+      ],
+      "mappings": ";;;;;;AAAA;;;;;;;;AACA,IAAMA,SAASC,QAAQ,gBAAR,CAAf;;;uDAEe,iBAA0BC,GAA1B,EAA+BC,GAA/B;AAAA;AAAA;AAAA;AAAA;AACbA,gBAAIC,IAAJ,CAAS,kBAAT;AADa;AAAA;AAAA,mBAGL,eAAKC,MAAL,CAAYL,MAAZ,CAHK;;AAAA;AAIXM,oBAAQC,GAAR,CAAY,wBAAZ;AAJW;AAAA;;AAAA;AAAA;AAAA;;AAMXD,oBAAQC,GAAR;;AANW;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeC,U;;;;SAAAA,U",
+      "file": "importGTFS.js",
+      "sourceRoot": "/home/app/routes",
+      "sourcesContent": [
+        "import gtfs from 'gtfs';\nconst config = require('../config.json');\n\nexport default async function importGTFS(req, res) {\n  res.send('Starting import!');\n  try {\n    await gtfs.import(config);\n    console.log('Successfully imported!');\n  } catch (err) {\n    console.log(err);\n  }\n}\n"
+      ]
+    },
+    "mtime": 1498109963000
   }
 }

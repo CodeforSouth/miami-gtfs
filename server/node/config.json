@@ -1,0 +1,11 @@
+{
+  "mongoUrl": "mongodb://mongo:27017/gtfs",
+  "agencies": [
+    {
+      "agency_key": "miami",
+      "url":
+        "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip"
+    }
+  ],
+  "verbose": false
+}

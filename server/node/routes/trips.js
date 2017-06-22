@@ -1,12 +1,10 @@
-import gtfsdb from 'lib/gtfsdb';
+import gtfs from 'gtfs';
 
-export default function trips(req, res) {
+export default async function trips(req, res) {
   const routeId = req.body.routeId;
-  gtfsdb.getRouteTrips('miami', routeId).then(res => {
-    console.log(res);
-    res.send({
-      success: true,
-      res,
-    });
+  const directions = await gtfs.getDirectionsByRoute('miami', routeId);
+  res.send({
+    success: true,
+    directions,
   });
 }

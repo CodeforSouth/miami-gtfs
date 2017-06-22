@@ -2,7 +2,7 @@
 .npm/
 node_modules/
 .config/
-postgres/
+mongo/
 .v8flags.*
 downloads/
 /coverage

@@ -1,7 +1,7 @@
-import gtfsdb from 'lib/gtfsdb';
+import gtfs from 'gtfs';
 
 export default async function routes(req, res) {
-  const routes = await gtfsdb.getRoutes('miami');
+  const routes = await gtfs.getRoutesByAgency('miami');
   res.send({
     success: true,
     routes,

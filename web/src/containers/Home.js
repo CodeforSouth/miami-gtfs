@@ -23,7 +23,7 @@ export default class Home extends Component {
       <Sidebar>
         <List>
           {this.props.routes.map(route =>
-            <Route key={route.id} data={route} />
+            <Route key={route.route_id} data={route} />
           )}
         </List>
       </Sidebar>

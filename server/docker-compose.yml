@@ -1,13 +1,10 @@
 version: '3'
 
 services:
-  postgres:
-    image: 'postgres:9-alpine'
+  mongo:
+    image: 'mvertes/alpine-mongo'
     volumes:
-      - ./postgres:/var/lib/postgresql/data
-    environment:
-      - PGDATABASE=postgres
-      - PGUSER=postgres
+      - ./mongo:/data/db
 
   server:
     build: ./node
@@ -18,4 +15,4 @@ services:
     volumes:
       - ./node:/home/app
     links:
-      - postgres
+      - mongo

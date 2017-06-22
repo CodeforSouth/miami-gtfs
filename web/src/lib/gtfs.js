@@ -21,6 +21,13 @@ export function routeType(type) {
           backgroundColor: '#157AFC',
         },
       };
+    case 4:
+      return {
+        text: 'TROLLEY',
+        style: {
+          backgroundColor: '#FF8D3B',
+        },
+      };
     default:
       return {
         text: 'UNKNOWN',

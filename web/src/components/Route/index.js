@@ -12,12 +12,12 @@ const mapDispatchToProps = {
 export default class Route extends Component {
   _onClick = e => {
     e.preventDefault();
-    const url = `/route/${this.props.data.id}`;
+    const url = `/route/${this.props.data.route_id}`;
     this.props.push(url);
   };
   render() {
     const data = this.props.data;
-    const url = `/route/${this.props.data.id}`;
+    const url = `/route/${data.route_id}`;
     const type = routeType(data.route_type);
     return (
       <a className={styles.container} href={url} onClick={this._onClick}>
