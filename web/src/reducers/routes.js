@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import { createSelector } from 'reselect';
 import Immutable from 'immutable';
 
 const prefix = 'routes/';
@@ -50,3 +51,8 @@ export default combineReducers({
   list,
   error,
 });
+
+export const allRoutes = createSelector(
+  state => state.routes.list,
+  list => list.toArray()
+);

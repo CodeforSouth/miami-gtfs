@@ -11,7 +11,7 @@ const gtfsdb = require('gtfsdb')(knex);
   next();
 });*/
 
-router.get('/agency', function(req, res, next) {
+router.get('/api/v1/agency', function(req, res, next) {
   gtfsdb
     .getAllAgencies()
     .then(function(agencies) {
@@ -45,7 +45,7 @@ router.get('/agency', function(req, res, next) {
 //  });
 //});
 
-router.get('/agency/:agency', function(req, res, next) {
+router.get('/api/v1/agency/:agency', function(req, res, next) {
   const agencyKey = req.params.agency;
   gtfsdb
     .getAgencies(agencyKey)
@@ -55,7 +55,7 @@ router.get('/agency/:agency', function(req, res, next) {
     .catch(next);
 });
 
-router.get('/agency/:agency/route', function(req, res, next) {
+router.get('/api/v1/agency/:agency/route', function(req, res, next) {
   const agency_key = req.params.agency;
   gtfsdb
     .getRoutes(agency_key)
@@ -65,7 +65,7 @@ router.get('/agency/:agency/route', function(req, res, next) {
     .catch(next);
 });
 
-router.get('/agency/:agency/route/:routeId', function(req, res, next) {
+router.get('/api/v1/agency/:agency/route/:routeId', function(req, res, next) {
   const agencyKey = req.params.agency;
   const routeId = req.params.routeId;
   Promise.all([
@@ -84,7 +84,7 @@ router.get('/agency/:agency/route/:routeId', function(req, res, next) {
     .catch(next);
 });
 
-router.get('/agency/:agency/trip', function(req, res, next) {
+router.get('/api/v1/agency/:agency/trip', function(req, res, next) {
   gtfsdb
     .getTrips(req.params.agency)
     .then(function(agencies) {
@@ -118,7 +118,7 @@ router.get('/agency/:agency/trip', function(req, res, next) {
 //  });
 //});
 
-router.get('/agency/:agency/stop', function(req, res, next) {
+router.get('/api/v1/agency/:agency/stop', function(req, res, next) {
   gtfsdb
     .getStops(req.params.agency)
     .then(function(stops) {
@@ -127,7 +127,7 @@ router.get('/agency/:agency/stop', function(req, res, next) {
     .catch(next);
 });
 
-router.get('/agency/:agency/stop/:stopId', function(req, res, next) {
+router.get('/api/v1/agency/:agency/stop/:stopId', function(req, res, next) {
   gtfsdb
     .getStop(req.params.agency, req.params.stopId)
     .then(function(stop) {
@@ -139,7 +139,11 @@ router.get('/agency/:agency/stop/:stopId', function(req, res, next) {
 //router.get('/agency/:agency/stop/:stopId/timetables', function(req, res, next) {
 //});
 
-router.get('/agency/:agency/stop/:stopId/timetables', function(req, res, next) {
+router.get('/api/v1/agency/:agency/stop/:stopId/timetables', function(
+  req,
+  res,
+  next
+) {
   const agencyKey = req.params.agency;
   const stopId = req.params.stopId;
 
