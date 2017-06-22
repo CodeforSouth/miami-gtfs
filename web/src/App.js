@@ -9,6 +9,7 @@ import { history } from 'lib/history';
 // containers
 import Chrome from 'containers/Chrome';
 import Home from 'containers/Home';
+import RouteDetails from 'containers/Route';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <ConnectedRouter history={history}>
           <Chrome>
             <Route exact path="/" component={Home} />
+            <Route path="/route/:routeId" component={RouteDetails} />
           </Chrome>
         </ConnectedRouter>
       </Provider>

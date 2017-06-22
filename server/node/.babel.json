@@ -271,6 +271,19 @@
             ]
           },
           {
+            "source": "routes/trips",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "trips"
+              }
+            ]
+          },
+          {
             "source": "routes/protobuf",
             "imported": [
               "default"
@@ -481,7 +494,7 @@
       "basename": "index"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _routes = require('./routes/routes');\n\nvar _routes2 = _interopRequireDefault(_routes);\n\nvar _protobuf = require('./routes/protobuf');\n\nvar _protobuf2 = _interopRequireDefault(_protobuf);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.get('/protobuf', _protobuf2.default);\napp.post('/api/v1/routes', _routes2.default);\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImdldCIsInBvc3QiLCJsaXN0ZW4iLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBQ0EsSUFBTUEsTUFBTSx3QkFBWjs7QUFFQUEsSUFBSUMsR0FBSixDQUFRLFdBQVI7QUFDQUQsSUFBSUUsSUFBSixDQUFTLGdCQUFUOztBQUVBRixJQUFJRyxNQUFKLENBQVcsSUFBWCxFQUFpQixZQUFNO0FBQ3JCQyxVQUFRQyxHQUFSLENBQVkseUJBQVo7QUFDRCxDQUZEIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IHJvdXRlcyBmcm9tICdyb3V0ZXMvcm91dGVzJztcbmltcG9ydCBwcm90b2J1ZiBmcm9tICdyb3V0ZXMvcHJvdG9idWYnO1xuY29uc3QgYXBwID0gZXhwcmVzcygpO1xuXG5hcHAuZ2V0KCcvcHJvdG9idWYnLCBwcm90b2J1Zik7XG5hcHAucG9zdCgnL2FwaS92MS9yb3V0ZXMnLCByb3V0ZXMpO1xuXG5hcHAubGlzdGVuKDMwMDAsICgpID0+IHtcbiAgY29uc29sZS5sb2coJ0xpc3RlbmluZyBvbiBwb3J0IDM2MDAhJyk7XG59KTtcbiJdfQ==",
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _routes = require('./routes/routes');\n\nvar _routes2 = _interopRequireDefault(_routes);\n\nvar _trips = require('./routes/trips');\n\nvar _trips2 = _interopRequireDefault(_trips);\n\nvar _protobuf = require('./routes/protobuf');\n\nvar _protobuf2 = _interopRequireDefault(_protobuf);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\nvar json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/protobuf', _protobuf2.default);\napp.post('/api/v1/routes', _routes2.default);\napp.post('/api/v1/trips', _trips2.default);\n\napp.listen(3000, function () {\n  console.log('Listening on port 3600!');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFwcCIsImpzb24iLCJyZXF1aXJlIiwidXNlIiwiZ2V0IiwicG9zdCIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUNBLElBQU1BLE1BQU0sd0JBQVo7QUFDQSxJQUFNQyxPQUFPQyx1QkFBdUJELElBQXZCLEVBQWI7O0FBRUFELElBQUlHLEdBQUosQ0FBUUYsSUFBUjs7QUFFQUQsSUFBSUksR0FBSixDQUFRLFdBQVI7QUFDQUosSUFBSUssSUFBSixDQUFTLGdCQUFUO0FBQ0FMLElBQUlLLElBQUosQ0FBUyxlQUFUOztBQUVBTCxJQUFJTSxNQUFKLENBQVcsSUFBWCxFQUFpQixZQUFNO0FBQ3JCQyxVQUFRQyxHQUFSLENBQVkseUJBQVo7QUFDRCxDQUZEIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IHJvdXRlcyBmcm9tICdyb3V0ZXMvcm91dGVzJztcbmltcG9ydCB0cmlwcyBmcm9tICdyb3V0ZXMvdHJpcHMnO1xuaW1wb3J0IHByb3RvYnVmIGZyb20gJ3JvdXRlcy9wcm90b2J1Zic7XG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5jb25zdCBqc29uID0gcmVxdWlyZSgnYm9keS1wYXJzZXInKS5qc29uKCk7XG5cbmFwcC51c2UoanNvbik7XG5cbmFwcC5nZXQoJy9wcm90b2J1ZicsIHByb3RvYnVmKTtcbmFwcC5wb3N0KCcvYXBpL3YxL3JvdXRlcycsIHJvdXRlcyk7XG5hcHAucG9zdCgnL2FwaS92MS90cmlwcycsIHRyaXBzKTtcblxuYXBwLmxpc3RlbigzMDAwLCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdMaXN0ZW5pbmcgb24gcG9ydCAzNjAwIScpO1xufSk7XG4iXX0=",
     "ast": null,
     "map": {
       "version": 3,
@@ -490,20 +503,23 @@
       ],
       "names": [
         "app",
+        "json",
+        "require",
+        "use",
         "get",
         "post",
         "listen",
         "console",
         "log"
       ],
-      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;;;AACA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,WAAR;AACAD,IAAIE,IAAJ,CAAS,gBAAT;;AAEAF,IAAIG,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;;;AACA,IAAMA,MAAM,wBAAZ;AACA,IAAMC,OAAOC,uBAAuBD,IAAvB,EAAb;;AAEAD,IAAIG,GAAJ,CAAQF,IAAR;;AAEAD,IAAII,GAAJ,CAAQ,WAAR;AACAJ,IAAIK,IAAJ,CAAS,gBAAT;AACAL,IAAIK,IAAJ,CAAS,eAAT;;AAEAL,IAAIM,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD",
       "file": "index.js",
       "sourceRoot": "/home/app",
       "sourcesContent": [
-        "import express from 'express';\nimport routes from 'routes/routes';\nimport protobuf from 'routes/protobuf';\nconst app = express();\n\napp.get('/protobuf', protobuf);\napp.post('/api/v1/routes', routes);\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
+        "import express from 'express';\nimport routes from 'routes/routes';\nimport trips from 'routes/trips';\nimport protobuf from 'routes/protobuf';\nconst app = express();\nconst json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/protobuf', protobuf);\napp.post('/api/v1/routes', routes);\napp.post('/api/v1/trips', trips);\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
       ]
     },
-    "mtime": 1498090810000
+    "mtime": 1498103307000
   },
   "{\"filename\":\"/home/app/routes/test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
@@ -2282,5 +2298,273 @@
       ]
     },
     "mtime": 1498090570000
+  },
+  "{\"filename\":\"/home/app/routes/trips.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "lib/gtfsdb",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gtfsdb"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "trips",
+            "req",
+            "res"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "trips",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "req",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "res",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/routes/trips.js",
+      "filenameRelative": "/home/app/routes/trips.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "trips.js",
+      "sourceFileName": "trips.js",
+      "sourceRoot": "/home/app/routes",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/routes",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "trips"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = trips;\n\nvar _gtfsdb = require('../lib/gtfsdb');\n\nvar _gtfsdb2 = _interopRequireDefault(_gtfsdb);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction trips(req, res) {\n  var routeId = req.body.routeId;\n  _gtfsdb2.default.getRouteTrips('miami', routeId).then(function (res) {\n    console.log(res);\n    res.send({\n      success: true,\n      res: res\n    });\n  });\n}\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRyaXBzLmpzIl0sIm5hbWVzIjpbInRyaXBzIiwicmVxIiwicmVzIiwicm91dGVJZCIsImJvZHkiLCJnZXRSb3V0ZVRyaXBzIiwidGhlbiIsImNvbnNvbGUiLCJsb2ciLCJzZW5kIiwic3VjY2VzcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7a0JBRXdCQSxLOztBQUZ4Qjs7Ozs7O0FBRWUsU0FBU0EsS0FBVCxDQUFlQyxHQUFmLEVBQW9CQyxHQUFwQixFQUF5QjtBQUN0QyxNQUFNQyxVQUFVRixJQUFJRyxJQUFKLENBQVNELE9BQXpCO0FBQ0EsbUJBQU9FLGFBQVAsQ0FBcUIsT0FBckIsRUFBOEJGLE9BQTlCLEVBQXVDRyxJQUF2QyxDQUE0QyxlQUFPO0FBQ2pEQyxZQUFRQyxHQUFSLENBQVlOLEdBQVo7QUFDQUEsUUFBSU8sSUFBSixDQUFTO0FBQ1BDLGVBQVMsSUFERjtBQUVQUjtBQUZPLEtBQVQ7QUFJRCxHQU5EO0FBT0QiLCJmaWxlIjoidHJpcHMuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3JvdXRlcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndGZzZGIgZnJvbSAnbGliL2d0ZnNkYic7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHRyaXBzKHJlcSwgcmVzKSB7XG4gIGNvbnN0IHJvdXRlSWQgPSByZXEuYm9keS5yb3V0ZUlkO1xuICBndGZzZGIuZ2V0Um91dGVUcmlwcygnbWlhbWknLCByb3V0ZUlkKS50aGVuKHJlcyA9PiB7XG4gICAgY29uc29sZS5sb2cocmVzKTtcbiAgICByZXMuc2VuZCh7XG4gICAgICBzdWNjZXNzOiB0cnVlLFxuICAgICAgcmVzLFxuICAgIH0pO1xuICB9KTtcbn1cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "trips.js"
+      ],
+      "names": [
+        "trips",
+        "req",
+        "res",
+        "routeId",
+        "body",
+        "getRouteTrips",
+        "then",
+        "console",
+        "log",
+        "send",
+        "success"
+      ],
+      "mappings": ";;;;;kBAEwBA,K;;AAFxB;;;;;;AAEe,SAASA,KAAT,CAAeC,GAAf,EAAoBC,GAApB,EAAyB;AACtC,MAAMC,UAAUF,IAAIG,IAAJ,CAASD,OAAzB;AACA,mBAAOE,aAAP,CAAqB,OAArB,EAA8BF,OAA9B,EAAuCG,IAAvC,CAA4C,eAAO;AACjDC,YAAQC,GAAR,CAAYN,GAAZ;AACAA,QAAIO,IAAJ,CAAS;AACPC,eAAS,IADF;AAEPR;AAFO,KAAT;AAID,GAND;AAOD",
+      "file": "trips.js",
+      "sourceRoot": "/home/app/routes",
+      "sourcesContent": [
+        "import gtfsdb from 'lib/gtfsdb';\n\nexport default function trips(req, res) {\n  const routeId = req.body.routeId;\n  gtfsdb.getRouteTrips('miami', routeId).then(res => {\n    console.log(res);\n    res.send({\n      success: true,\n      res,\n    });\n  });\n}\n"
+      ]
+    },
+    "mtime": 1498104802000
   }
 }

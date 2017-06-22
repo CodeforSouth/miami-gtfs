@@ -6,8 +6,7 @@
 .item {
   flex: 1;
   border-top: 1px solid #e0e0e0;
-  padding: 10px;
-  display: flex;
+  padding: 10px 0 8px;
   align-items: center;
 }
 
@@ -15,10 +14,27 @@
   border-top: none;
 }
 
-.number {
-  font-size: 18px;
-}
-
 .name {
   font-size: 9px;
+  color: #979797;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0 0;
+}
+
+.number {
+  font-size: 18px;
+  color: #000;
+}
+
+.type {
+  font-size: 9px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px;
 }
