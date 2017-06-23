@@ -7,4 +7,6 @@
   right: 0;
   width: 280px;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }

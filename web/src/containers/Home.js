@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import { fetchRoutes, allRoutes } from 'reducers/routes';
 import Sidebar from 'components/Sidebar';
 import List from 'components/List';
-import Route from 'components/Route';
+import Route from 'components/Home/Route';
+import Search from 'components/Home/Search';
 
 const mapStateToProps = state => ({
   routes: allRoutes(state),
@@ -21,6 +22,7 @@ export default class Home extends Component {
   render() {
     return (
       <Sidebar>
+        <Search />
         <List>
           {this.props.routes.map(route =>
             <Route key={route.route_id} data={route} />

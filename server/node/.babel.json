@@ -1863,6 +1863,7 @@
     "metadata": {
       "usedHelpers": [
         "asyncToGenerator",
+        "slicedToArray",
         "interopRequireDefault"
       ],
       "marked": [],
@@ -2079,7 +2080,7 @@
       "basename": "routes"
     },
     "ignored": false,
-    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var routes;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.next = 2;\n            return _gtfs2.default.getRoutesByAgency('miami');\n\n          case 2:\n            routes = _context.sent;\n\n            res.send({\n              success: true,\n              routes: routes\n            });\n\n          case 4:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function routes(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return routes;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyZXEiLCJyZXMiLCJnZXRSb3V0ZXNCeUFnZW5jeSIsInJvdXRlcyIsInNlbmQiLCJzdWNjZXNzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7Ozs7Ozs7O3VEQUVlLGlCQUFzQkEsR0FBdEIsRUFBMkJDLEdBQTNCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBQ1EsZUFBS0MsaUJBQUwsQ0FBdUIsT0FBdkIsQ0FEUjs7QUFBQTtBQUNQQyxrQkFETzs7QUFFYkYsZ0JBQUlHLElBQUosQ0FBUztBQUNQQyx1QkFBUyxJQURGO0FBRVBGO0FBRk8sYUFBVDs7QUFGYTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHOztXQUFlQSxNOzs7O1NBQUFBLE0iLCJmaWxlIjoicm91dGVzLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcC9yb3V0ZXMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ3RmcyBmcm9tICdndGZzJztcblxuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gcm91dGVzKHJlcSwgcmVzKSB7XG4gIGNvbnN0IHJvdXRlcyA9IGF3YWl0IGd0ZnMuZ2V0Um91dGVzQnlBZ2VuY3koJ21pYW1pJyk7XG4gIHJlcy5zZW5kKHtcbiAgICBzdWNjZXNzOiB0cnVlLFxuICAgIHJvdXRlcyxcbiAgfSk7XG59XG4iXX0=",
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var _ref2, _ref3, routes, stops;\n\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.next = 2;\n            return Promise.all([_gtfs2.default.getRoutesByAgency('miami'), _gtfs2.default.getStops('miami')]);\n\n          case 2:\n            _ref2 = _context.sent;\n            _ref3 = _slicedToArray(_ref2, 2);\n            routes = _ref3[0];\n            stops = _ref3[1];\n\n            res.send({\n              success: true,\n              routes: routes,\n              stops: stops\n            });\n\n          case 7:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function routes(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return routes;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyZXEiLCJyZXMiLCJQcm9taXNlIiwiYWxsIiwiZ2V0Um91dGVzQnlBZ2VuY3kiLCJnZXRTdG9wcyIsInJvdXRlcyIsInN0b3BzIiwic2VuZCIsInN1Y2Nlc3MiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7Ozs7Ozs7Ozt1REFFZSxpQkFBc0JBLEdBQXRCLEVBQTJCQyxHQUEzQjtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFDaUJDLFFBQVFDLEdBQVIsQ0FBWSxDQUN4QyxlQUFLQyxpQkFBTCxDQUF1QixPQUF2QixDQUR3QyxFQUV4QyxlQUFLQyxRQUFMLENBQWMsT0FBZCxDQUZ3QyxDQUFaLENBRGpCOztBQUFBO0FBQUE7QUFBQTtBQUNOQyxrQkFETTtBQUNFQyxpQkFERjs7QUFLYk4sZ0JBQUlPLElBQUosQ0FBUztBQUNQQyx1QkFBUyxJQURGO0FBRVBILDRCQUZPO0FBR1BDO0FBSE8sYUFBVDs7QUFMYTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHOztXQUFlRCxNOzs7O1NBQUFBLE0iLCJmaWxlIjoicm91dGVzLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcC9yb3V0ZXMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ3RmcyBmcm9tICdndGZzJztcblxuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gcm91dGVzKHJlcSwgcmVzKSB7XG4gIGNvbnN0IFtyb3V0ZXMsIHN0b3BzXSA9IGF3YWl0IFByb21pc2UuYWxsKFtcbiAgICBndGZzLmdldFJvdXRlc0J5QWdlbmN5KCdtaWFtaScpLFxuICAgIGd0ZnMuZ2V0U3RvcHMoJ21pYW1pJyksXG4gIF0pO1xuICByZXMuc2VuZCh7XG4gICAgc3VjY2VzczogdHJ1ZSxcbiAgICByb3V0ZXMsXG4gICAgc3RvcHMsXG4gIH0pO1xufVxuIl19",
     "ast": null,
     "map": {
       "version": 3,
@@ -2089,19 +2090,23 @@
       "names": [
         "req",
         "res",
+        "Promise",
+        "all",
         "getRoutesByAgency",
+        "getStops",
         "routes",
+        "stops",
         "send",
         "success"
       ],
-      "mappings": ";;;;;;AAAA;;;;;;;;;uDAEe,iBAAsBA,GAAtB,EAA2BC,GAA3B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBACQ,eAAKC,iBAAL,CAAuB,OAAvB,CADR;;AAAA;AACPC,kBADO;;AAEbF,gBAAIG,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPF;AAFO,aAAT;;AAFa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeA,M;;;;SAAAA,M",
+      "mappings": ";;;;;;;;AAAA;;;;;;;;;uDAEe,iBAAsBA,GAAtB,EAA2BC,GAA3B;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBACiBC,QAAQC,GAAR,CAAY,CACxC,eAAKC,iBAAL,CAAuB,OAAvB,CADwC,EAExC,eAAKC,QAAL,CAAc,OAAd,CAFwC,CAAZ,CADjB;;AAAA;AAAA;AAAA;AACNC,kBADM;AACEC,iBADF;;AAKbN,gBAAIO,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPH,4BAFO;AAGPC;AAHO,aAAT;;AALa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeD,M;;;;SAAAA,M",
       "file": "routes.js",
       "sourceRoot": "/home/app/routes",
       "sourcesContent": [
-        "import gtfs from 'gtfs';\n\nexport default async function routes(req, res) {\n  const routes = await gtfs.getRoutesByAgency('miami');\n  res.send({\n    success: true,\n    routes,\n  });\n}\n"
+        "import gtfs from 'gtfs';\n\nexport default async function routes(req, res) {\n  const [routes, stops] = await Promise.all([\n    gtfs.getRoutesByAgency('miami'),\n    gtfs.getStops('miami'),\n  ]);\n  res.send({\n    success: true,\n    routes,\n    stops,\n  });\n}\n"
       ]
     },
-    "mtime": 1498106497000
+    "mtime": 1498198479000
   },
   "{\"filename\":\"/home/app/lib/gtfsdb.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/lib\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
@@ -2364,6 +2369,19 @@
                 "local": "gtfs"
               }
             ]
+          },
+          {
+            "source": "lodash",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "_"
+              }
+            ]
           }
         ],
         "exports": {
@@ -2563,7 +2581,7 @@
       "basename": "trips"
     },
     "ignored": false,
-    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var routeId, directions;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            routeId = req.body.routeId;\n            _context.next = 3;\n            return _gtfs2.default.getDirectionsByRoute('miami', routeId);\n\n          case 3:\n            directions = _context.sent;\n\n            res.send({\n              success: true,\n              directions: directions\n            });\n\n          case 5:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function trips(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return trips;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRyaXBzLmpzIl0sIm5hbWVzIjpbInJlcSIsInJlcyIsInJvdXRlSWQiLCJib2R5IiwiZ2V0RGlyZWN0aW9uc0J5Um91dGUiLCJkaXJlY3Rpb25zIiwic2VuZCIsInN1Y2Nlc3MiLCJ0cmlwcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7Ozs7Ozt1REFFZSxpQkFBcUJBLEdBQXJCLEVBQTBCQyxHQUExQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDUEMsbUJBRE8sR0FDR0YsSUFBSUcsSUFBSixDQUFTRCxPQURaO0FBQUE7QUFBQSxtQkFFWSxlQUFLRSxvQkFBTCxDQUEwQixPQUExQixFQUFtQ0YsT0FBbkMsQ0FGWjs7QUFBQTtBQUVQRyxzQkFGTzs7QUFHYkosZ0JBQUlLLElBQUosQ0FBUztBQUNQQyx1QkFBUyxJQURGO0FBRVBGO0FBRk8sYUFBVDs7QUFIYTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHOztXQUFlRyxLOzs7O1NBQUFBLEsiLCJmaWxlIjoidHJpcHMuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3JvdXRlcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndGZzIGZyb20gJ2d0ZnMnO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiB0cmlwcyhyZXEsIHJlcykge1xuICBjb25zdCByb3V0ZUlkID0gcmVxLmJvZHkucm91dGVJZDtcbiAgY29uc3QgZGlyZWN0aW9ucyA9IGF3YWl0IGd0ZnMuZ2V0RGlyZWN0aW9uc0J5Um91dGUoJ21pYW1pJywgcm91dGVJZCk7XG4gIHJlcy5zZW5kKHtcbiAgICBzdWNjZXNzOiB0cnVlLFxuICAgIGRpcmVjdGlvbnMsXG4gIH0pO1xufVxuIl19",
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nvar _lodash = require('lodash');\n\nvar _lodash2 = _interopRequireDefault(_lodash);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = function () {\n  var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(req, res) {\n    var routeId, all, routes, stops;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            routeId = req.body.routeId;\n            _context.next = 3;\n            return _gtfs2.default.getDirectionsByRoute('miami', routeId);\n\n          case 3:\n            all = _context.sent;\n            routes = (0, _lodash2.default)(all).groupBy('route_id').mapValues(function (group) {\n              return (0, _lodash2.default)(group).map(function (trip) {\n                return trip.direction_id;\n              }).uniq().value();\n            }).value();\n            _context.next = 7;\n            return Promise.all((0, _lodash2.default)(routes).map(function (directions, route) {\n              return Promise.all(directions.map(function (direction) {\n                return _gtfs2.default.getStopsByRoute('miami', route, direction);\n              }));\n            }).value());\n\n          case 7:\n            stops = _context.sent;\n\n            res.send({\n              success: true,\n              stops: stops\n            });\n\n          case 9:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  function trips(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return trips;\n}();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRyaXBzLmpzIl0sIm5hbWVzIjpbInJlcSIsInJlcyIsInJvdXRlSWQiLCJib2R5IiwiZ2V0RGlyZWN0aW9uc0J5Um91dGUiLCJhbGwiLCJyb3V0ZXMiLCJncm91cEJ5IiwibWFwVmFsdWVzIiwiZ3JvdXAiLCJtYXAiLCJ0cmlwIiwiZGlyZWN0aW9uX2lkIiwidW5pcSIsInZhbHVlIiwiUHJvbWlzZSIsImRpcmVjdGlvbnMiLCJyb3V0ZSIsImdldFN0b3BzQnlSb3V0ZSIsImRpcmVjdGlvbiIsInN0b3BzIiwic2VuZCIsInN1Y2Nlc3MiLCJ0cmlwcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7Ozs7O3VEQUVlLGlCQUFxQkEsR0FBckIsRUFBMEJDLEdBQTFCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNQQyxtQkFETyxHQUNHRixJQUFJRyxJQUFKLENBQVNELE9BRFo7QUFBQTtBQUFBLG1CQUVLLGVBQUtFLG9CQUFMLENBQTBCLE9BQTFCLEVBQW1DRixPQUFuQyxDQUZMOztBQUFBO0FBRVBHLGVBRk87QUFHUEMsa0JBSE8sR0FHRSxzQkFBRUQsR0FBRixFQUNaRSxPQURZLENBQ0osVUFESSxFQUVaQyxTQUZZLENBRUYsaUJBQVM7QUFDbEIscUJBQU8sc0JBQUVDLEtBQUYsRUFBU0MsR0FBVCxDQUFhO0FBQUEsdUJBQVFDLEtBQUtDLFlBQWI7QUFBQSxlQUFiLEVBQXdDQyxJQUF4QyxHQUErQ0MsS0FBL0MsRUFBUDtBQUNELGFBSlksRUFLWkEsS0FMWSxFQUhGO0FBQUE7QUFBQSxtQkFTT0MsUUFBUVYsR0FBUixDQUNsQixzQkFBRUMsTUFBRixFQUNHSSxHQURILENBQ08sVUFBQ00sVUFBRCxFQUFhQyxLQUFiLEVBQXVCO0FBQzFCLHFCQUFPRixRQUFRVixHQUFSLENBQ0xXLFdBQVdOLEdBQVgsQ0FBZSxxQkFBYTtBQUMxQix1QkFBTyxlQUFLUSxlQUFMLENBQXFCLE9BQXJCLEVBQThCRCxLQUE5QixFQUFxQ0UsU0FBckMsQ0FBUDtBQUNELGVBRkQsQ0FESyxDQUFQO0FBS0QsYUFQSCxFQVFHTCxLQVJILEVBRGtCLENBVFA7O0FBQUE7QUFTUE0saUJBVE87O0FBb0JibkIsZ0JBQUlvQixJQUFKLENBQVM7QUFDUEMsdUJBQVMsSUFERjtBQUVQRjtBQUZPLGFBQVQ7O0FBcEJhO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEc7O1dBQWVHLEs7Ozs7U0FBQUEsSyIsImZpbGUiOiJ0cmlwcy5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9hcHAvcm91dGVzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGd0ZnMgZnJvbSAnZ3Rmcyc7XG5pbXBvcnQgXyBmcm9tICdsb2Rhc2gnO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiB0cmlwcyhyZXEsIHJlcykge1xuICBjb25zdCByb3V0ZUlkID0gcmVxLmJvZHkucm91dGVJZDtcbiAgY29uc3QgYWxsID0gYXdhaXQgZ3Rmcy5nZXREaXJlY3Rpb25zQnlSb3V0ZSgnbWlhbWknLCByb3V0ZUlkKTtcbiAgY29uc3Qgcm91dGVzID0gXyhhbGwpXG4gICAgLmdyb3VwQnkoJ3JvdXRlX2lkJylcbiAgICAubWFwVmFsdWVzKGdyb3VwID0+IHtcbiAgICAgIHJldHVybiBfKGdyb3VwKS5tYXAodHJpcCA9PiB0cmlwLmRpcmVjdGlvbl9pZCkudW5pcSgpLnZhbHVlKCk7XG4gICAgfSlcbiAgICAudmFsdWUoKTtcbiAgY29uc3Qgc3RvcHMgPSBhd2FpdCBQcm9taXNlLmFsbChcbiAgICBfKHJvdXRlcylcbiAgICAgIC5tYXAoKGRpcmVjdGlvbnMsIHJvdXRlKSA9PiB7XG4gICAgICAgIHJldHVybiBQcm9taXNlLmFsbChcbiAgICAgICAgICBkaXJlY3Rpb25zLm1hcChkaXJlY3Rpb24gPT4ge1xuICAgICAgICAgICAgcmV0dXJuIGd0ZnMuZ2V0U3RvcHNCeVJvdXRlKCdtaWFtaScsIHJvdXRlLCBkaXJlY3Rpb24pO1xuICAgICAgICAgIH0pXG4gICAgICAgICk7XG4gICAgICB9KVxuICAgICAgLnZhbHVlKClcbiAgKTtcbiAgcmVzLnNlbmQoe1xuICAgIHN1Y2Nlc3M6IHRydWUsXG4gICAgc3RvcHMsXG4gIH0pO1xufVxuIl19",
     "ast": null,
     "map": {
       "version": 3,
@@ -2576,19 +2594,34 @@
         "routeId",
         "body",
         "getDirectionsByRoute",
+        "all",
+        "routes",
+        "groupBy",
+        "mapValues",
+        "group",
+        "map",
+        "trip",
+        "direction_id",
+        "uniq",
+        "value",
+        "Promise",
         "directions",
+        "route",
+        "getStopsByRoute",
+        "direction",
+        "stops",
         "send",
         "success",
         "trips"
       ],
-      "mappings": ";;;;;;AAAA;;;;;;;;;uDAEe,iBAAqBA,GAArB,EAA0BC,GAA1B;AAAA;AAAA;AAAA;AAAA;AAAA;AACPC,mBADO,GACGF,IAAIG,IAAJ,CAASD,OADZ;AAAA;AAAA,mBAEY,eAAKE,oBAAL,CAA0B,OAA1B,EAAmCF,OAAnC,CAFZ;;AAAA;AAEPG,sBAFO;;AAGbJ,gBAAIK,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPF;AAFO,aAAT;;AAHa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeG,K;;;;SAAAA,K",
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;;;;uDAEe,iBAAqBA,GAArB,EAA0BC,GAA1B;AAAA;AAAA;AAAA;AAAA;AAAA;AACPC,mBADO,GACGF,IAAIG,IAAJ,CAASD,OADZ;AAAA;AAAA,mBAEK,eAAKE,oBAAL,CAA0B,OAA1B,EAAmCF,OAAnC,CAFL;;AAAA;AAEPG,eAFO;AAGPC,kBAHO,GAGE,sBAAED,GAAF,EACZE,OADY,CACJ,UADI,EAEZC,SAFY,CAEF,iBAAS;AAClB,qBAAO,sBAAEC,KAAF,EAASC,GAAT,CAAa;AAAA,uBAAQC,KAAKC,YAAb;AAAA,eAAb,EAAwCC,IAAxC,GAA+CC,KAA/C,EAAP;AACD,aAJY,EAKZA,KALY,EAHF;AAAA;AAAA,mBASOC,QAAQV,GAAR,CAClB,sBAAEC,MAAF,EACGI,GADH,CACO,UAACM,UAAD,EAAaC,KAAb,EAAuB;AAC1B,qBAAOF,QAAQV,GAAR,CACLW,WAAWN,GAAX,CAAe,qBAAa;AAC1B,uBAAO,eAAKQ,eAAL,CAAqB,OAArB,EAA8BD,KAA9B,EAAqCE,SAArC,CAAP;AACD,eAFD,CADK,CAAP;AAKD,aAPH,EAQGL,KARH,EADkB,CATP;;AAAA;AASPM,iBATO;;AAoBbnB,gBAAIoB,IAAJ,CAAS;AACPC,uBAAS,IADF;AAEPF;AAFO,aAAT;;AApBa;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,G;;WAAeG,K;;;;SAAAA,K",
       "file": "trips.js",
       "sourceRoot": "/home/app/routes",
       "sourcesContent": [
-        "import gtfs from 'gtfs';\n\nexport default async function trips(req, res) {\n  const routeId = req.body.routeId;\n  const directions = await gtfs.getDirectionsByRoute('miami', routeId);\n  res.send({\n    success: true,\n    directions,\n  });\n}\n"
+        "import gtfs from 'gtfs';\nimport _ from 'lodash';\n\nexport default async function trips(req, res) {\n  const routeId = req.body.routeId;\n  const all = await gtfs.getDirectionsByRoute('miami', routeId);\n  const routes = _(all)\n    .groupBy('route_id')\n    .mapValues(group => {\n      return _(group).map(trip => trip.direction_id).uniq().value();\n    })\n    .value();\n  const stops = await Promise.all(\n    _(routes)\n      .map((directions, route) => {\n        return Promise.all(\n          directions.map(direction => {\n            return gtfs.getStopsByRoute('miami', route, direction);\n          })\n        );\n      })\n      .value()\n  );\n  res.send({\n    success: true,\n    stops,\n  });\n}\n"
       ]
     },
-    "mtime": 1498108324000
+    "mtime": 1498170426000
   },
   "{\"filename\":\"/home/app/routes/importGTFS.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],{\"root\":[\"./\"]}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
     "metadata": {
