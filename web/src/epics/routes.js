@@ -1,15 +1,13 @@
 import api from 'lib/api';
 import Immutable from 'immutable';
 import _ from 'lodash';
-import { routes, setRoutes } from 'reducers/routes';
+import { home, set } from 'reducers/home';
 import routesFuse from 'lib/search/routes';
 
 export default action$ =>
-  action$.ofType(routes.fetch).mergeMap(() =>
+  action$.ofType(home.fetch).mergeMap(() =>
     api('routes').then(res => {
-      const stops = Immutable.OrderedMap(
-        res.stops.map(stop => [stop.stop_id, stop])
-      );
+      const stops = Immutable.Map(res.stops.map(stop => [stop.stop_id, stop]));
       const types = _(res.routes).groupBy('route_type').value();
       const vehicles = _(types['3'])
         .groupBy(route => {
@@ -41,7 +39,8 @@ export default action$ =>
       const payload = {
         routes: Immutable.OrderedMap(routes),
         stops,
+        stopsJSON: res.stopsJSON,
       };
-      return setRoutes(payload);
+      return set(payload);
     })
   );

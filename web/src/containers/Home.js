@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchRoutes, allRoutes } from 'reducers/routes';
+import { fetch, routesArray } from 'reducers/home';
 import Sidebar from 'components/Sidebar';
 import List from 'components/List';
 import Route from 'components/Home/Route';
 import Search from 'components/Home/Search';
 
 const mapStateToProps = state => ({
-  routes: allRoutes(state),
+  routes: routesArray(state),
 });
 
 const mapDispatchToProps = {
-  fetchRoutes,
+  fetch,
 };
 
 @connect(mapStateToProps, mapDispatchToProps)
 export default class Home extends Component {
   componentWillMount() {
-    this.props.fetchRoutes();
+    this.props.fetch();
   }
   render() {
     return (

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { filterRoutes } from 'reducers/routes';
+import { filterRoutes } from 'reducers/home';
 import Search from 'components/Search';
 
 const mapStateToProps = state => ({
-  filter: state.routes.filter,
+  filter: state.home.filter,
 });
 
 const mapDispatchToProps = {
