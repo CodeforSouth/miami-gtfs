@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styles from './styles.css';
 import ReactMapboxGl, { GeoJSONLayer } from 'react-mapbox-gl';
+import { setZoom, symbolLayout, circlePaint } from 'reducers/map';
 
 const Map = ReactMapboxGl({
   accessToken:
@@ -9,16 +10,16 @@ const Map = ReactMapboxGl({
 });
 
 const mapStateToProps = state => ({
+  zoom: state.map.zoom,
   stopsJSON: state.home.stopsJSON,
+  symbolLayout: symbolLayout(state),
+  circlePaint: circlePaint(state),
 });
 
-const symbolLayout = {
-  'text-field': '{stop_name}',
-  'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-  'text-size': 9,
-  'text-offset': [0, -0.5],
-  'text-anchor': 'bottom',
+const mapDispatchToProps = {
+  setZoom,
 };
+
 const symbolPaint = {
   'text-color': '#000',
   'text-halo-width': 1,
@@ -26,14 +27,8 @@ const symbolPaint = {
 };
 
 const circleLayout = { visibility: 'visible' };
-const circlePaint = {
-  'circle-color': '#157AFC',
-  'circle-radius': 2,
-  'circle-stroke-width': 1,
-  'circle-stroke-color': '#fff',
-};
 
-@connect(mapStateToProps)
+@connect(mapStateToProps, mapDispatchToProps)
 export default class MapView extends Component {
   static mapStyle = 'mapbox://styles/mapbox/streets-v10';
   static mapCenter = [-80.298386, 25.794859];
@@ -51,22 +46,33 @@ export default class MapView extends Component {
       <GeoJSONLayer
         data={stopsJSON}
         circleLayout={circleLayout}
-        circlePaint={circlePaint}
-        symbolLayout={symbolLayout}
+        circlePaint={this.props.circlePaint}
+        symbolLayout={this.props.symbolLayout}
         symbolPaint={symbolPaint}
         before="road-oneway-arrows-white"
       />
     );
   };
 
+  _onClick = (map, e) => {
+    console.log(e);
+  };
+
+  _onZoom = (map, e) => {
+    this.props.setZoom([map.getZoom()]);
+  };
+
   render() {
     return (
       <div className={styles.map}>
         <Map
+          zoom={this.props.zoom}
           style={MapView.mapStyle}
           containerStyle={MapView.containerStyle}
           center={MapView.mapCenter}
           onStyleLoad={this._init}
+          onClick={this._onClick}
+          onZoom={this._onZoom}
         >
           {this._renderStops()}
         </Map>
