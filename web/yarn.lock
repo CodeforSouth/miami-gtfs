@@ -25,20 +25,6 @@
     address "^1.0.1"
     debug "^2.6.0"
 
-"@turf/bbox@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@turf/bbox/-/bbox-4.4.0.tgz#3149458eb41404427cf786a90fb3680a0e8aab55"
-  dependencies:
-    "@turf/meta" "^4.4.0"
-
-"@turf/helpers@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@turf/helpers/-/helpers-4.4.0.tgz#c83112f7fbe6ed183c7c0c2f776481b94d1cbd01"
-
-"@turf/meta@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@turf/meta/-/meta-4.4.0.tgz#4fa25d4cc0525bd4cdbaf4ff68a6f8ae81f1975f"
-
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -1849,7 +1835,7 @@ deep-diff@^0.3.5:
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-0.3.8.tgz#c01de63efb0eec9798801d40c7e0dae25b582c84"
 
-deep-equal@^1.0.0, deep-equal@^1.0.1:
+deep-equal@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
@@ -3984,7 +3970,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
+"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -5247,15 +5233,6 @@ react-error-overlay@^1.0.7:
     settle-promise "1.0.0"
     source-map "0.5.6"
 
-react-mapbox-gl@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/react-mapbox-gl/-/react-mapbox-gl-2.0.3.tgz#7081e9fa7bf3b83ec3eed5d04cdbdc1558167c09"
-  dependencies:
-    "@turf/bbox" "^4.4.0"
-    "@turf/helpers" "^4.4.0"
-    deep-equal "^1.0.1"
-    supercluster "^2.3.0"
-
 react-redux@^5.0.5:
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.5.tgz#f8e8c7b239422576e52d6b7db06439469be9846a"
@@ -6060,7 +6037,7 @@ style-loader@0.17.0:
   dependencies:
     loader-utils "^1.0.2"
 
-supercluster@^2.0.1, supercluster@^2.3.0:
+supercluster@^2.0.1:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/supercluster/-/supercluster-2.3.0.tgz#87ab56081bbea9a1d724df5351ee9e8c3af2f48b"
   dependencies:
