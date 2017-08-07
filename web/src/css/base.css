@@ -27,7 +27,8 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-input, textarea {
+input,
+textarea {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   -webkit-appearance: none;

@@ -19,11 +19,21 @@ export default class Home extends Component {
   componentWillMount() {
     this.props.fetch();
   }
+
+  componentDidUpdate(previous) {
+    if (previous.routes !== this.props.routes) {
+      this._list.setScrollTop(0);
+    }
+  }
+
+  _setListRef = ref => {
+    this._list = ref;
+  };
   render() {
     return (
       <Sidebar>
         <Search />
-        <List>
+        <List ref={this._setListRef}>
           {this.props.routes.map(route =>
             <Route key={route.route_id} data={route} />
           )}

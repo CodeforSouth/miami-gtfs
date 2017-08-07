@@ -68,9 +68,9 @@ export default class MapView extends Component {
     if (loaded || previous.stopsJSON !== this.props.stopsJSON) {
       this._setStops();
     }
-    if (previous.symbolVisibility !== this.props.symbolVisibility) {
-      this._updateLabels();
-    }
+    // if (previous.symbolVisibility !== this.props.symbolVisibility) {
+    //   this._updateLabels();
+    // }
     if (previous.circleSize !== this.props.circleSize) {
       this._updateStops();
     }

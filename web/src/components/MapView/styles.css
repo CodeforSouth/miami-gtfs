@@ -13,3 +13,7 @@
   border-radius: 50%;
   background: red;
 }
+
+:global .mapboxgl-ctrl-geolocate {
+  display: none !important;
+}
