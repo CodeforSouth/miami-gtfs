@@ -6,7 +6,8 @@
 
 #### Server
 `cd server && docker-compose up`
-After starting the server, send a get request to localhost:3600/import
+
+After starting the server the first time, `GET localhost:3600/import`
 
 #### Setup Web
 `cd web && yarn`
