@@ -3,5 +3,12 @@
     ["module-resolver", {
       "root": ["./"],
     }]
+  ],
+  "presets": ["stage-0",
+    ["babel-preset-env", {
+      "targets": {
+        "node": "8.6.0"
+      }
+    }]
   ]
 }

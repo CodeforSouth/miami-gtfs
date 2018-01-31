@@ -1,50 +1,40 @@
 import { combineReducers } from 'redux';
 import { createSelector } from 'reselect';
+import { createActions } from 'lib/actions';
 
-const prefix = 'map/';
-export const map = {
-  zoom: `${prefix}zoom`,
-  loaded: `${prefix}loaded`,
-};
+const mutations = ['zoom', 'loaded'];
 
-export function setZoom(payload) {
-  return {
-    type: map.zoom,
-    payload,
-  };
-}
+export const { types, actions } = createActions(mutations, 'map');
 
-export function setLoaded() {
-  return {
-    type: map.loaded,
-  };
-}
-
-function zoom(state = [11], action = {}) {
-  if (action.type === map.zoom) {
-    return action.payload;
+function zoom(state = [12], { type, payload }) {
+  switch (type) {
+    case types.zoom:
+      return payload;
+    default:
+      return state;
   }
-  return state;
 }
 
-function loaded(state = false, action = {}) {
-  if (action.type === map.loaded) {
-    return true;
+function loaded(state = false, { type, payload }) {
+  switch (type) {
+    case types.loaded:
+      return true;
+    default:
+      return state;
   }
-  return state;
 }
 
 export default combineReducers({
   zoom,
-  loaded,
+  loaded
 });
 
 const visible = {
-  visibility: 'visible',
+  visibility: 'visible'
 };
 
 const hidden = {
-  visibility: 'none',
+  visibility: 'none'
 };
 
 export const symbolVisibility = createSelector(
@@ -59,17 +49,17 @@ export const symbolVisibility = createSelector(
 
 const large = {
   'circle-radius': 5,
-  'circle-stroke-width': 1,
+  'circle-stroke-width': 1
 };
 
 const medium = {
   'circle-radius': 2,
-  'circle-stroke-width': 1,
+  'circle-stroke-width': 1
 };
 
 const small = {
   'circle-radius': 1,
-  'circle-stroke-width': 1,
+  'circle-stroke-width': 1
 };
 
 export const circleSize = createSelector(

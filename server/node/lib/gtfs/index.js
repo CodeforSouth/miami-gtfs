@@ -27,9 +27,9 @@ function loadGTFSRealtimeFeed(options) {
 
 export default function gtfs(url) {
   const options = {
-    url: url,
+    url,
     method: 'get',
-    encoding: null,
+    encoding: null
   };
 
   return loadGTFSRealtimeFeed(options)
@@ -37,7 +37,5 @@ export default function gtfs(url) {
       const result = decode(feedBuffer);
       return result;
     })
-    .catch(err => {
-      return err;
-    });
+    .catch(err => err);
 }

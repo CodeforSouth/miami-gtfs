@@ -1,15 +1,16 @@
-const url = process.env.NODE_ENV === 'development'
-  ? 'http://localhost:3000/api/v1/'
-  : null;
+const url =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000/api/v1/'
+    : null;
 
 export default function api(endpoint, payload) {
   return fetch(`${url}${endpoint}`, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json'
     },
-    body: JSON.stringify(payload),
+    body: JSON.stringify(payload)
   })
     .then(res => {
       if (!res.ok) {
@@ -18,7 +19,7 @@ export default function api(endpoint, payload) {
       return res.json();
     })
     .then(json => {
-      if (!json.success) {
+      if (json.error) {
         return Promise.reject(json.error);
       }
       return json;

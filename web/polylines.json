@@ -1,0 +1,82 @@
+[
+  {
+    "ID": "71269",
+    "Name": "Allapattah",
+    "RoutePath":
+      "o`m|CnyvhNiGDC{COmRAi@pJCCmAIyKO_OGyIE}EMyOMcMKoJG_IO}KM{Pa@ib@IaHGcIBk@AeCAiDIuJEwH?u@nBApFEl@EdIu@r@?`ICzD?jAGxAGQkI?}AAyAG}C@oAG{DMeJCeDEyGBy@TiA@gBCeB??IiJI_FeGFHhCDxB?vF`ED~@@?hA@tDWnAAdABnCDtIPpJBtBEzAFbBDtDCfAVxHoAHaADkE?cJBq@DgHn@k@F}JHB|AHfHNzSF|@D~HLpJHdHLlND|EPhTNvJFpJLtKFtHHbLH`IJbJDvGHjJL|KHxJL`KaB@",
+    "LineColor": "#669900",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "71276",
+    "Name": "Biscayne",
+    "RoutePath":
+      "{jp|C|umhNB|JBtAlOS~DIK}HEaEvDp@tEn@nBVfFv@pBTQwLCcBUAGiIp@?~CMdGOvDK|EClLK|KApGIpCArFAGoG|@qA^IbKM^Fb@HFrC?jFfEFnA@lGIhBApBTnF|@h@BdBDxCAdAAdEGxBQ~AOhAY~KkClC_@fDs@dAWjHk@wAHjDOzCk@fAClAC\\LHhObEGnCKxA@Z?nBGhB@bAJdJzAaAhHDvHNvHPXNDnACpCEnA?zA?pCGjDETEZAnAEpEGdA@G_GAoBb@N`C^hCd@rE|@`@J@NHNRDJQ@]nCiFc@]yDm@yI{AaEk@cA[wJcBuPiCqG_A}Dm@cCCyBLk@J{@?Ok@CaGGwEGWSQaD@_CMmB_@uAL_CVaE`@yE\\aAP_Cp@kC\\y@PqDbAoA^uAv@]Di@Ts@PgBTcBLkFBkF?a@Aq@?{@MiEY{BIa@FyEB_DBkIKwOSsFBcGD}HD_CAkCBmHFkHHmFJyDHmEND`JV?@jBN|KsHgAaC]cDc@uCc@iB[wFo@aAKkAYy@UAsEgAb@kA?eBB@dJ",
+    "LineColor": "#FF0303",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "71304",
+    "Name": "Brickell",
+    "RoutePath":
+      "ulg|ChglhNPDf@~AR~@Hr@Ff@@d@?n@?`@Cf@E\\K|@UzAo@nEk@zElBTrBXhDf@Kp@k@zD?v@HvHDbElDGRE\\ChAEtGEC}FEiCKoFjBTxKhB~Cd@d@JJFv@lArC|ErGhK`J|NtHfMpEjHn@hAp@~@b@bAj@rCHrATzHh@f@bBhChFlIzApCtD|FpElH|Rd\\hDpFxAmAbGwEtC_CoFmJ[c@_D|BqBhBQRe@x@Yh@m@r@u@rAoDcGsKgQcFeIaDgFqDgGiDoF_BcCWmIKyAs@_DeBiDsCuEgE_HiFuI}HmMaHcLqBaDgA}AWUuEw@eIuAaEo@gA[eLmBM^K~@k@hDAx@HvHD|DVDnAALFDH@HALELKNoB@wJTGgLI_GEs@d@mDn@mFx@kGZ}BDYB]Bi@@a@?u@Cc@Gi@Ky@Sw@e@_B@UMc@k@{@_@KoB?qAf@_@Ng@BO\\RTVELUdCw@l@C\\Lz@t@Rb@",
+    "LineColor": "#FFF70A",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "73803",
+    "Name": "Coconut Grove",
+    "RoutePath":
+      "yhb|CpbrhNuDkGwCzB}@t@}@v@_@h@Yj@[f@k@l@s@tAlApBzCjFfChE`BrCfBhDdC~FtBjFdBhEt@`BJRvBjFhArCTh@~@fB~@vAp@z@r@z@V\\bAxAxBlDfBpCzCtE`EdGDXV\\xCpErAtBtFdEzF`FjDjFT\\sBjBDvBNnKFpAHjGHfFCRJtIJbJNxILhLH~FJfBRdJC~SN|M_GJ{CuEqCoDa@aFb@m@Qu@c@AYXoCDqJXaILO{CO}HzDU?wBK}GFnElCE~@EsAaB[U_@BUTEVNhA_@@M?EmEaEH?{AM{PCo@AeCYyTC_J_@ia@KgG}LFgG@uILFvANbKR^xCEh@G_@cCMo@gA}DaB?C{@Bg@zFUlJG|GA~DSfGKpJAjBP|GxJFfDTpVHfFBj@fGEtBKAuBG_@EkEKoGJOdCsCA@nEwFGqAqFkFaAsAcCsDu@mA{@m@aAc@_AeA|@gA`C{C`BcBxA]Dw@[e@e@?_@l@MjAkCtC{CbDoAu@{C_C_EoGgAuAQKqIoMmHiLk@m@qAaBa@o@]k@mAkCiDkIiAcC}AuD}A}DE?qCeHq@yA}BiEsE{HtAiAfG{EtC{BsAaC",
+    "LineColor": "#20fc10",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "71322",
+    "Name": "Coral Way",
+    "RoutePath":
+      "srd|ChpzhNhJKdFKCeAk@sVaC@o@@G_@E}OE{MK{RUgRQwPKyMOsJa@sTSyOIkKOmKKqLMyKQoTCeQUmDkCkErGcFl@Ln@pBXPXKH_@Eo@g@_BQIQ@WFMCuAgE_JrG[o@sIuNmDuFeI_NoCqEkEkH_IgMiF{I[[GqA|A_DNQxAaDkHDiGB_@BKoIuDDsBFyABHtIqIGoCZqF@qGPoDUkKb@CgB@aCKwMIwHCaGQiOKwDKmCaDf@cDVyE^}@RuBj@wC`@kFrAgA\\y@m@Ye@Yy@SwAQyDQ_E@qABaAFeAJcAT}Ab@oBrDoKbEkMt@eBrAwBpAmBj@W`@I`DpAjBz@RAdAkDBUGOiBw@O?{AhEeDiB@iA^qAHoBQyBJeBbAsDtA}DV{@}BoAs@F{@`A}GdSsHrUw@jCfEnBfA}CfAwDCaEAgAXaA^_@b@MZEfAEXNJb@Bn@{DfHyKr\\]pBUzAMtCB`CV|Fj@hJAhDDbDlDIhGIvMQt@AHrKRpNH`KFfEjFCnTCRO`GQfFCpGD|Qk@O_J{IR[?HvIv@DzQUjBEBnEENBnDDj@rDzGdFbIxFhJlEhHdJbOrCzEnEnHrFjJ|AtBhHuFp@Nl@rBVNVKF[Ck@i@cBMGQBUFSEqAgEeJ`HMPxBrDpCrEA~BVtTTrUJtKVxUJrJN`PJxJXhULvPP|QN`QHdOPjRPdLuDjF_DrEy@AwA@\\nK`BA",
+    "LineColor": "#F09491",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "71342",
+    "Name": "Health District",
+    "RoutePath":
+      "kbm|CtlphNlLEtBALzHAv@Sb@ERBdFpBCfEGrEG\\DTDVDBnCJP\\@bB@L?FR@rBJvD|CGJ~GHvHHlLF|Dh@b@pF@^C`AO^MFYEcDMmI}KLK{FeBE{ID{E@yLFAmBjBiCSc@Wg@cAFIqFc@{Ag@aD{@ZkFB?uAKgJKsJX?",
+    "LineColor": "#48A9C5",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "75187",
+    "Name": "Little Havana",
+    "RoutePath":
+      "}eg|CzenhNyADFlI}JR@v@DpG_KPD`EBjCgEF}DFuCCe@A}Dz@uEpCc@p@kCpBHbI`EAFzHP|MDdGLnKTtQ\\v]LhLHfB\\rBn@rCJj@J|A@zDLzRNhMJrNLdTFN?pBLbIV`SH`KLlMHxLFxFNxNJfLDpEeLN?pAFtMcCFF[ImMAy@~SUtFKbHOdLQzIUGuCMyOI_MMiMG_JOuNIcIMsJOqPIgKMiLCsHQqOIyJKyKI}KMwQI}HKiLI_HQ_Q?oLGaHMsLO_Q[e\\CyAtFMpIKO{I_HL",
+    "LineColor": "#999966",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "71344",
+    "Name": "Overtown",
+    "RoutePath":
+      "ccm|CfophNAoAfMIpIApICdLIrEClJKfFCM}LIuKMmMCcFGmElDExDEVADlCJdK@nBHvIAVtHKlAEF`HJ|LUB}CJiEDo@|@gCbBuGpIaBdBaA`AoBxBg@\\_@N}DHg@DwGFwAQkA}@eA{@yA_@aDAgGPgDDu@ToA`AkAr@q@PgF@?{@MyJGgH",
+    "LineColor": "#963CBD",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "71345",
+    "Name": "Stadium",
+    "RoutePath":
+      "icm|ChophNLjKJfHFdNNbKtAAhHGlLEnFGvPMhFGpCg@pDYPCzFPbI\\~FKjIKfXQzBCHvJVpReKFEoIqW\\iDB@u@UwRyDB{Ko@{DIwBP{Dr@\\`ALtJ?hA{KNCwESqLC}GOiJqA@oAWy@w@kAaAeAWqDE{GJcBBGwEZu@EkAEwEEaBiAAiGLgFC?vA",
+    "LineColor": "#444A9C",
+    "CompanyID": "21241"
+  },
+  {
+    "ID": "73789",
+    "Name": "Wynwood",
+    "RoutePath":
+      "y_l|CvulhNEiCEi@[IOAeBBeC@wEJ@Zu@vA@hBFxCb@HxMLb@?DjHFpI_EHyFDJpL?^uCAyDHoEBaEFgAA}EF?nDBlDHlFFrD?\\IPQBoGBaCHuABuCB}A?eHDo@@yCDaIHoLP}HDqHLoA@KeMG}H?MjJIhGMhJKdEEr@AhEGvCKbD@HjHEjATlLjCId@?xHIlEMxAA~B?VCxDEjAEFsACeBOgLGsDES~@ArGIfHEfFCxHEn@AA}GGyDEqHGmICgF",
+    "LineColor": "#20fc10",
+    "CompanyID": "21241"
+  }
+]

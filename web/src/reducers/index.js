@@ -1,10 +1,11 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import home from 'reducers/home';
-import map from 'reducers/map';
+
+import routes from './routes';
+import map from './map';
 
 export default combineReducers({
   router: routerReducer,
-  home,
   map,
+  routes
 });

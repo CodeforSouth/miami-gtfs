@@ -3,13 +3,13 @@ import Fuse from 'fuse.js';
 class RoutesFuse {
   constructor() {
     const options = {
-      keys: ['route_long_name', 'route_short_name'],
+      keys: ['route_long_name', 'route_short_name']
     };
     this._fuse = new Fuse([], options);
   }
 
   update(list) {
-    this._fuse.setCollection(list);
+    this._fuse.set(list);
   }
 
   search(term) {

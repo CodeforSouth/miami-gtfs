@@ -1,0 +1,3900 @@
+[
+  {
+    "id": "71269",
+    "name": "Allapattah",
+    "poly":
+      "o`m|CnyvhNiGDC{COmRAi@pJCCmAIyKO_OGyIE}EMyOMcMKoJG_IO}KM{Pa@ib@IaHGcIBk@AeCAiDIuJEwH?u@nBApFEl@EdIu@r@?`ICzD?jAGxAGQkI?}AAyAG}C@oAG{DMeJCeDEyGBy@TiA@gBCeB??IiJI_FeGFHhCDxB?vF`ED~@@?hA@tDWnAAdABnCDtIPpJBtBEzAFbBDtDCfAVxHoAHaADkE?cJBq@DgHn@k@F}JHB|AHfHNzSF|@D~HLpJHdHLlND|EPhTNvJFpJLtKFtHHbLH`IJbJDvGHjJL|KHxJL`KaB@",
+    "color": "#669900",
+    "stops": [
+      {
+        "id": "920800",
+        "name": "OMNI",
+        "index": 1,
+        "lat": "25.789572",
+        "lng": "-80.187893",
+        "route": "71269"
+      },
+      {
+        "id": "920802",
+        "name": "NE 14 ST",
+        "index": 2,
+        "lat": "25.788596",
+        "lng": "-80.189158",
+        "route": "71269"
+      },
+      {
+        "id": "920803",
+        "name": "Adrienne Arsht (WB)",
+        "index": 3,
+        "lat": "25.788281",
+        "lng": "-80.189538",
+        "route": "71269"
+      },
+      {
+        "id": "920804",
+        "name": "NE 1 Ave (WB)",
+        "index": 4,
+        "lat": "25.788379",
+        "lng": "-80.191924",
+        "route": "71269"
+      },
+      {
+        "id": "920805",
+        "name": "NE Miami Ct",
+        "index": 5,
+        "lat": "25.788348",
+        "lng": "-80.193625",
+        "route": "71269"
+      },
+      {
+        "id": "920806",
+        "name": "NW Miami Ct (WB)",
+        "index": 6,
+        "lat": "25.788262",
+        "lng": "-80.195478",
+        "route": "71269"
+      },
+      {
+        "id": "920807",
+        "name": "NW 1 Ct (WB)",
+        "index": 7,
+        "lat": "25.788231",
+        "lng": "-80.197028",
+        "route": "71269"
+      },
+      {
+        "id": "920808",
+        "name": "NW 14 St (NB)",
+        "index": 8,
+        "lat": "25.788503",
+        "lng": "-80.199921",
+        "route": "71269"
+      },
+      {
+        "id": "920809",
+        "name": "Overtown NET (NB)",
+        "index": 9,
+        "lat": "25.789846",
+        "lng": "-80.199947",
+        "route": "71269"
+      },
+      {
+        "id": "920810",
+        "name": "Culmer Center (NB)",
+        "index": 10,
+        "lat": "25.791881",
+        "lng": "-80.199996",
+        "route": "71269"
+      },
+      {
+        "id": "920811",
+        "name": "Carrie P. Meek Manor (NB)",
+        "index": 11,
+        "lat": "25.793357",
+        "lng": "-80.200245",
+        "route": "71269"
+      },
+      {
+        "id": "920812",
+        "name": "St. Agnes (WB)",
+        "index": 12,
+        "lat": "25.795472",
+        "lng": "-80.200799",
+        "route": "71269"
+      },
+      {
+        "id": "920813",
+        "name": "Dunbar Elem. Sch. (WB)",
+        "index": 13,
+        "lat": "25.795423",
+        "lng": "-80.202281",
+        "route": "71269"
+      },
+      {
+        "id": "920814",
+        "name": "Overtown Gateway (WB)",
+        "index": 14,
+        "lat": "25.795295",
+        "lng": "-80.205933",
+        "route": "71269"
+      },
+      {
+        "id": "920815",
+        "name": "Lindsey Hopkins (WB)",
+        "index": 15,
+        "lat": "25.795267",
+        "lng": "-80.207533",
+        "route": "71269"
+      },
+      {
+        "id": "920816",
+        "name": "NW 8 Ave (WB)",
+        "index": 16,
+        "lat": "25.795199",
+        "lng": "-80.209377",
+        "route": "71269"
+      },
+      {
+        "id": "920817",
+        "name": "NW 10 Ave (WB)",
+        "index": 17,
+        "lat": "25.795152",
+        "lng": "-80.210847",
+        "route": "71269"
+      },
+      {
+        "id": "920818",
+        "name": "NW 11 Ave (WB)",
+        "index": 18,
+        "lat": "25.795084",
+        "lng": "-80.213324",
+        "route": "71269"
+      },
+      {
+        "id": "920819",
+        "name": "Santa Clara Station (WB)",
+        "index": 19,
+        "lat": "25.795046",
+        "lng": "-80.214427",
+        "route": "71269"
+      },
+      {
+        "id": "920820",
+        "name": "Miami GSA (WB)",
+        "index": 20,
+        "lat": "25.794960",
+        "lng": "-80.217837",
+        "route": "71269"
+      },
+      {
+        "id": "920821",
+        "name": "NW 14 Ave (WB)",
+        "index": 21,
+        "lat": "25.794884",
+        "lng": "-80.219722",
+        "route": "71269"
+      },
+      {
+        "id": "920822",
+        "name": "NW 15 Ave (WB)",
+        "index": 22,
+        "lat": "25.794843",
+        "lng": "-80.221571",
+        "route": "71269"
+      },
+      {
+        "id": "920823",
+        "name": "NW 17 Ave (WB)",
+        "index": 23,
+        "lat": "25.794772",
+        "lng": "-80.223598",
+        "route": "71269"
+      },
+      {
+        "id": "920824",
+        "name": "NW 18 Ave (WB)",
+        "index": 24,
+        "lat": "25.794735",
+        "lng": "-80.225153",
+        "route": "71269"
+      },
+      {
+        "id": "920825",
+        "name": "NW 19 Ave",
+        "index": 25,
+        "lat": "25.794676",
+        "lng": "-80.227247",
+        "route": "71269"
+      },
+      {
+        "id": "920826",
+        "name": "NW 20 Ave (WB)",
+        "index": 26,
+        "lat": "25.794628",
+        "lng": "-80.228864",
+        "route": "71269"
+      },
+      {
+        "id": "920827",
+        "name": "NW 21 Ave (WB)",
+        "index": 27,
+        "lat": "25.794572",
+        "lng": "-80.230638",
+        "route": "71269"
+      },
+      {
+        "id": "920828",
+        "name": "NW 22 Ave (WB)",
+        "index": 28,
+        "lat": "25.794543",
+        "lng": "-80.232036",
+        "route": "71269"
+      },
+      {
+        "id": "920829",
+        "name": "NW 23 Ave",
+        "index": 29,
+        "lat": "25.794494",
+        "lng": "-80.233862",
+        "route": "71269"
+      },
+      {
+        "id": "920830",
+        "name": "Curtis Park (WB)",
+        "index": 30,
+        "lat": "25.794421",
+        "lng": "-80.235927",
+        "route": "71269"
+      },
+      {
+        "id": "920831",
+        "name": "NW 25 Ave",
+        "index": 31,
+        "lat": "25.794365",
+        "lng": "-80.237824",
+        "route": "71269"
+      },
+      {
+        "id": "920744",
+        "name": "NW 27 Ave",
+        "index": 32,
+        "lat": "25.794800",
+        "lng": "-80.239758",
+        "route": "71269"
+      },
+      {
+        "id": "920745",
+        "name": "NW 26 Ave",
+        "index": 33,
+        "lat": "25.796154",
+        "lng": "-80.239010",
+        "route": "71269"
+      },
+      {
+        "id": "920746",
+        "name": "NW 24 Ave",
+        "index": 34,
+        "lat": "25.796233",
+        "lng": "-80.235900",
+        "route": "71269"
+      },
+      {
+        "id": "920747",
+        "name": "Curtis Park (EB)",
+        "index": 35,
+        "lat": "25.794406",
+        "lng": "-80.235282",
+        "route": "71269"
+      },
+      {
+        "id": "920775",
+        "name": "NW 22 PL",
+        "index": 36,
+        "lat": "25.794457",
+        "lng": "-80.233227",
+        "route": "71269"
+      },
+      {
+        "id": "920776",
+        "name": "NW 22 Ave (EB)",
+        "index": 37,
+        "lat": "25.794538",
+        "lng": "-80.230671",
+        "route": "71269"
+      },
+      {
+        "id": "920777",
+        "name": "NW 21 Ave (EB)",
+        "index": 38,
+        "lat": "25.794580",
+        "lng": "-80.228941",
+        "route": "71269"
+      },
+      {
+        "id": "920778",
+        "name": "NW 20 Ave (EB)",
+        "index": 39,
+        "lat": "25.794611",
+        "lng": "-80.227828",
+        "route": "71269"
+      },
+      {
+        "id": "920779",
+        "name": "NW 18 Ave (EB)",
+        "index": 40,
+        "lat": "25.794681",
+        "lng": "-80.225141",
+        "route": "71269"
+      },
+      {
+        "id": "920780",
+        "name": "NW 17 Ave (EB)",
+        "index": 41,
+        "lat": "25.794751",
+        "lng": "-80.222875",
+        "route": "71269"
+      },
+      {
+        "id": "920781",
+        "name": "NW 15 Ave (EB)",
+        "index": 42,
+        "lat": "25.794809",
+        "lng": "-80.221043",
+        "route": "71269"
+      },
+      {
+        "id": "920782",
+        "name": "Miami GSA (EB)",
+        "index": 43,
+        "lat": "25.794847",
+        "lng": "-80.219441",
+        "route": "71269"
+      },
+      {
+        "id": "920783",
+        "name": "NW 13 Ave",
+        "index": 44,
+        "lat": "25.794926",
+        "lng": "-80.217367",
+        "route": "71269"
+      },
+      {
+        "id": "920784",
+        "name": "Santa Clara Station (EB)",
+        "index": 45,
+        "lat": "25.795004",
+        "lng": "-80.214510",
+        "route": "71269"
+      },
+      {
+        "id": "920785",
+        "name": "NW 8 Ave (EB)",
+        "index": 46,
+        "lat": "25.795172",
+        "lng": "-80.208861",
+        "route": "71269"
+      },
+      {
+        "id": "920786",
+        "name": "Lindsey Hopkins (EB)",
+        "index": 47,
+        "lat": "25.795218",
+        "lng": "-80.207408",
+        "route": "71269"
+      },
+      {
+        "id": "920787",
+        "name": "Dunbar Elem. Sch. (EB)",
+        "index": 48,
+        "lat": "25.795261",
+        "lng": "-80.204048",
+        "route": "71269"
+      },
+      {
+        "id": "920788",
+        "name": "Overtown Gateway (EB)",
+        "index": 49,
+        "lat": "25.795314",
+        "lng": "-80.202184",
+        "route": "71269"
+      },
+      {
+        "id": "920789",
+        "name": "St. Agnes (EB)",
+        "index": 50,
+        "lat": "25.795344",
+        "lng": "-80.200624",
+        "route": "71269"
+      },
+      {
+        "id": "920790",
+        "name": "NW 20 St",
+        "index": 51,
+        "lat": "25.794780",
+        "lng": "-80.200342",
+        "route": "71269"
+      },
+      {
+        "id": "920791",
+        "name": "Carrie P. Meek Manor (SB)",
+        "index": 52,
+        "lat": "25.793339",
+        "lng": "-80.200281",
+        "route": "71269"
+      },
+      {
+        "id": "920792",
+        "name": "Culmer Center (SB)",
+        "index": 53,
+        "lat": "25.791451",
+        "lng": "-80.200007",
+        "route": "71269"
+      },
+      {
+        "id": "920793",
+        "name": "Overtown NET (SB)",
+        "index": 54,
+        "lat": "25.789836",
+        "lng": "-80.199993",
+        "route": "71269"
+      },
+      {
+        "id": "920794",
+        "name": "NW 14 St (SB)",
+        "index": 55,
+        "lat": "25.788521",
+        "lng": "-80.199954",
+        "route": "71269"
+      },
+      {
+        "id": "920795",
+        "name": "NW 1 Ct (EB)",
+        "index": 56,
+        "lat": "25.788174",
+        "lng": "-80.197333",
+        "route": "71269"
+      },
+      {
+        "id": "920796",
+        "name": "NW Miami Ct (EB)",
+        "index": 57,
+        "lat": "25.788235",
+        "lng": "-80.195198",
+        "route": "71269"
+      },
+      {
+        "id": "920797",
+        "name": "NE 1 Ave (EB)",
+        "index": 58,
+        "lat": "25.788326",
+        "lng": "-80.192580",
+        "route": "71269"
+      },
+      {
+        "id": "920798",
+        "name": "Miami-Dade Public Schools",
+        "index": 59,
+        "lat": "25.788343",
+        "lng": "-80.190883",
+        "route": "71269"
+      },
+      {
+        "id": "920799",
+        "name": "Adrienne Arsht (EB)",
+        "index": 60,
+        "lat": "25.788242",
+        "lng": "-80.189481",
+        "route": "71269"
+      }
+    ]
+  },
+  {
+    "id": "71276",
+    "name": "Biscayne",
+    "poly":
+      "{jp|C|umhNB|JBtAlOS~DIK}HEaEvDp@tEn@nBVfFv@pBTQwLCcBUAGiIp@?~CMdGOvDK|EClLK|KApGIpCArFAGoG|@qA^IbKM^Fb@HFrC?jFfEFnA@lGIhBApBTnF|@h@BdBDxCAdAAdEGxBQ~AOhAY~KkClC_@fDs@dAWjHk@wAHjDOzCk@fAClAC\\LHhObEGnCKxA@Z?nBGhB@bAJdJzAaAhHDvHNvHPXNDnACpCEnA?zA?pCGjDETEZAnAEpEGdA@G_GAoBb@N`C^hCd@rE|@`@J@NHNRDJQ@]nCiFc@]yDm@yI{AaEk@cA[wJcBuPiCqG_A}Dm@cCCyBLk@J{@?Ok@CaGGwEGWSQaD@_CMmB_@uAL_CVaE`@yE\\aAP_Cp@kC\\y@PqDbAoA^uAv@]Di@Ts@PgBTcBLkFBkF?a@Aq@?{@MiEY{BIa@FyEB_DBkIKwOSsFBcGD}HD_CAkCBmHFkHHmFJyDHmEND`JV?@jBN|KsHgAaC]cDc@uCc@iB[wFo@aAKkAYy@UAsEgAb@kA?eBB@dJ",
+    "color": "#FF0303",
+    "stops": [
+      {
+        "id": "920845",
+        "name": "Design District",
+        "index": 1,
+        "lat": "25.811821",
+        "lng": "-80.193108",
+        "route": "71276"
+      },
+      {
+        "id": "920846",
+        "name": "NE Miami Ct",
+        "index": 2,
+        "lat": "25.811799",
+        "lng": "-80.195018",
+        "route": "71276"
+      },
+      {
+        "id": "920848",
+        "name": "Roberto Clemente Park",
+        "index": 3,
+        "lat": "25.809149",
+        "lng": "-80.195354",
+        "route": "71276"
+      },
+      {
+        "id": "920849",
+        "name": "Buena Vista Blvd",
+        "index": 4,
+        "lat": "25.808251",
+        "lng": "-80.193714",
+        "route": "71276"
+      },
+      {
+        "id": "920850",
+        "name": "NE 32 St (SB)",
+        "index": 5,
+        "lat": "25.807358",
+        "lng": "-80.192986",
+        "route": "71276"
+      },
+      {
+        "id": "920851",
+        "name": "NE 29 St (SB)",
+        "index": 6,
+        "lat": "25.804565",
+        "lng": "-80.193634",
+        "route": "71276"
+      },
+      {
+        "id": "920852",
+        "name": "NE 2 Ave (EB)",
+        "index": 7,
+        "lat": "25.804093",
+        "lng": "-80.191542",
+        "route": "71276"
+      },
+      {
+        "id": "920853",
+        "name": "NE 28 St",
+        "index": 8,
+        "lat": "25.804012",
+        "lng": "-80.189381",
+        "route": "71276"
+      },
+      {
+        "id": "920854",
+        "name": "NE 26 St",
+        "index": 9,
+        "lat": "25.801904",
+        "lng": "-80.189228",
+        "route": "71276"
+      },
+      {
+        "id": "920855",
+        "name": "NE 23 St",
+        "index": 10,
+        "lat": "25.799871",
+        "lng": "-80.189155",
+        "route": "71276"
+      },
+      {
+        "id": "920856",
+        "name": "NE 22 St",
+        "index": 11,
+        "lat": "25.797719",
+        "lng": "-80.189088",
+        "route": "71276"
+      },
+      {
+        "id": "920857",
+        "name": "NE 20 St",
+        "index": 12,
+        "lat": "25.795649",
+        "lng": "-80.189078",
+        "route": "71276"
+      },
+      {
+        "id": "920858",
+        "name": "NE 18 St (SB)",
+        "index": 13,
+        "lat": "25.794283",
+        "lng": "-80.189026",
+        "route": "71276"
+      },
+      {
+        "id": "920859",
+        "name": "Margaret Pace Park",
+        "index": 14,
+        "lat": "25.791904",
+        "lng": "-80.187186",
+        "route": "71276"
+      },
+      {
+        "id": "920860",
+        "name": "OMNI",
+        "index": 15,
+        "lat": "25.789577",
+        "lng": "-80.187951",
+        "route": "71276"
+      },
+      {
+        "id": "920861",
+        "name": "NE 14 St",
+        "index": 16,
+        "lat": "25.788578",
+        "lng": "-80.189170",
+        "route": "71276"
+      },
+      {
+        "id": "920862",
+        "name": "Adrienne Arsht Center (SB)",
+        "index": 17,
+        "lat": "25.786828",
+        "lng": "-80.189132",
+        "route": "71276"
+      },
+      {
+        "id": "920863",
+        "name": "Museum Park (SB)",
+        "index": 18,
+        "lat": "25.784526",
+        "lng": "-80.189542",
+        "route": "71276"
+      },
+      {
+        "id": "920864",
+        "name": "NE 9 St",
+        "index": 19,
+        "lat": "25.782689",
+        "lng": "-80.189567",
+        "route": "71276"
+      },
+      {
+        "id": "920865",
+        "name": "Freedom Tower",
+        "index": 20,
+        "lat": "25.780235",
+        "lng": "-80.189233",
+        "route": "71276"
+      },
+      {
+        "id": "920866",
+        "name": "Bayside (SB)",
+        "index": 21,
+        "lat": "25.777449",
+        "lng": "-80.188366",
+        "route": "71276"
+      },
+      {
+        "id": "920867",
+        "name": "Amphitheater (SB)",
+        "index": 22,
+        "lat": "25.776608",
+        "lng": "-80.188108",
+        "route": "71276"
+      },
+      {
+        "id": "920868",
+        "name": "NE 1 St (SB)",
+        "index": 23,
+        "lat": "25.774762",
+        "lng": "-80.187768",
+        "route": "71276"
+      },
+      {
+        "id": "920869",
+        "name": "Bayfront Metromover (SB)",
+        "index": 24,
+        "lat": "25.773203",
+        "lng": "-80.187495",
+        "route": "71276"
+      },
+      {
+        "id": "920871",
+        "name": "Miami Convention Center",
+        "index": 25,
+        "lat": "25.770914",
+        "lng": "-80.190058",
+        "route": "71276"
+      },
+      {
+        "id": "920872",
+        "name": "Brickell Park (SB)",
+        "index": 26,
+        "lat": "25.768886",
+        "lng": "-80.190098",
+        "route": "71276"
+      },
+      {
+        "id": "920873",
+        "name": "Eighth Street Metromover",
+        "index": 27,
+        "lat": "25.767428",
+        "lng": "-80.192046",
+        "route": "71276"
+      },
+      {
+        "id": "920874",
+        "name": "S Miami Ave",
+        "index": 28,
+        "lat": "25.767401",
+        "lng": "-80.193613",
+        "route": "71276"
+      },
+      {
+        "id": "920875",
+        "name": "SW 8 St",
+        "index": 29,
+        "lat": "25.766748",
+        "lng": "-80.195305",
+        "route": "71276"
+      },
+      {
+        "id": "920876",
+        "name": "Brickell Metromover",
+        "index": 30,
+        "lat": "25.763316",
+        "lng": "-80.195167",
+        "route": "71276"
+      },
+      {
+        "id": "920877",
+        "name": "SW 1 Ave",
+        "index": 31,
+        "lat": "25.761562",
+        "lng": "-80.193827",
+        "route": "71276"
+      },
+      {
+        "id": "920878",
+        "name": "S 14 St",
+        "index": 32,
+        "lat": "25.760741",
+        "lng": "-80.193509",
+        "route": "71276"
+      },
+      {
+        "id": "920879",
+        "name": "S 15 Rd Circle",
+        "index": 33,
+        "lat": "25.758988",
+        "lng": "-80.194006",
+        "route": "71276"
+      },
+      {
+        "id": "921009",
+        "name": "SE 14 Terr",
+        "index": 34,
+        "lat": "25.758975",
+        "lng": "-80.192470",
+        "route": "71276"
+      },
+      {
+        "id": "921010",
+        "name": "Fin. District Metromover",
+        "index": 35,
+        "lat": "25.760705",
+        "lng": "-80.192013",
+        "route": "71276"
+      },
+      {
+        "id": "921011",
+        "name": "SE 12 St",
+        "index": 36,
+        "lat": "25.762021",
+        "lng": "-80.191646",
+        "route": "71276"
+      },
+      {
+        "id": "921012",
+        "name": "SE 10 St",
+        "index": 37,
+        "lat": "25.763900",
+        "lng": "-80.191154",
+        "route": "71276"
+      },
+      {
+        "id": "921013",
+        "name": "SE 7 St",
+        "index": 38,
+        "lat": "25.766732",
+        "lng": "-80.190455",
+        "route": "71276"
+      },
+      {
+        "id": "921014",
+        "name": "Brickell Park",
+        "index": 39,
+        "lat": "25.768096",
+        "lng": "-80.190139",
+        "route": "71276"
+      },
+      {
+        "id": "921015",
+        "name": "Biscayne Blvd Way",
+        "index": 40,
+        "lat": "25.770936",
+        "lng": "-80.188505",
+        "route": "71276"
+      },
+      {
+        "id": "921016",
+        "name": "Bayfront  Park Metromover (NB)",
+        "index": 41,
+        "lat": "25.772571",
+        "lng": "-80.187160",
+        "route": "71276"
+      },
+      {
+        "id": "921017",
+        "name": "E Flagler St",
+        "index": 42,
+        "lat": "25.774190",
+        "lng": "-80.187194",
+        "route": "71276"
+      },
+      {
+        "id": "921018",
+        "name": "NE 1 St (NB)",
+        "index": 43,
+        "lat": "25.775158",
+        "lng": "-80.187358",
+        "route": "71276"
+      },
+      {
+        "id": "921019",
+        "name": "Amphitheater (NB)",
+        "index": 44,
+        "lat": "25.776575",
+        "lng": "-80.187595",
+        "route": "71276"
+      },
+      {
+        "id": "921020",
+        "name": "Bayside (NB)",
+        "index": 45,
+        "lat": "25.777917",
+        "lng": "-80.187998",
+        "route": "71276"
+      },
+      {
+        "id": "921021",
+        "name": "Port Blvd",
+        "index": 46,
+        "lat": "25.779099",
+        "lng": "-80.188428",
+        "route": "71276"
+      },
+      {
+        "id": "921022",
+        "name": "Arena",
+        "index": 47,
+        "lat": "25.781065",
+        "lng": "-80.189213",
+        "route": "71276"
+      },
+      {
+        "id": "921023",
+        "name": "NE 9 St",
+        "index": 48,
+        "lat": "25.782752",
+        "lng": "-80.189296",
+        "route": "71276"
+      },
+      {
+        "id": "921024",
+        "name": "Museum Park (NB)",
+        "index": 49,
+        "lat": "25.784654",
+        "lng": "-80.189219",
+        "route": "71276"
+      },
+      {
+        "id": "921025",
+        "name": "Adrienne Arsht (NB)",
+        "index": 50,
+        "lat": "25.787545",
+        "lng": "-80.189100",
+        "route": "71276"
+      },
+      {
+        "id": "921026",
+        "name": "NE 15 Terr",
+        "index": 51,
+        "lat": "25.790004",
+        "lng": "-80.189059",
+        "route": "71276"
+      },
+      {
+        "id": "921027",
+        "name": "NE 17 Terr",
+        "index": 52,
+        "lat": "25.792678",
+        "lng": "-80.188963",
+        "route": "71276"
+      },
+      {
+        "id": "921028",
+        "name": "NE 18 St (NB)",
+        "index": 53,
+        "lat": "25.793900",
+        "lng": "-80.188978",
+        "route": "71276"
+      },
+      {
+        "id": "921029",
+        "name": "NE 20 St",
+        "index": 54,
+        "lat": "25.795198",
+        "lng": "-80.189014",
+        "route": "71276"
+      },
+      {
+        "id": "921030",
+        "name": "NE 22 St",
+        "index": 55,
+        "lat": "25.797429",
+        "lng": "-80.189027",
+        "route": "71276"
+      },
+      {
+        "id": "921031",
+        "name": "NE 23 St",
+        "index": 56,
+        "lat": "25.799639",
+        "lng": "-80.189086",
+        "route": "71276"
+      },
+      {
+        "id": "921032",
+        "name": "NE 26 St",
+        "index": 57,
+        "lat": "25.801140",
+        "lng": "-80.189142",
+        "route": "71276"
+      },
+      {
+        "id": "921033",
+        "name": "NE 2 Ave (WB)",
+        "index": 58,
+        "lat": "25.804127",
+        "lng": "-80.191638",
+        "route": "71276"
+      },
+      {
+        "id": "921034",
+        "name": "NE 32 St",
+        "index": 59,
+        "lat": "25.806245",
+        "lng": "-80.193201",
+        "route": "71276"
+      },
+      {
+        "id": "921035",
+        "name": "NE 34 St",
+        "index": 60,
+        "lat": "25.807811",
+        "lng": "-80.192839",
+        "route": "71276"
+      },
+      {
+        "id": "921036",
+        "name": "NE 35 St",
+        "index": 61,
+        "lat": "25.809583",
+        "lng": "-80.192464",
+        "route": "71276"
+      },
+      {
+        "id": "921037",
+        "name": "NE 38 St",
+        "index": 62,
+        "lat": "25.811326",
+        "lng": "-80.191275",
+        "route": "71276"
+      }
+    ]
+  },
+  {
+    "id": "71304",
+    "name": "Brickell",
+    "poly":
+      "ulg|ChglhNPDf@~AR~@Hr@Ff@@d@?n@?`@Cf@E\\K|@UzAo@nEk@zElBTrBXhDf@Kp@k@zD?v@HvHDbElDGRE\\ChAEtGEC}FEiCKoFjBTxKhB~Cd@d@JJFv@lArC|ErGhK`J|NtHfMpEjHn@hAp@~@b@bAj@rCHrATzHh@f@bBhChFlIzApCtD|FpElH|Rd\\hDpFxAmAbGwEtC_CoFmJ[c@_D|BqBhBQRe@x@Yh@m@r@u@rAoDcGsKgQcFeIaDgFqDgGiDoF_BcCWmIKyAs@_DeBiDsCuEgE_HiFuI}HmMaHcLqBaDgA}AWUuEw@eIuAaEo@gA[eLmBM^K~@k@hDAx@HvHD|DVDnAALFDH@HALELKNoB@wJTGgLI_GEs@d@mDn@mFx@kGZ}BDYB]Bi@@a@?u@Cc@Gi@Ky@Sw@e@_B@UMc@k@{@_@KoB?qAf@_@Ng@BO\\RTVELUdCw@l@C\\Lz@t@Rb@",
+    "color": "#FFF70A",
+    "stops": [
+      {
+        "id": "921177",
+        "name": "Brickell Metromover",
+        "index": 1,
+        "lat": "25.763315",
+        "lng": "-80.195163",
+        "route": "71304"
+      },
+      {
+        "id": "921178",
+        "name": "SW 1 Ave",
+        "index": 2,
+        "lat": "25.761582",
+        "lng": "-80.193830",
+        "route": "71304"
+      },
+      {
+        "id": "921179",
+        "name": "SE 13 St",
+        "index": 3,
+        "lat": "25.761126",
+        "lng": "-80.192053",
+        "route": "71304"
+      },
+      {
+        "id": "921180",
+        "name": "SE 14 Terr",
+        "index": 4,
+        "lat": "25.759084",
+        "lng": "-80.192583",
+        "route": "71304"
+      },
+      {
+        "id": "921181",
+        "name": "SE 15 Rd (SB)",
+        "index": 5,
+        "lat": "25.757754",
+        "lng": "-80.193260",
+        "route": "71304"
+      },
+      {
+        "id": "921182",
+        "name": "SE 16 Rd (SB)",
+        "index": 6,
+        "lat": "25.757008",
+        "lng": "-80.194370",
+        "route": "71304"
+      },
+      {
+        "id": "921183",
+        "name": "SE 18 Rd (SB)",
+        "index": 7,
+        "lat": "25.755627",
+        "lng": "-80.196340",
+        "route": "71304"
+      },
+      {
+        "id": "921184",
+        "name": "SE 19 Rd (SB)",
+        "index": 8,
+        "lat": "25.753862",
+        "lng": "-80.198889",
+        "route": "71304"
+      },
+      {
+        "id": "921185",
+        "name": "SE 22 Rd (SB)",
+        "index": 9,
+        "lat": "25.752311",
+        "lng": "-80.201169",
+        "route": "71304"
+      },
+      {
+        "id": "921186",
+        "name": "SE 25 Rd (SB)",
+        "index": 10,
+        "lat": "25.751258",
+        "lng": "-80.202674",
+        "route": "71304"
+      },
+      {
+        "id": "921187",
+        "name": "SE 26 Rd",
+        "index": 11,
+        "lat": "25.750774",
+        "lng": "-80.203361",
+        "route": "71304"
+      },
+      {
+        "id": "921188",
+        "name": "Wainwright Park (SB)",
+        "index": 12,
+        "lat": "25.750320",
+        "lng": "-80.204865",
+        "route": "71304"
+      },
+      {
+        "id": "921189",
+        "name": "S. Bayshore Dr (SB)",
+        "index": 13,
+        "lat": "25.749502",
+        "lng": "-80.207334",
+        "route": "71304"
+      },
+      {
+        "id": "921190",
+        "name": "S 32 Rd (SB)",
+        "index": 14,
+        "lat": "25.747867",
+        "lng": "-80.209730",
+        "route": "71304"
+      },
+      {
+        "id": "921191",
+        "name": "Vizcaya Museum (SB)",
+        "index": 15,
+        "lat": "25.746962",
+        "lng": "-80.210997",
+        "route": "71304"
+      },
+      {
+        "id": "921192",
+        "name": "Mercy Way",
+        "index": 16,
+        "lat": "25.742717",
+        "lng": "-80.217183",
+        "route": "71304"
+      },
+      {
+        "id": "921193",
+        "name": "Carroll Manor",
+        "index": 17,
+        "lat": "25.741422",
+        "lng": "-80.218002",
+        "route": "71304"
+      },
+      {
+        "id": "921194",
+        "name": "Hallissee St",
+        "index": 18,
+        "lat": "25.740118",
+        "lng": "-80.216923",
+        "route": "71304"
+      },
+      {
+        "id": "921195",
+        "name": "Mercy Hospital",
+        "index": 19,
+        "lat": "25.740574",
+        "lng": "-80.214453",
+        "route": "71304"
+      },
+      {
+        "id": "921196",
+        "name": "Mercy Way (NB)",
+        "index": 20,
+        "lat": "25.742994",
+        "lng": "-80.216714",
+        "route": "71304"
+      },
+      {
+        "id": "921197",
+        "name": "La Salle High School",
+        "index": 21,
+        "lat": "25.743875",
+        "lng": "-80.215412",
+        "route": "71304"
+      },
+      {
+        "id": "921198",
+        "name": "Samana Dr",
+        "index": 22,
+        "lat": "25.745886",
+        "lng": "-80.212492",
+        "route": "71304"
+      },
+      {
+        "id": "921199",
+        "name": "Vizcaya Museum (NB)",
+        "index": 23,
+        "lat": "25.747035",
+        "lng": "-80.210860",
+        "route": "71304"
+      },
+      {
+        "id": "921200",
+        "name": "S 32 Rd (NB)",
+        "index": 24,
+        "lat": "25.747842",
+        "lng": "-80.209704",
+        "route": "71304"
+      },
+      {
+        "id": "921201",
+        "name": "S Bayshore Dr (NB)",
+        "index": 25,
+        "lat": "25.749579",
+        "lng": "-80.207184",
+        "route": "71304"
+      },
+      {
+        "id": "921202",
+        "name": "Wainwright Park (NB)",
+        "index": 26,
+        "lat": "25.750185",
+        "lng": "-80.204846",
+        "route": "71304"
+      },
+      {
+        "id": "921203",
+        "name": "SE 25 Rd (NB)",
+        "index": 27,
+        "lat": "25.751009",
+        "lng": "-80.202749",
+        "route": "71304"
+      },
+      {
+        "id": "921204",
+        "name": "SE 24 Rd",
+        "index": 28,
+        "lat": "25.751755",
+        "lng": "-80.201681",
+        "route": "71304"
+      },
+      {
+        "id": "921205",
+        "name": "SE 22 Rd (NB)",
+        "index": 29,
+        "lat": "25.752751",
+        "lng": "-80.200238",
+        "route": "71304"
+      },
+      {
+        "id": "921206",
+        "name": "SE 19 Rd (NB)",
+        "index": 30,
+        "lat": "25.753916",
+        "lng": "-80.198527",
+        "route": "71304"
+      },
+      {
+        "id": "921207",
+        "name": "SE 18 Rd (NB)",
+        "index": 31,
+        "lat": "25.755511",
+        "lng": "-80.196223",
+        "route": "71304"
+      },
+      {
+        "id": "921208",
+        "name": "SE 16 Rd (NB)",
+        "index": 32,
+        "lat": "25.756964",
+        "lng": "-80.194123",
+        "route": "71304"
+      },
+      {
+        "id": "921209",
+        "name": "SE 15 Rd (NB)",
+        "index": 33,
+        "lat": "25.757533",
+        "lng": "-80.193312",
+        "route": "71304"
+      },
+      {
+        "id": "921210",
+        "name": "SE 14 Terr",
+        "index": 34,
+        "lat": "25.759084",
+        "lng": "-80.192454",
+        "route": "71304"
+      },
+      {
+        "id": "921211",
+        "name": "Fin. District Metromover",
+        "index": 35,
+        "lat": "25.760710",
+        "lng": "-80.192015",
+        "route": "71304"
+      },
+      {
+        "id": "921212",
+        "name": "SE 12 St",
+        "index": 36,
+        "lat": "25.762038",
+        "lng": "-80.191641",
+        "route": "71304"
+      },
+      {
+        "id": "921213",
+        "name": "SE 10 St (NB)",
+        "index": 37,
+        "lat": "25.764284",
+        "lng": "-80.191568",
+        "route": "71304"
+      },
+      {
+        "id": "921214",
+        "name": "10 St Metromover",
+        "index": 38,
+        "lat": "25.764510",
+        "lng": "-80.192712",
+        "route": "71304"
+      },
+      {
+        "id": "921215",
+        "name": "Mary Brickell",
+        "index": 39,
+        "lat": "25.764455",
+        "lng": "-80.194269",
+        "route": "71304"
+      },
+      {
+        "id": "921216",
+        "name": "Brickell Metrorail",
+        "index": 40,
+        "lat": "25.764308",
+        "lng": "-80.195251",
+        "route": "71304"
+      },
+      {
+        "id": "921217",
+        "name": "S Miami Ave",
+        "index": 41,
+        "lat": "25.766382",
+        "lng": "-80.193599",
+        "route": "71304"
+      },
+      {
+        "id": "921218",
+        "name": "8 St Metromover",
+        "index": 42,
+        "lat": "25.766433",
+        "lng": "-80.192323",
+        "route": "71304"
+      },
+      {
+        "id": "921219",
+        "name": "Brickell Ave",
+        "index": 43,
+        "lat": "25.766273",
+        "lng": "-80.191187",
+        "route": "71304"
+      },
+      {
+        "id": "921220",
+        "name": "Brickell Bay Dr",
+        "index": 44,
+        "lat": "25.766028",
+        "lng": "-80.190005",
+        "route": "71304"
+      },
+      {
+        "id": "950312",
+        "name": "The Islander Marketplace",
+        "index": 45,
+        "lat": "25.767342",
+        "lng": "-80.185206",
+        "route": "71304"
+      },
+      {
+        "id": "921171",
+        "name": "Brickell Key",
+        "index": 46,
+        "lat": "25.766033",
+        "lng": "-80.185653",
+        "route": "71304"
+      },
+      {
+        "id": "921172",
+        "name": "Brickell Bay Dr (WB)",
+        "index": 47,
+        "lat": "25.765995",
+        "lng": "-80.189701",
+        "route": "71304"
+      },
+      {
+        "id": "921173",
+        "name": "SE 8 St",
+        "index": 48,
+        "lat": "25.765670",
+        "lng": "-80.190914",
+        "route": "71304"
+      },
+      {
+        "id": "921174",
+        "name": "SE 10 St",
+        "index": 49,
+        "lat": "25.764298",
+        "lng": "-80.191492",
+        "route": "71304"
+      },
+      {
+        "id": "921175",
+        "name": "10 St Metromover",
+        "index": 50,
+        "lat": "25.764525",
+        "lng": "-80.192714",
+        "route": "71304"
+      },
+      {
+        "id": "921176",
+        "name": "Mary Brickell",
+        "index": 51,
+        "lat": "25.764468",
+        "lng": "-80.194272",
+        "route": "71304"
+      }
+    ]
+  },
+  {
+    "id": "73803",
+    "name": "Coconut Grove",
+    "poly":
+      "yhb|CpbrhNuDkGwCzB}@t@}@v@_@h@Yj@[f@k@l@s@tAlApBzCjFfChE`BrCfBhDdC~FtBjFdBhEt@`BJRvBjFhArCTh@~@fB~@vAp@z@r@z@V\\bAxAxBlDfBpCzCtE`EdGDXV\\xCpErAtBtFdEzF`FjDjFT\\sBjBDvBNnKFpAHjGHfFCRJtIJbJNxILhLH~FJfBRdJC~SN|M_GJ{CuEqCoDa@aFb@m@Qu@c@AYXoCDqJXaILO{CO}HzDU?wBK}GFnElCE~@EsAaB[U_@BUTEVNhA_@@M?EmEaEH?{AM{PCo@AeCYyTC_J_@ia@KgG}LFgG@uILFvANbKR^xCEh@G_@cCMo@gA}DaB?C{@Bg@zFUlJG|GA~DSfGKpJAjBP|GxJFfDTpVHfFBj@fGEtBKAuBG_@EkEKoGJOdCsCA@nEwFGqAqFkFaAsAcCsDu@mA{@m@aAc@_AeA|@gA`C{C`BcBxA]Dw@[e@e@?_@l@MjAkCtC{CbDoAu@{C_C_EoGgAuAQKqIoMmHiLk@m@qAaBa@o@]k@mAkCiDkIiAcC}AuD}A}DE?qCeHq@yA}BiEsE{HtAiAfG{EtC{BsAaC",
+    "color": "#20fc10",
+    "stops": [
+      {
+        "id": "939289",
+        "name": "Mercy Hospital",
+        "index": 1,
+        "lat": "25.739811",
+        "lng": "-80.215605",
+        "route": "73803"
+      },
+      {
+        "id": "939290",
+        "name": "Crystal Ct/Grove Isle",
+        "index": 1,
+        "lat": "25.738886",
+        "lng": "-80.223538",
+        "route": "73803"
+      },
+      {
+        "id": "939291",
+        "name": "Ransom Everglades WB",
+        "index": 2,
+        "lat": "25.736971",
+        "lng": "-80.227267",
+        "route": "73803"
+      },
+      {
+        "id": "939292",
+        "name": "Aviation Ave WB",
+        "index": 3,
+        "lat": "25.732330",
+        "lng": "-80.233690",
+        "route": "73803"
+      },
+      {
+        "id": "939293",
+        "name": "Darwin St",
+        "index": 4,
+        "lat": "25.731562",
+        "lng": "-80.234740",
+        "route": "73803"
+      },
+      {
+        "id": "939294",
+        "name": "City Hall WB",
+        "index": 5,
+        "lat": "25.729914",
+        "lng": "-80.236323",
+        "route": "73803"
+      },
+      {
+        "id": "939295",
+        "name": "Kenneth M Myers Bayside Park WB",
+        "index": 6,
+        "lat": "25.727786",
+        "lng": "-80.238635",
+        "route": "73803"
+      },
+      {
+        "id": "944876",
+        "name": "Mayfair In The Groove WB",
+        "index": 7,
+        "lat": "25.728229",
+        "lng": "-80.239922",
+        "route": "73803"
+      },
+      {
+        "id": "944877",
+        "name": "Cocowalk WB",
+        "index": 8,
+        "lat": "25.728058",
+        "lng": "-80.243667",
+        "route": "73803"
+      },
+      {
+        "id": "944878",
+        "name": "Margaret St",
+        "index": 9,
+        "lat": "25.727968",
+        "lng": "-80.246641",
+        "route": "73803"
+      },
+      {
+        "id": "944879",
+        "name": "Elizabeth St",
+        "index": 10,
+        "lat": "25.727908",
+        "lng": "-80.248417",
+        "route": "73803"
+      },
+      {
+        "id": "944880",
+        "name": "Hibiscus St",
+        "index": 11,
+        "lat": "25.727826",
+        "lng": "-80.250147",
+        "route": "73803"
+      },
+      {
+        "id": "944881",
+        "name": "Plaza St",
+        "index": 12,
+        "lat": "25.727756",
+        "lng": "-80.252277",
+        "route": "73803"
+      },
+      {
+        "id": "944882",
+        "name": "Douglas Rd",
+        "index": 14,
+        "lat": "25.727654",
+        "lng": "-80.254079",
+        "route": "73803"
+      },
+      {
+        "id": "983718",
+        "name": "Brooker St",
+        "index": 14,
+        "lat": "25.727548",
+        "lng": "-80.255869",
+        "route": "73803"
+      },
+      {
+        "id": "983719",
+        "name": "Lincoln Dr",
+        "index": 15,
+        "lat": "25.727567",
+        "lng": "-80.259230",
+        "route": "73803"
+      },
+      {
+        "id": "983720",
+        "name": "Granello Ave",
+        "index": 16,
+        "lat": "25.729551",
+        "lng": "-80.260611",
+        "route": "73803"
+      },
+      {
+        "id": "983721",
+        "name": "San Lorenzo Ave",
+        "index": 17,
+        "lat": "25.731385",
+        "lng": "-80.258250",
+        "route": "73803"
+      },
+      {
+        "id": "983722",
+        "name": "Altara Ave",
+        "index": 18,
+        "lat": "25.733236",
+        "lng": "-80.258384",
+        "route": "73803"
+      },
+      {
+        "id": "983723",
+        "name": "SW 39 Ave",
+        "index": 19,
+        "lat": "25.734927",
+        "lng": "-80.257666",
+        "route": "73803"
+      },
+      {
+        "id": "950037",
+        "name": "Douglas Road Station",
+        "index": 20,
+        "lat": "25.733376",
+        "lng": "-80.254954",
+        "route": "73803"
+      },
+      {
+        "id": "983724",
+        "name": "SW 37 Ave",
+        "index": 21,
+        "lat": "25.735075",
+        "lng": "-80.253506",
+        "route": "73803"
+      },
+      {
+        "id": "983725",
+        "name": "New York Street",
+        "index": 22,
+        "lat": "25.735169",
+        "lng": "-80.249742",
+        "route": "73803"
+      },
+      {
+        "id": "944886",
+        "name": "McDonald St",
+        "index": 23,
+        "lat": "25.735297",
+        "lng": "-80.246250",
+        "route": "73803"
+      },
+      {
+        "id": "983726",
+        "name": "Matilda St (North)",
+        "index": 24,
+        "lat": "25.735323",
+        "lng": "-80.244491",
+        "route": "73803"
+      },
+      {
+        "id": "983727",
+        "name": "Center St",
+        "index": 25,
+        "lat": "25.735476",
+        "lng": "-80.239005",
+        "route": "73803"
+      },
+      {
+        "id": "983728",
+        "name": "Coconut Ave",
+        "index": 26,
+        "lat": "25.737771",
+        "lng": "-80.237718",
+        "route": "73803"
+      },
+      {
+        "id": "983729",
+        "name": "Overbrook St",
+        "index": 27,
+        "lat": "25.739093",
+        "lng": "-80.237735",
+        "route": "73803"
+      },
+      {
+        "id": "983730",
+        "name": "SW 28 Terr",
+        "index": 28,
+        "lat": "25.740762",
+        "lng": "-80.238242",
+        "route": "73803"
+      },
+      {
+        "id": "983731",
+        "name": "Coconut Grove Station",
+        "index": 29,
+        "lat": "25.739834",
+        "lng": "-80.239367",
+        "route": "73803"
+      },
+      {
+        "id": "983732",
+        "name": "SW 27th Ave",
+        "index": 30,
+        "lat": "25.740699",
+        "lng": "-80.238118",
+        "route": "73803"
+      },
+      {
+        "id": "983733",
+        "name": "US-1",
+        "index": 31,
+        "lat": "25.739419",
+        "lng": "-80.237813",
+        "route": "73803"
+      },
+      {
+        "id": "983734",
+        "name": "Coconut Ave",
+        "index": 32,
+        "lat": "25.737587",
+        "lng": "-80.237770",
+        "route": "73803"
+      },
+      {
+        "id": "983735",
+        "name": "Bird Ave",
+        "index": 33,
+        "lat": "25.735198",
+        "lng": "-80.237661",
+        "route": "73803"
+      },
+      {
+        "id": "983736",
+        "name": "Shipping Ave",
+        "index": 34,
+        "lat": "25.733876",
+        "lng": "-80.237599",
+        "route": "73803"
+      },
+      {
+        "id": "983737",
+        "name": "Day Ave",
+        "index": 35,
+        "lat": "25.732025",
+        "lng": "-80.237586",
+        "route": "73803"
+      },
+      {
+        "id": "983738",
+        "name": "Rice St",
+        "index": 36,
+        "lat": "25.730025",
+        "lng": "-80.240409",
+        "route": "73803"
+      },
+      {
+        "id": "983739",
+        "name": "Matilda St",
+        "index": 37,
+        "lat": "25.729909",
+        "lng": "-80.244181",
+        "route": "73803"
+      },
+      {
+        "id": "983740",
+        "name": "Grand Ave",
+        "index": 38,
+        "lat": "25.728519",
+        "lng": "-80.245526",
+        "route": "73803"
+      },
+      {
+        "id": "983741",
+        "name": "Commodore Plaza",
+        "index": 39,
+        "lat": "25.727976",
+        "lng": "-80.244723",
+        "route": "73803"
+      },
+      {
+        "id": "944889",
+        "name": "Cocowalk EB",
+        "index": 40,
+        "lat": "25.728014",
+        "lng": "-80.243696",
+        "route": "73803"
+      },
+      {
+        "id": "944890",
+        "name": "McFarlane Rd",
+        "index": 41,
+        "lat": "25.727340",
+        "lng": "-80.241518",
+        "route": "73803"
+      },
+      {
+        "id": "944891",
+        "name": "Kenneth M Myers Bayside Park EB",
+        "index": 42,
+        "lat": "25.727894",
+        "lng": "-80.238278",
+        "route": "73803"
+      },
+      {
+        "id": "950038",
+        "name": "City Hall",
+        "index": 43,
+        "lat": "25.727872",
+        "lng": "-80.234440",
+        "route": "73803"
+      },
+      {
+        "id": "944892",
+        "name": "Chart House Dr",
+        "index": 44,
+        "lat": "25.730283",
+        "lng": "-80.235880",
+        "route": "73803"
+      },
+      {
+        "id": "944893",
+        "name": "Aviation Ave EB",
+        "index": 45,
+        "lat": "25.732018",
+        "lng": "-80.233877",
+        "route": "73803"
+      },
+      {
+        "id": "944894",
+        "name": "David T Kennedy Park",
+        "index": 46,
+        "lat": "25.734159",
+        "lng": "-80.231074",
+        "route": "73803"
+      },
+      {
+        "id": "944895",
+        "name": "Kirk St",
+        "index": 47,
+        "lat": "25.735667",
+        "lng": "-80.228936",
+        "route": "73803"
+      },
+      {
+        "id": "944896",
+        "name": "Ransome Everglades EB",
+        "index": 48,
+        "lat": "25.737012",
+        "lng": "-80.227059",
+        "route": "73803"
+      },
+      {
+        "id": "983742",
+        "name": "Crystal View Ct",
+        "index": 49,
+        "lat": "25.737860",
+        "lng": "-80.225398",
+        "route": "73803"
+      },
+      {
+        "id": "944898",
+        "name": "Crystal Ct EB",
+        "index": 50,
+        "lat": "25.738699",
+        "lng": "-80.223826",
+        "route": "73803"
+      },
+      {
+        "id": "944899",
+        "name": "Grove Isle",
+        "index": 51,
+        "lat": "25.739172",
+        "lng": "-80.222877",
+        "route": "73803"
+      },
+      {
+        "id": "944900",
+        "name": "Steele Mini Park",
+        "index": 52,
+        "lat": "25.740808",
+        "lng": "-80.219945",
+        "route": "73803"
+      },
+      {
+        "id": "944901",
+        "name": "Carroll Manor",
+        "index": 53,
+        "lat": "25.741436",
+        "lng": "-80.217998",
+        "route": "73803"
+      },
+      {
+        "id": "944902",
+        "name": "Hallisee St",
+        "index": 54,
+        "lat": "25.740124",
+        "lng": "-80.216904",
+        "route": "73803"
+      },
+      {
+        "id": "983743",
+        "name": "Mercy Hospital",
+        "index": 55,
+        "lat": "25.739793",
+        "lng": "-80.215632",
+        "route": "73803"
+      }
+    ]
+  },
+  {
+    "id": "71322",
+    "name": "Coral Way",
+    "poly":
+      "srd|ChpzhNhJKdFKCeAk@sVaC@o@@G_@E}OE{MK{RUgRQwPKyMOsJa@sTSyOIkKOmKKqLMyKQoTCeQUmDkCkErGcFl@Ln@pBXPXKH_@Eo@g@_BQIQ@WFMCuAgE_JrG[o@sIuNmDuFeI_NoCqEkEkH_IgMiF{I[[GqA|A_DNQxAaDkHDiGB_@BKoIuDDsBFyABHtIqIGoCZqF@qGPoDUkKb@CgB@aCKwMIwHCaGQiOKwDKmCaDf@cDVyE^}@RuBj@wC`@kFrAgA\\y@m@Ye@Yy@SwAQyDQ_E@qABaAFeAJcAT}Ab@oBrDoKbEkMt@eBrAwBpAmBj@W`@I`DpAjBz@RAdAkDBUGOiBw@O?{AhEeDiB@iA^qAHoBQyBJeBbAsDtA}DV{@}BoAs@F{@`A}GdSsHrUw@jCfEnBfA}CfAwDCaEAgAXaA^_@b@MZEfAEXNJb@Bn@{DfHyKr\\]pBUzAMtCB`CV|Fj@hJAhDDbDlDIhGIvMQt@AHrKRpNH`KFfEjFCnTCRO`GQfFCpGD|Qk@O_J{IR[?HvIv@DzQUjBEBnEENBnDDj@rDzGdFbIxFhJlEhHdJbOrCzEnEnHrFjJ|AtBhHuFp@Nl@rBVNVKF[Ck@i@cBMGQBUFSEqAgEeJ`HMPxBrDpCrEA~BVtTTrUJtKVxUJrJN`PJxJXhULvPP|QN`QHdOPjRPdLuDjF_DrEy@AwA@\\nK`BA",
+    "color": "#F09491",
+    "stops": [
+      {
+        "id": "921315",
+        "name": "Giralda Ave",
+        "index": 1,
+        "lat": "25.751617",
+        "lng": "-80.258771",
+        "route": "71322"
+      },
+      {
+        "id": "921316",
+        "name": "Miracle Mile",
+        "index": 2,
+        "lat": "25.749806",
+        "lng": "-80.258711",
+        "route": "71322"
+      },
+      {
+        "id": "921317",
+        "name": "Ponce De Leon Blvd",
+        "index": 3,
+        "lat": "25.748680",
+        "lng": "-80.258298",
+        "route": "71322"
+      },
+      {
+        "id": "921318",
+        "name": "Coral Way",
+        "index": 4,
+        "lat": "25.749554",
+        "lng": "-80.254528",
+        "route": "71322"
+      },
+      {
+        "id": "921319",
+        "name": "SW 36 Ave",
+        "index": 5,
+        "lat": "25.749856",
+        "lng": "-80.251670",
+        "route": "71322"
+      },
+      {
+        "id": "921320",
+        "name": "SW 34 Ave",
+        "index": 6,
+        "lat": "25.749888",
+        "lng": "-80.249295",
+        "route": "71322"
+      },
+      {
+        "id": "921321",
+        "name": "SW 32 Ave",
+        "index": 7,
+        "lat": "25.749951",
+        "lng": "-80.246110",
+        "route": "71322"
+      },
+      {
+        "id": "921322",
+        "name": "SW 31 Ave",
+        "index": 8,
+        "lat": "25.750062",
+        "lng": "-80.243034",
+        "route": "71322"
+      },
+      {
+        "id": "921323",
+        "name": "SW 29 Ave",
+        "index": 9,
+        "lat": "25.750151",
+        "lng": "-80.240188",
+        "route": "71322"
+      },
+      {
+        "id": "921324",
+        "name": "SW 27 Ave",
+        "index": 10,
+        "lat": "25.750214",
+        "lng": "-80.237824",
+        "route": "71322"
+      },
+      {
+        "id": "921325",
+        "name": "SW 25 Ave",
+        "index": 11,
+        "lat": "25.750292",
+        "lng": "-80.235957",
+        "route": "71322"
+      },
+      {
+        "id": "921326",
+        "name": "SW 23 Ave",
+        "index": 12,
+        "lat": "25.750460",
+        "lng": "-80.232497",
+        "route": "71322"
+      },
+      {
+        "id": "921327",
+        "name": "SW 22 Ave",
+        "index": 13,
+        "lat": "25.750556",
+        "lng": "-80.229810",
+        "route": "71322"
+      },
+      {
+        "id": "921328",
+        "name": "SW 21 Ave",
+        "index": 14,
+        "lat": "25.750614",
+        "lng": "-80.227834",
+        "route": "71322"
+      },
+      {
+        "id": "921329",
+        "name": "SW 19 Ave",
+        "index": 15,
+        "lat": "25.750690",
+        "lng": "-80.225842",
+        "route": "71322"
+      },
+      {
+        "id": "921330",
+        "name": "SW 18 Ave",
+        "index": 16,
+        "lat": "25.750745",
+        "lng": "-80.223668",
+        "route": "71322"
+      },
+      {
+        "id": "921331",
+        "name": "SW 17 Ave",
+        "index": 17,
+        "lat": "25.750817",
+        "lng": "-80.221623",
+        "route": "71322"
+      },
+      {
+        "id": "921332",
+        "name": "SW 14 Ave",
+        "index": 18,
+        "lat": "25.750906",
+        "lng": "-80.218177",
+        "route": "71322"
+      },
+      {
+        "id": "921333",
+        "name": "SW 12 Ave",
+        "index": 19,
+        "lat": "25.750930",
+        "lng": "-80.215265",
+        "route": "71322"
+      },
+      {
+        "id": "921334",
+        "name": "Vizcaya Metrorail Station",
+        "index": 20,
+        "lat": "25.749606",
+        "lng": "-80.212509",
+        "route": "71322"
+      },
+      {
+        "id": "921335",
+        "name": "SW 31 Rd",
+        "index": 21,
+        "lat": "25.752510",
+        "lng": "-80.212151",
+        "route": "71322"
+      },
+      {
+        "id": "921336",
+        "name": "SW 28 Rd",
+        "index": 22,
+        "lat": "25.754209",
+        "lng": "-80.209638",
+        "route": "71322"
+      },
+      {
+        "id": "921337",
+        "name": "SW 26 Rd",
+        "index": 23,
+        "lat": "25.755076",
+        "lng": "-80.208409",
+        "route": "71322"
+      },
+      {
+        "id": "921338",
+        "name": "SW 24 Rd",
+        "index": 24,
+        "lat": "25.756713",
+        "lng": "-80.206010",
+        "route": "71322"
+      },
+      {
+        "id": "921339",
+        "name": "SW 22 Rd",
+        "index": 25,
+        "lat": "25.757430",
+        "lng": "-80.204961",
+        "route": "71322"
+      },
+      {
+        "id": "921340",
+        "name": "SW 20 Rd",
+        "index": 26,
+        "lat": "25.758452",
+        "lng": "-80.203455",
+        "route": "71322"
+      },
+      {
+        "id": "921341",
+        "name": "SW 18 Rd",
+        "index": 27,
+        "lat": "25.760052",
+        "lng": "-80.201178",
+        "route": "71322"
+      },
+      {
+        "id": "921342",
+        "name": "SW 15 Rd",
+        "index": 28,
+        "lat": "25.761222",
+        "lng": "-80.199439",
+        "route": "71322"
+      },
+      {
+        "id": "921343",
+        "name": "SW 13 St",
+        "index": 29,
+        "lat": "25.761898",
+        "lng": "-80.197222",
+        "route": "71322"
+      },
+      {
+        "id": "921344",
+        "name": "SW 11 St",
+        "index": 30,
+        "lat": "25.763230",
+        "lng": "-80.197237",
+        "route": "71322"
+      },
+      {
+        "id": "921345",
+        "name": "Brickell Metrorail SW 1 Ct",
+        "index": 31,
+        "lat": "25.764941",
+        "lng": "-80.195646",
+        "route": "71322"
+      },
+      {
+        "id": "921346",
+        "name": "SW 7 St",
+        "index": 32,
+        "lat": "25.767031",
+        "lng": "-80.197343",
+        "route": "71322"
+      },
+      {
+        "id": "921347",
+        "name": "Miami Riverside Center",
+        "index": 33,
+        "lat": "25.771210",
+        "lng": "-80.197474",
+        "route": "71322"
+      },
+      {
+        "id": "921348",
+        "name": "W Flagler St",
+        "index": 34,
+        "lat": "25.773202",
+        "lng": "-80.196475",
+        "route": "71322"
+      },
+      {
+        "id": "921349",
+        "name": "Miami Dade Cultural Center",
+        "index": 35,
+        "lat": "25.773265",
+        "lng": "-80.194117",
+        "route": "71322"
+      },
+      {
+        "id": "921350",
+        "name": "County Court House",
+        "index": 36,
+        "lat": "25.773307",
+        "lng": "-80.192562",
+        "route": "71322"
+      },
+      {
+        "id": "921351",
+        "name": "SE 1 Ave",
+        "index": 37,
+        "lat": "25.773331",
+        "lng": "-80.191274",
+        "route": "71322"
+      },
+      {
+        "id": "921352",
+        "name": "Gusman Center",
+        "index": 38,
+        "lat": "25.773422",
+        "lng": "-80.188664",
+        "route": "71322"
+      },
+      {
+        "id": "921353",
+        "name": "Biscayne Blvd",
+        "index": 39,
+        "lat": "25.773475",
+        "lng": "-80.187741",
+        "route": "71322"
+      },
+      {
+        "id": "921360",
+        "name": "Freedom Tower/Arena",
+        "index": 41,
+        "lat": "25.780084",
+        "lng": "-80.189682",
+        "route": "71322"
+      },
+      {
+        "id": "921361",
+        "name": "NE 5 St",
+        "index": 42,
+        "lat": "25.779183",
+        "lng": "-80.190455",
+        "route": "71322"
+      },
+      {
+        "id": "921362",
+        "name": "Miami Dade College",
+        "index": 43,
+        "lat": "25.777855",
+        "lng": "-80.190401",
+        "route": "71322"
+      },
+      {
+        "id": "921354",
+        "name": "NE 1 St (NB)",
+        "index": 45,
+        "lat": "25.775173",
+        "lng": "-80.187347",
+        "route": "71322"
+      },
+      {
+        "id": "921355",
+        "name": "Amphitheater (NB)",
+        "index": 46,
+        "lat": "25.776568",
+        "lng": "-80.187614",
+        "route": "71322"
+      },
+      {
+        "id": "921356",
+        "name": "Bayside (NB)",
+        "index": 47,
+        "lat": "25.777917",
+        "lng": "-80.187998",
+        "route": "71322"
+      },
+      {
+        "id": "921357",
+        "name": "Port Blvd",
+        "index": 48,
+        "lat": "25.779099",
+        "lng": "-80.188417",
+        "route": "71322"
+      },
+      {
+        "id": "921404",
+        "name": "NE 1 St",
+        "index": 49,
+        "lat": "25.775490",
+        "lng": "-80.190314",
+        "route": "71322"
+      },
+      {
+        "id": "921405",
+        "name": "NE 1 Ave",
+        "index": 50,
+        "lat": "25.775169",
+        "lng": "-80.192324",
+        "route": "71322"
+      },
+      {
+        "id": "921406",
+        "name": "County Courthouse",
+        "index": 51,
+        "lat": "25.775072",
+        "lng": "-80.194814",
+        "route": "71322"
+      },
+      {
+        "id": "921407",
+        "name": "Government Center",
+        "index": 52,
+        "lat": "25.775023",
+        "lng": "-80.196738",
+        "route": "71322"
+      },
+      {
+        "id": "921466",
+        "name": "W Flagler St",
+        "index": 53,
+        "lat": "25.773805",
+        "lng": "-80.197721",
+        "route": "71322"
+      },
+      {
+        "id": "921408",
+        "name": "Miami Riverside Center",
+        "index": 54,
+        "lat": "25.770362",
+        "lng": "-80.197698",
+        "route": "71322"
+      },
+      {
+        "id": "921409",
+        "name": "SW 7 St",
+        "index": 55,
+        "lat": "25.766441",
+        "lng": "-80.197536",
+        "route": "71322"
+      },
+      {
+        "id": "921410",
+        "name": "Brickell Metrorail SW 1 Ct",
+        "index": 58,
+        "lat": "25.765230",
+        "lng": "-80.195659",
+        "route": "71322"
+      },
+      {
+        "id": "921411",
+        "name": "SW 9 St",
+        "index": 58,
+        "lat": "25.765036",
+        "lng": "-80.197414",
+        "route": "71322"
+      },
+      {
+        "id": "921413",
+        "name": "SW 13 St",
+        "index": 60,
+        "lat": "25.762016",
+        "lng": "-80.197296",
+        "route": "71322"
+      },
+      {
+        "id": "921414",
+        "name": "SW 18 Rd",
+        "index": 61,
+        "lat": "25.760541",
+        "lng": "-80.200913",
+        "route": "71322"
+      },
+      {
+        "id": "921415",
+        "name": "SW 20 Rd",
+        "index": 62,
+        "lat": "25.759388",
+        "lng": "-80.202525",
+        "route": "71322"
+      },
+      {
+        "id": "921416",
+        "name": "SW 22 Rd",
+        "index": 63,
+        "lat": "25.758142",
+        "lng": "-80.204336",
+        "route": "71322"
+      },
+      {
+        "id": "921417",
+        "name": "SW 24 Rd",
+        "index": 64,
+        "lat": "25.757105",
+        "lng": "-80.205835",
+        "route": "71322"
+      },
+      {
+        "id": "921418",
+        "name": "SW 26 Rd",
+        "index": 65,
+        "lat": "25.755320",
+        "lng": "-80.208415",
+        "route": "71322"
+      },
+      {
+        "id": "921419",
+        "name": "SW 28 Rd",
+        "index": 66,
+        "lat": "25.754578",
+        "lng": "-80.209507",
+        "route": "71322"
+      },
+      {
+        "id": "921420",
+        "name": "SW 29 Rd",
+        "index": 67,
+        "lat": "25.753541",
+        "lng": "-80.211026",
+        "route": "71322"
+      },
+      {
+        "id": "921421",
+        "name": "SW 31 Rd",
+        "index": 68,
+        "lat": "25.752322",
+        "lng": "-80.212847",
+        "route": "71322"
+      },
+      {
+        "id": "921422",
+        "name": "Vizcaya Metrorail Station",
+        "index": 68,
+        "lat": "25.749617",
+        "lng": "-80.212528",
+        "route": "71322"
+      },
+      {
+        "id": "921423",
+        "name": "SW 12 Ave",
+        "index": 69,
+        "lat": "25.751137",
+        "lng": "-80.215162",
+        "route": "71322"
+      },
+      {
+        "id": "921424",
+        "name": "SW 14 Ave",
+        "index": 70,
+        "lat": "25.751021",
+        "lng": "-80.218634",
+        "route": "71322"
+      },
+      {
+        "id": "921425",
+        "name": "SW 17 Ave",
+        "index": 71,
+        "lat": "25.750911",
+        "lng": "-80.222245",
+        "route": "71322"
+      },
+      {
+        "id": "921426",
+        "name": "SW 18 Ave",
+        "index": 72,
+        "lat": "25.750853",
+        "lng": "-80.224284",
+        "route": "71322"
+      },
+      {
+        "id": "921427",
+        "name": "SW 21 Ave",
+        "index": 73,
+        "lat": "25.750730",
+        "lng": "-80.227931",
+        "route": "71322"
+      },
+      {
+        "id": "921428",
+        "name": "SW 22 Ave",
+        "index": 74,
+        "lat": "25.750674",
+        "lng": "-80.229787",
+        "route": "71322"
+      },
+      {
+        "id": "921429",
+        "name": "SW 23 Ave",
+        "index": 75,
+        "lat": "25.750594",
+        "lng": "-80.232517",
+        "route": "71322"
+      },
+      {
+        "id": "921430",
+        "name": "SW 24 Ave",
+        "index": 76,
+        "lat": "25.750532",
+        "lng": "-80.234408",
+        "route": "71322"
+      },
+      {
+        "id": "921431",
+        "name": "SW 27 Ave",
+        "index": 77,
+        "lat": "25.750400",
+        "lng": "-80.237984",
+        "route": "71322"
+      },
+      {
+        "id": "921432",
+        "name": "SW 29 Ave",
+        "index": 78,
+        "lat": "25.750329",
+        "lng": "-80.240818",
+        "route": "71322"
+      },
+      {
+        "id": "921433",
+        "name": "SW 31 Ave",
+        "index": 79,
+        "lat": "25.750235",
+        "lng": "-80.243855",
+        "route": "71322"
+      },
+      {
+        "id": "921434",
+        "name": "SW 32 Ave",
+        "index": 80,
+        "lat": "25.750156",
+        "lng": "-80.246736",
+        "route": "71322"
+      },
+      {
+        "id": "921435",
+        "name": "SW 34 Ave",
+        "index": 81,
+        "lat": "25.750112",
+        "lng": "-80.249330",
+        "route": "71322"
+      },
+      {
+        "id": "921436",
+        "name": "SW 36 Ave",
+        "index": 82,
+        "lat": "25.750018",
+        "lng": "-80.252435",
+        "route": "71322"
+      },
+      {
+        "id": "921437",
+        "name": "Merrick Way",
+        "index": 83,
+        "lat": "25.750841",
+        "lng": "-80.255720",
+        "route": "71322"
+      },
+      {
+        "id": "921438",
+        "name": "Alhambra Plaza",
+        "index": 84,
+        "lat": "25.751933",
+        "lng": "-80.256767",
+        "route": "71322"
+      },
+      {
+        "id": "921358",
+        "name": "Port Miami South",
+        "index": 85,
+        "lat": "25.775694",
+        "lng": "-80.177349",
+        "route": "71322"
+      },
+      {
+        "id": "961767",
+        "name": "Atlantic Way",
+        "index": 86,
+        "lat": "25.776173",
+        "lng": "-80.171781",
+        "route": "71322"
+      },
+      {
+        "id": "961768",
+        "name": "N Cruise Blvd",
+        "index": 87,
+        "lat": "25.779699",
+        "lng": "-80.178995",
+        "route": "71322"
+      },
+      {
+        "id": "921359",
+        "name": "Port Miami North",
+        "index": 88,
+        "lat": "25.778284",
+        "lng": "-80.177577",
+        "route": "71322"
+      }
+    ]
+  },
+  {
+    "id": "71342",
+    "name": "Health District",
+    "poly":
+      "kbm|CtlphNlLEtBALzHAv@Sb@ERBdFpBCfEGrEG\\DTDVDBnCJP\\@bB@L?FR@rBJvD|CGJ~GHvHHlLF|Dh@b@pF@^C`AO^MFYEcDMmI}KLK{FeBE{ID{E@yLFAmBjBiCSc@Wg@cAFIqFc@{Ag@aD{@ZkFB?uAKgJKsJX?",
+    "color": "#48A9C5",
+    "stops": [
+      {
+        "id": "921582",
+        "name": "Lindsey Hopkins",
+        "index": 1,
+        "lat": "25.795099",
+        "lng": "-80.206993",
+        "route": "71342"
+      },
+      {
+        "id": "921583",
+        "name": "NW 18 Terr",
+        "index": 2,
+        "lat": "25.792951",
+        "lng": "-80.206956",
+        "route": "71342"
+      },
+      {
+        "id": "921584",
+        "name": "UM Sickle Cell Center",
+        "index": 3,
+        "lat": "25.792292",
+        "lng": "-80.208530",
+        "route": "71342"
+      },
+      {
+        "id": "921585",
+        "name": "Jackson Ryder ER",
+        "index": 4,
+        "lat": "25.791838",
+        "lng": "-80.210225",
+        "route": "71342"
+      },
+      {
+        "id": "921586",
+        "name": "Bascom Palmer Eye Institute",
+        "index": 5,
+        "lat": "25.790845",
+        "lng": "-80.210184",
+        "route": "71342"
+      },
+      {
+        "id": "921587",
+        "name": "Biomedical Research Bldg.",
+        "index": 6,
+        "lat": "25.789782",
+        "lng": "-80.210142",
+        "route": "71342"
+      },
+      {
+        "id": "921588",
+        "name": "Diabetes Research Inst.",
+        "index": 7,
+        "lat": "25.789173",
+        "lng": "-80.211047",
+        "route": "71342"
+      },
+      {
+        "id": "921589",
+        "name": "Schoninger Quad",
+        "index": 8,
+        "lat": "25.788547",
+        "lng": "-80.211743",
+        "route": "71342"
+      },
+      {
+        "id": "921590",
+        "name": "Sylvester Cancer Center",
+        "index": 9,
+        "lat": "25.787638",
+        "lng": "-80.214056",
+        "route": "71342"
+      },
+      {
+        "id": "921591",
+        "name": "UM Hospital",
+        "index": 10,
+        "lat": "25.787588",
+        "lng": "-80.215620",
+        "route": "71342"
+      },
+      {
+        "id": "921592",
+        "name": "County Health Dept.",
+        "index": 11,
+        "lat": "25.787536",
+        "lng": "-80.217775",
+        "route": "71342"
+      },
+      {
+        "id": "921593",
+        "name": "Courthouse",
+        "index": 12,
+        "lat": "25.785420",
+        "lng": "-80.217792",
+        "route": "71342"
+      },
+      {
+        "id": "921594",
+        "name": "Sylvester UMHC",
+        "index": 13,
+        "lat": "25.788134",
+        "lng": "-80.214900",
+        "route": "71342"
+      },
+      {
+        "id": "921595",
+        "name": "Civic Center Metrorail",
+        "index": 14,
+        "lat": "25.789866",
+        "lng": "-80.214928",
+        "route": "71342"
+      },
+      {
+        "id": "921600",
+        "name": "NW 8 Ave",
+        "index": 15,
+        "lat": "25.795182",
+        "lng": "-80.208852",
+        "route": "71342"
+      },
+      {
+        "id": "921597",
+        "name": "Jackson DTC",
+        "index": 16,
+        "lat": "25.792745",
+        "lng": "-80.213561",
+        "route": "71342"
+      },
+      {
+        "id": "921598",
+        "name": "MDC Parking Lot",
+        "index": 17,
+        "lat": "25.793935",
+        "lng": "-80.211062",
+        "route": "71342"
+      },
+      {
+        "id": "921599",
+        "name": "MDC Medical Campus",
+        "index": 18,
+        "lat": "25.795123",
+        "lng": "-80.210653",
+        "route": "71342"
+      },
+      {
+        "id": "921596",
+        "name": "16 St Medical Ctr",
+        "index": 19,
+        "lat": "25.790970",
+        "lng": "-80.214943",
+        "route": "71342"
+      }
+    ]
+  },
+  {
+    "id": "75187",
+    "name": "Little Havana",
+    "poly":
+      "}eg|CzenhNyADFlI}JR@v@DpG_KPD`EBjCgEF}DFuCCe@A}Dz@uEpCc@p@kCpBHbI`EAFzHP|MDdGLnKTtQ\\v]LhLHfB\\rBn@rCJj@J|A@zDLzRNhMJrNLdTFN?pBLbIV`SH`KLlMHxLFxFNxNJfLDpEeLN?pAFtMcCFF[ImMAy@~SUtFKbHOdLQzIUGuCMyOI_MMiMG_JOuNIcIMsJOqPIgKMiLCsHQqOIyJKyKI}KMwQI}HKiLI_HQ_Q?oLGaHMsLO_Q[e\\CyAtFMpIKO{I_HL",
+    "color": "#999966",
+    "stops": [
+      {
+        "id": "949872",
+        "name": "SW 34th Ave",
+        "index": 1,
+        "lat": "25.764805",
+        "lng": "-80.251662",
+        "route": "75187"
+      },
+      {
+        "id": "949843",
+        "name": "SW 2nd AVE",
+        "index": 2,
+        "lat": "25.767259",
+        "lng": "-80.197738",
+        "route": "75187"
+      },
+      {
+        "id": "949844",
+        "name": "Jose Marti Gym",
+        "index": 3,
+        "lat": "25.769124",
+        "lng": "-80.200168",
+        "route": "75187"
+      },
+      {
+        "id": "949845",
+        "name": "Jose Marti Park",
+        "index": 4,
+        "lat": "25.771801",
+        "lng": "-80.200930",
+        "route": "75187"
+      },
+      {
+        "id": "949846",
+        "name": "South River Dr",
+        "index": 5,
+        "lat": "25.774008",
+        "lng": "-80.201949",
+        "route": "75187"
+      },
+      {
+        "id": "949847",
+        "name": "W 7th Ave",
+        "index": 6,
+        "lat": "25.773829",
+        "lng": "-80.205957",
+        "route": "75187"
+      },
+      {
+        "id": "949848",
+        "name": "W 8th Ave",
+        "index": 7,
+        "lat": "25.773743",
+        "lng": "-80.208349",
+        "route": "75187"
+      },
+      {
+        "id": "949849",
+        "name": "W 9th Ave",
+        "index": 8,
+        "lat": "25.773709",
+        "lng": "-80.209664",
+        "route": "75187"
+      },
+      {
+        "id": "949850",
+        "name": "Lincoln-Marti Charter School",
+        "index": 9,
+        "lat": "25.773641",
+        "lng": "-80.211659",
+        "route": "75187"
+      },
+      {
+        "id": "949851",
+        "name": "W 16th Ave",
+        "index": 10,
+        "lat": "25.773308",
+        "lng": "-80.221701",
+        "route": "75187"
+      },
+      {
+        "id": "949852",
+        "name": "Plaza de la Cubanidad",
+        "index": 11,
+        "lat": "25.772868",
+        "lng": "-80.223536",
+        "route": "75187"
+      },
+      {
+        "id": "949853",
+        "name": "W 18th Ave",
+        "index": 12,
+        "lat": "25.772743",
+        "lng": "-80.225172",
+        "route": "75187"
+      },
+      {
+        "id": "949854",
+        "name": "W 20th Ave",
+        "index": 13,
+        "lat": "25.772665",
+        "lng": "-80.228348",
+        "route": "75187"
+      },
+      {
+        "id": "949855",
+        "name": "W 22nd Ave",
+        "index": 14,
+        "lat": "25.772588",
+        "lng": "-80.230644",
+        "route": "75187"
+      },
+      {
+        "id": "949856",
+        "name": "W 23rd Ave",
+        "index": 15,
+        "lat": "25.772530",
+        "lng": "-80.233144",
+        "route": "75187"
+      },
+      {
+        "id": "949857",
+        "name": "Miami Senior High School",
+        "index": 16,
+        "lat": "25.772419",
+        "lng": "-80.237183",
+        "route": "75187"
+      },
+      {
+        "id": "949858",
+        "name": "W 27th Ave",
+        "index": 17,
+        "lat": "25.772351",
+        "lng": "-80.238803",
+        "route": "75187"
+      },
+      {
+        "id": "949859",
+        "name": "Miami-Dade Auditorium",
+        "index": 18,
+        "lat": "25.772226",
+        "lng": "-80.242006",
+        "route": "75187"
+      },
+      {
+        "id": "949860",
+        "name": "W 30th Ave",
+        "index": 19,
+        "lat": "25.772182",
+        "lng": "-80.243942",
+        "route": "75187"
+      },
+      {
+        "id": "949861",
+        "name": "W 31st Ave",
+        "index": 20,
+        "lat": "25.772115",
+        "lng": "-80.246249",
+        "route": "75187"
+      },
+      {
+        "id": "949862",
+        "name": "W 32nd Ct",
+        "index": 21,
+        "lat": "25.772057",
+        "lng": "-80.248459",
+        "route": "75187"
+      },
+      {
+        "id": "949863",
+        "name": "W 33rd Ave",
+        "index": 22,
+        "lat": "25.772023",
+        "lng": "-80.249709",
+        "route": "75187"
+      },
+      {
+        "id": "949864",
+        "name": "W 35th Ave",
+        "index": 23,
+        "lat": "25.771936",
+        "lng": "-80.252241",
+        "route": "75187"
+      },
+      {
+        "id": "949865",
+        "name": "Ponce De Leon Blvd",
+        "index": 24,
+        "lat": "25.771883",
+        "lng": "-80.254360",
+        "route": "75187"
+      },
+      {
+        "id": "949866",
+        "name": "NW 2nd St WB",
+        "index": 25,
+        "lat": "25.773965",
+        "lng": "-80.255905",
+        "route": "75187"
+      },
+      {
+        "id": "949867",
+        "name": "Magic City Casino",
+        "index": 26,
+        "lat": "25.774593",
+        "lng": "-80.255840",
+        "route": "75187"
+      },
+      {
+        "id": "949868",
+        "name": "W Flager St",
+        "index": 27,
+        "lat": "25.771240",
+        "lng": "-80.255443",
+        "route": "75187"
+      },
+      {
+        "id": "949869",
+        "name": "Coral Gables Gateway",
+        "index": 28,
+        "lat": "25.768554",
+        "lng": "-80.255304",
+        "route": "75187"
+      },
+      {
+        "id": "949870",
+        "name": "Montilla Ave",
+        "index": 29,
+        "lat": "25.766443",
+        "lng": "-80.255207",
+        "route": "75187"
+      },
+      {
+        "id": "949871",
+        "name": "Trail Theater",
+        "index": 30,
+        "lat": "25.764738",
+        "lng": "-80.254354",
+        "route": "75187"
+      },
+      {
+        "id": "949842",
+        "name": "Brickell Metro Station",
+        "index": 31,
+        "lat": "25.764945",
+        "lng": "-80.195662",
+        "route": "75187"
+      },
+      {
+        "id": "949873",
+        "name": "Woodlawn",
+        "index": 32,
+        "lat": "25.764863",
+        "lng": "-80.249419",
+        "route": "75187"
+      },
+      {
+        "id": "949874",
+        "name": "SW 32nd Ave",
+        "index": 33,
+        "lat": "25.764931",
+        "lng": "-80.247134",
+        "route": "75187"
+      },
+      {
+        "id": "949875",
+        "name": "SW 31st Ct",
+        "index": 34,
+        "lat": "25.764970",
+        "lng": "-80.245369",
+        "route": "75187"
+      },
+      {
+        "id": "949876",
+        "name": "SW 30th Ave",
+        "index": 35,
+        "lat": "25.765047",
+        "lng": "-80.242864",
+        "route": "75187"
+      },
+      {
+        "id": "949877",
+        "name": "SW 29th Ave",
+        "index": 36,
+        "lat": "25.765095",
+        "lng": "-80.241238",
+        "route": "75187"
+      },
+      {
+        "id": "949878",
+        "name": "Lincoln-Marti",
+        "index": 37,
+        "lat": "25.765172",
+        "lng": "-80.239377",
+        "route": "75187"
+      },
+      {
+        "id": "949879",
+        "name": "SW 25th Ave",
+        "index": 38,
+        "lat": "25.765255",
+        "lng": "-80.236566",
+        "route": "75187"
+      },
+      {
+        "id": "949880",
+        "name": "SW 24th Ave",
+        "index": 39,
+        "lat": "25.765303",
+        "lng": "-80.234613",
+        "route": "75187"
+      },
+      {
+        "id": "949881",
+        "name": "SW 23rd Ave",
+        "index": 40,
+        "lat": "25.765371",
+        "lng": "-80.232478",
+        "route": "75187"
+      },
+      {
+        "id": "949882",
+        "name": "Shenandoah Gateway",
+        "index": 41,
+        "lat": "25.765395",
+        "lng": "-80.230944",
+        "route": "75187"
+      },
+      {
+        "id": "949883",
+        "name": "SW 20th Ave",
+        "index": 42,
+        "lat": "25.765482",
+        "lng": "-80.228289",
+        "route": "75187"
+      },
+      {
+        "id": "949884",
+        "name": "SW 19th Ave",
+        "index": 43,
+        "lat": "25.765530",
+        "lng": "-80.226395",
+        "route": "75187"
+      },
+      {
+        "id": "949885",
+        "name": "SW 18th Ave",
+        "index": 44,
+        "lat": "25.765588",
+        "lng": "-80.224351",
+        "route": "75187"
+      },
+      {
+        "id": "949886",
+        "name": "SW 17th Ave",
+        "index": 45,
+        "lat": "25.765641",
+        "lng": "-80.222275",
+        "route": "75187"
+      },
+      {
+        "id": "949887",
+        "name": "Domino Park",
+        "index": 46,
+        "lat": "25.765709",
+        "lng": "-80.219282",
+        "route": "75187"
+      },
+      {
+        "id": "949888",
+        "name": "SW 13th Ct",
+        "index": 47,
+        "lat": "25.765762",
+        "lng": "-80.217694",
+        "route": "75187"
+      },
+      {
+        "id": "949889",
+        "name": "Bay of Pigs Monument",
+        "index": 48,
+        "lat": "25.765825",
+        "lng": "-80.215564",
+        "route": "75187"
+      },
+      {
+        "id": "949890",
+        "name": "Roads Gateway",
+        "index": 49,
+        "lat": "25.765868",
+        "lng": "-80.214121",
+        "route": "75187"
+      },
+      {
+        "id": "949891",
+        "name": "SW 10th Ave",
+        "index": 50,
+        "lat": "25.765955",
+        "lng": "-80.211235",
+        "route": "75187"
+      },
+      {
+        "id": "949892",
+        "name": "SW 9th Ave",
+        "index": 51,
+        "lat": "25.765965",
+        "lng": "-80.209084",
+        "route": "75187"
+      },
+      {
+        "id": "949893",
+        "name": "SW 8th Ave",
+        "index": 52,
+        "lat": "25.765999",
+        "lng": "-80.207630",
+        "route": "75187"
+      },
+      {
+        "id": "949894",
+        "name": "SW 7th Ave",
+        "index": 53,
+        "lat": "25.766071",
+        "lng": "-80.205452",
+        "route": "75187"
+      },
+      {
+        "id": "949895",
+        "name": "SW 5th Ave",
+        "index": 54,
+        "lat": "25.766148",
+        "lng": "-80.202566",
+        "route": "75187"
+      },
+      {
+        "id": "949896",
+        "name": "Brickell Gateway",
+        "index": 55,
+        "lat": "25.766288",
+        "lng": "-80.197905",
+        "route": "75187"
+      },
+      {
+        "id": "949897",
+        "name": "Sw 9th (SB)",
+        "index": 58,
+        "lat": "25.765076",
+        "lng": "-80.197379",
+        "route": "75187"
+      }
+    ]
+  },
+  {
+    "id": "71344",
+    "name": "Overtown",
+    "poly":
+      "ccm|CfophNAoAfMIpIApICdLIrEClJKfFCM}LIuKMmMCcFGmElDExDEVADlCJdK@nBHvIAVtHKlAEF`HJ|LUB}CJiEDo@|@gCbBuGpIaBdBaA`AoBxBg@\\_@N}DHg@DwGFwAQkA}@eA{@yA_@aDAgGPgDDu@ToA`AkAr@q@PgF@?{@MyJGgH",
+    "color": "#963CBD",
+    "stops": [
+      {
+        "id": "921623",
+        "name": "Merlin Lounge",
+        "index": 1,
+        "lat": "25.781592",
+        "lng": "-80.202896",
+        "route": "71344"
+      },
+      {
+        "id": "921624",
+        "name": "NW 7 St",
+        "index": 2,
+        "lat": "25.780050",
+        "lng": "-80.202958",
+        "route": "71344"
+      },
+      {
+        "id": "921625",
+        "name": "NW 6 Ave",
+        "index": 3,
+        "lat": "25.779618",
+        "lng": "-80.204383",
+        "route": "71344"
+      },
+      {
+        "id": "921626",
+        "name": "NW 6 St",
+        "index": 4,
+        "lat": "25.779665",
+        "lng": "-80.206635",
+        "route": "71344"
+      },
+      {
+        "id": "921627",
+        "name": "NW 11 St",
+        "index": 5,
+        "lat": "25.783777",
+        "lng": "-80.209220",
+        "route": "71344"
+      },
+      {
+        "id": "921628",
+        "name": "Health District Gateway",
+        "index": 6,
+        "lat": "25.786673",
+        "lng": "-80.210980",
+        "route": "71344"
+      },
+      {
+        "id": "921629",
+        "name": "Pine Heights Park",
+        "index": 7,
+        "lat": "25.789242",
+        "lng": "-80.210320",
+        "route": "71344"
+      },
+      {
+        "id": "921630",
+        "name": "Bascom Palmer Eye Institute",
+        "index": 8,
+        "lat": "25.790498",
+        "lng": "-80.210152",
+        "route": "71344"
+      },
+      {
+        "id": "921631",
+        "name": "Bascom Palmer Eye Institute",
+        "index": 9,
+        "lat": "25.791823",
+        "lng": "-80.210238",
+        "route": "71344"
+      },
+      {
+        "id": "921632",
+        "name": "MDC Parking Lot",
+        "index": 10,
+        "lat": "25.793962",
+        "lng": "-80.211055",
+        "route": "71344"
+      },
+      {
+        "id": "921633",
+        "name": "MDC Medical Campus",
+        "index": 11,
+        "lat": "25.795120",
+        "lng": "-80.210773",
+        "route": "71344"
+      },
+      {
+        "id": "921634",
+        "name": "NW 8 Ave",
+        "index": 12,
+        "lat": "25.795188",
+        "lng": "-80.208882",
+        "route": "71344"
+      },
+      {
+        "id": "921608",
+        "name": "Lindsey Hopkins",
+        "index": 13,
+        "lat": "25.795223",
+        "lng": "-80.207397",
+        "route": "71344"
+      },
+      {
+        "id": "921609",
+        "name": "NW 18 Terr",
+        "index": 14,
+        "lat": "25.792950",
+        "lng": "-80.206952",
+        "route": "71344"
+      },
+      {
+        "id": "921610",
+        "name": "NW 17 St",
+        "index": 15,
+        "lat": "25.791258",
+        "lng": "-80.206936",
+        "route": "71344"
+      },
+      {
+        "id": "921611",
+        "name": "NW 15 St",
+        "index": 16,
+        "lat": "25.789573",
+        "lng": "-80.206924",
+        "route": "71344"
+      },
+      {
+        "id": "921612",
+        "name": "Allapattah Mini Park",
+        "index": 17,
+        "lat": "25.787458",
+        "lng": "-80.206872",
+        "route": "71344"
+      },
+      {
+        "id": "921613",
+        "name": "Brooker T. Washington High",
+        "index": 18,
+        "lat": "25.786403",
+        "lng": "-80.206855",
+        "route": "71344"
+      },
+      {
+        "id": "921614",
+        "name": "Culmer Metrorail",
+        "index": 19,
+        "lat": "25.784574",
+        "lng": "-80.206791",
+        "route": "71344"
+      },
+      {
+        "id": "921615",
+        "name": "Black Police Museum",
+        "index": 20,
+        "lat": "25.783480",
+        "lng": "-80.204545",
+        "route": "71344"
+      },
+      {
+        "id": "921616",
+        "name": "Reeves Health Center",
+        "index": 21,
+        "lat": "25.783526",
+        "lng": "-80.202515",
+        "route": "71344"
+      },
+      {
+        "id": "921617",
+        "name": "Overtown Main St",
+        "index": 22,
+        "lat": "25.783595",
+        "lng": "-80.200202",
+        "route": "71344"
+      },
+      {
+        "id": "921618",
+        "name": "Elizabeth Taylor",
+        "index": 23,
+        "lat": "25.783622",
+        "lng": "-80.199062",
+        "route": "71344"
+      },
+      {
+        "id": "921619",
+        "name": "Historic Folk Life Village",
+        "index": 24,
+        "lat": "25.782791",
+        "lng": "-80.198001",
+        "route": "71344"
+      },
+      {
+        "id": "921620",
+        "name": "NW 8 St (Mary Elizabeth)",
+        "index": 25,
+        "lat": "25.781855",
+        "lng": "-80.197966",
+        "route": "71344"
+      },
+      {
+        "id": "921621",
+        "name": "Dorsey 3rd Ave Gateway",
+        "index": 26,
+        "lat": "25.781709",
+        "lng": "-80.198665",
+        "route": "71344"
+      },
+      {
+        "id": "921622",
+        "name": "Barbeque Pit",
+        "index": 27,
+        "lat": "25.781642",
+        "lng": "-80.201184",
+        "route": "71344"
+      }
+    ]
+  },
+  {
+    "id": "71345",
+    "name": "Stadium",
+    "poly":
+      "icm|ChophNLjKJfHFdNNbKtAAhHGlLEnFGvPMhFGpCg@pDYPCzFPbI\\~FKjIKfXQzBCHvJVpReKFEoIqW\\iDB@u@UwRyDB{Ko@{DIwBP{Dr@\\`ALtJ?hA{KNCwESqLC}GOiJqA@oAWy@w@kAaAeAWqDE{GJcBBGwEZu@EkAEwEEaBiAAiGLgFC?vA",
+    "color": "#444A9C",
+    "stops": [
+      {
+        "id": "921664",
+        "name": "NW 18 Terr",
+        "index": 2,
+        "lat": "25.792750",
+        "lng": "-80.206922",
+        "route": "71345"
+      },
+      {
+        "id": "921663",
+        "name": "UM Sickle Cell Center",
+        "index": 3,
+        "lat": "25.792320",
+        "lng": "-80.208501",
+        "route": "71345"
+      },
+      {
+        "id": "921662",
+        "name": "Jackson ER",
+        "index": 4,
+        "lat": "25.791892",
+        "lng": "-80.210214",
+        "route": "71345"
+      },
+      {
+        "id": "921645",
+        "name": "NW 20 St",
+        "index": 5,
+        "lat": "25.794573",
+        "lng": "-80.215228",
+        "route": "71345"
+      },
+      {
+        "id": "921646",
+        "name": "NW 19 St",
+        "index": 6,
+        "lat": "25.793081",
+        "lng": "-80.215190",
+        "route": "71345"
+      },
+      {
+        "id": "921659",
+        "name": "UHealth Clinical Research",
+        "index": 7,
+        "lat": "25.787669",
+        "lng": "-80.212831",
+        "route": "71345"
+      },
+      {
+        "id": "921648",
+        "name": "Civic Center Metrorail",
+        "index": 8,
+        "lat": "25.789726",
+        "lng": "-80.215121",
+        "route": "71345"
+      },
+      {
+        "id": "921658",
+        "name": "Sylvester Cancer Center",
+        "index": 9,
+        "lat": "25.787645",
+        "lng": "-80.214259",
+        "route": "71345"
+      },
+      {
+        "id": "921650",
+        "name": "NW 6 St",
+        "index": 10,
+        "lat": "25.779850",
+        "lng": "-80.214837",
+        "route": "71345"
+      },
+      {
+        "id": "921651",
+        "name": "NW 5 St",
+        "index": 11,
+        "lat": "25.778186",
+        "lng": "-80.214781",
+        "route": "71345"
+      },
+      {
+        "id": "921652",
+        "name": "NW 1 St",
+        "index": 12,
+        "lat": "25.774150",
+        "lng": "-80.214691",
+        "route": "71345"
+      },
+      {
+        "id": "921653",
+        "name": "Flagler St",
+        "index": 13,
+        "lat": "25.773476",
+        "lng": "-80.216549",
+        "route": "71345"
+      },
+      {
+        "id": "921654",
+        "name": "Stadium",
+        "index": 14,
+        "lat": "25.779270",
+        "lng": "-80.218187",
+        "route": "71345"
+      },
+      {
+        "id": "921642",
+        "name": "NW 8 Ave",
+        "index": 15,
+        "lat": "25.795184",
+        "lng": "-80.209387",
+        "route": "71345"
+      },
+      {
+        "id": "921655",
+        "name": "NW 14 Ave",
+        "index": 15,
+        "lat": "25.780107",
+        "lng": "-80.217938",
+        "route": "71345"
+      },
+      {
+        "id": "921656",
+        "name": "Courthouse",
+        "index": 16,
+        "lat": "25.785471",
+        "lng": "-80.217060",
+        "route": "71345"
+      },
+      {
+        "id": "921641",
+        "name": "Lindsey Hopkins",
+        "index": 16,
+        "lat": "25.795246",
+        "lng": "-80.207411",
+        "route": "71345"
+      },
+      {
+        "id": "921657",
+        "name": "Justice Center",
+        "index": 17,
+        "lat": "25.787554",
+        "lng": "-80.216432",
+        "route": "71345"
+      },
+      {
+        "id": "921649",
+        "name": "State Attorney Office",
+        "index": 18,
+        "lat": "25.786888",
+        "lng": "-80.215048",
+        "route": "71345"
+      },
+      {
+        "id": "921647",
+        "name": "16 St Medical Ctr.",
+        "index": 19,
+        "lat": "25.790933",
+        "lng": "-80.215161",
+        "route": "71345"
+      },
+      {
+        "id": "921660",
+        "name": "Pine Heights Park",
+        "index": 22,
+        "lat": "25.789235",
+        "lng": "-80.210300",
+        "route": "71345"
+      },
+      {
+        "id": "921661",
+        "name": "Bascom Palmer Eye Institute",
+        "index": 23,
+        "lat": "25.790467",
+        "lng": "-80.210150",
+        "route": "71345"
+      },
+      {
+        "id": "921665",
+        "name": "UM Life Science Park",
+        "index": 25,
+        "lat": "25.794077",
+        "lng": "-80.206987",
+        "route": "71345"
+      },
+      {
+        "id": "921643",
+        "name": "NW 10 Ave",
+        "index": 36,
+        "lat": "25.795124",
+        "lng": "-80.210867",
+        "route": "71345"
+      },
+      {
+        "id": "921644",
+        "name": "NW 11 Ave",
+        "index": 37,
+        "lat": "25.795078",
+        "lng": "-80.213298",
+        "route": "71345"
+      }
+    ]
+  },
+  {
+    "id": "73789",
+    "name": "Wynwood",
+    "poly":
+      "y_l|CvulhNEiCEi@[IOAeBBeC@wEJ@Zu@vA@hBFxCb@HxMLb@?DjHFpI_EHyFDJpL?^uCAyDHoEBaEFgAA}EF?nDBlDHlFFrD?\\IPQBoGBaCHuABuCB}A?eHDo@@yCDaIHoLP}HDqHLoA@KeMG}H?MjJIhGMhJKdEEr@AhEGvCKbD@HjHEjATlLjCId@?xHIlEMxAA~B?VCxDEjAEFsACeBOgLGsDES~@ArGIfHEfFCxHEn@AA}GGyDEqHGmICgF",
+    "color": "#20fc10",
+    "stops": [
+      {
+        "id": "939162",
+        "name": "Adrienne Arsht Center Metromover Station",
+        "index": 1,
+        "lat": "25.789569",
+        "lng": "-80.187960",
+        "route": "73789"
+      },
+      {
+        "id": "939163",
+        "name": "North Bayshore Dr.",
+        "index": 2,
+        "lat": "25.791030",
+        "lng": "-80.187029",
+        "route": "73789"
+      },
+      {
+        "id": "983697",
+        "name": "NE 17 Terr",
+        "index": 3,
+        "lat": "25.792136",
+        "lng": "-80.189025",
+        "route": "73789"
+      },
+      {
+        "id": "939164",
+        "name": "School Board",
+        "index": 4,
+        "lat": "25.789772",
+        "lng": "-80.189092",
+        "route": "73789"
+      },
+      {
+        "id": "939165",
+        "name": "NE 16 Street",
+        "index": 5,
+        "lat": "25.790485",
+        "lng": "-80.192326",
+        "route": "73789"
+      },
+      {
+        "id": "939166",
+        "name": "N Miami Ave",
+        "index": 6,
+        "lat": "25.791670",
+        "lng": "-80.194531",
+        "route": "73789"
+      },
+      {
+        "id": "939167",
+        "name": "NW 1st Avenue (NB)",
+        "index": 6,
+        "lat": "25.796806",
+        "lng": "-80.196573",
+        "route": "73789"
+      },
+      {
+        "id": "983698",
+        "name": "",
+        "index": 7,
+        "lat": "25.792423",
+        "lng": "-80.194682",
+        "route": "73789"
+      },
+      {
+        "id": "983699",
+        "name": "",
+        "index": 8,
+        "lat": "25.795724",
+        "lng": "-80.194775",
+        "route": "73789"
+      },
+      {
+        "id": "983700",
+        "name": "",
+        "index": 10,
+        "lat": "25.796860",
+        "lng": "-80.198919",
+        "route": "73789"
+      },
+      {
+        "id": "939169",
+        "name": "NW 22nd Street",
+        "index": 11,
+        "lat": "25.798217",
+        "lng": "-80.198941",
+        "route": "73789"
+      },
+      {
+        "id": "939170",
+        "name": "NW 23rd Street",
+        "index": 12,
+        "lat": "25.799298",
+        "lng": "-80.199007",
+        "route": "73789"
+      },
+      {
+        "id": "939171",
+        "name": "Wynwood Walls NB",
+        "index": 13,
+        "lat": "25.800516",
+        "lng": "-80.199034",
+        "route": "73789"
+      },
+      {
+        "id": "939173",
+        "name": "NW 27th Street",
+        "index": 14,
+        "lat": "25.801987",
+        "lng": "-80.199064",
+        "route": "73789"
+      },
+      {
+        "id": "983701",
+        "name": "NW 30 St",
+        "index": 15,
+        "lat": "25.804612",
+        "lng": "-80.199153",
+        "route": "73789"
+      },
+      {
+        "id": "983702",
+        "name": "",
+        "index": 16,
+        "lat": "25.806766",
+        "lng": "-80.199244",
+        "route": "73789"
+      },
+      {
+        "id": "983703",
+        "name": "NW 34 St",
+        "index": 17,
+        "lat": "25.808359",
+        "lng": "-80.199274",
+        "route": "73789"
+      },
+      {
+        "id": "983704",
+        "name": "NW 36 St",
+        "index": 18,
+        "lat": "25.809890",
+        "lng": "-80.199344",
+        "route": "73789"
+      },
+      {
+        "id": "983705",
+        "name": "NW 1 Ave (North)",
+        "index": 19,
+        "lat": "25.810349",
+        "lng": "-80.197079",
+        "route": "73789"
+      },
+      {
+        "id": "983706",
+        "name": "N Miami Ave (North)",
+        "index": 20,
+        "lat": "25.810390",
+        "lng": "-80.195491",
+        "route": "73789"
+      },
+      {
+        "id": "983707",
+        "name": "Roberto Clemente Park",
+        "index": 21,
+        "lat": "25.808572",
+        "lng": "-80.195369",
+        "route": "73789"
+      },
+      {
+        "id": "983708",
+        "name": "NW 33 St",
+        "index": 22,
+        "lat": "25.807244",
+        "lng": "-80.195297",
+        "route": "73789"
+      },
+      {
+        "id": "983709",
+        "name": "NW 31 St",
+        "index": 23,
+        "lat": "25.805425",
+        "lng": "-80.195236",
+        "route": "73789"
+      },
+      {
+        "id": "983710",
+        "name": "NW 29 St",
+        "index": 24,
+        "lat": "25.804177",
+        "lng": "-80.195204",
+        "route": "73789"
+      },
+      {
+        "id": "1013182",
+        "name": "NW 28 St",
+        "index": 25,
+        "lat": "25.803172",
+        "lng": "-80.195159",
+        "route": "73789"
+      },
+      {
+        "id": "1013183",
+        "name": "NW 27 St",
+        "index": 26,
+        "lat": "25.802409",
+        "lng": "-80.195103",
+        "route": "73789"
+      },
+      {
+        "id": "983712",
+        "name": "NW 1 Ave",
+        "index": 27,
+        "lat": "25.801569",
+        "lng": "-80.196988",
+        "route": "73789"
+      },
+      {
+        "id": "939177",
+        "name": "Wynwood Walls SB",
+        "index": 29,
+        "lat": "25.800569",
+        "lng": "-80.199085",
+        "route": "73789"
+      },
+      {
+        "id": "939178",
+        "name": "NW 22 Ln",
+        "index": 30,
+        "lat": "25.799004",
+        "lng": "-80.199037",
+        "route": "73789"
+      },
+      {
+        "id": "939179",
+        "name": "NW 20 Terr",
+        "index": 31,
+        "lat": "25.795826",
+        "lng": "-80.198914",
+        "route": "73789"
+      },
+      {
+        "id": "939246",
+        "name": "NW 1st Ct",
+        "index": 32,
+        "lat": "25.795433",
+        "lng": "-80.197945",
+        "route": "73789"
+      },
+      {
+        "id": "939247",
+        "name": "NW Miami Ct",
+        "index": 33,
+        "lat": "25.795505",
+        "lng": "-80.195829",
+        "route": "73789"
+      },
+      {
+        "id": "941297",
+        "name": "NW 19th St",
+        "index": 34,
+        "lat": "25.793875",
+        "lng": "-80.194772",
+        "route": "73789"
+      },
+      {
+        "id": "941295",
+        "name": "Chapman Partnership",
+        "index": 35,
+        "lat": "25.789668",
+        "lng": "-80.194687",
+        "route": "73789"
+      },
+      {
+        "id": "941296",
+        "name": "School Board MetroMover Station",
+        "index": 36,
+        "lat": "25.789444",
+        "lng": "-80.193252",
+        "route": "73789"
+      }
+    ]
+  }
+]

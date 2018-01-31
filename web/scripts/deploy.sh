@@ -1,3 +1,4 @@
 #!/bin/bash
 
-rsync -azP build/ ubuntu@ideakeg.xyz:/home/ubuntu/utf --exclude .DS_Store
+yarn build
+rsync -azP build/ ubuntu@ideakeg.xyz:/home/ubuntu/dtif --exclude .DS_Store

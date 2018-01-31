@@ -1,0 +1,12 @@
+$lightGrayBorder: #e0e0e0;
+$inputBackground: #fafafa;
+$green: #50a66a;
+$blue: #157afc;
+$darkBlue: #3b5998;
+$red: #f21d41;
+$placeholder: #9b9b9b;
+
+:export {
+  lightgrayborder: $lightGrayBorder;
+  blue: $blue;
+}

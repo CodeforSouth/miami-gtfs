@@ -1,19 +1,8 @@
-.map {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 280px;
-  background: #e0e0e0;
-}
-
-.stop {
-  height: 4px;
-  width: 4px;
-  border-radius: 50%;
-  background: red;
-}
-
 :global .mapboxgl-ctrl-geolocate {
   display: none !important;
+}
+
+.map {
+  flex: 1;
+  background: gray;
 }
