@@ -17,5 +17,3 @@ An interactive map of dangerous dogs in Austin
 
 * Map touch targets are far too small on mobile
 * Doesn’t redirect invalid URLs
-
-https://publictransportation.tsomobile.com/rest/PubTrans/GetModuleInfoPublic?Key=STOPINFO_WITHOVERLAPS&id=944881&_=1517362090438

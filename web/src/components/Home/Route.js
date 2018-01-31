@@ -17,15 +17,17 @@ class Route extends Component {
   render() {
     const data = this.props.data;
     const url = `/route/${data.id}`;
-    const type = routeType(4);
+    const style = {
+      background: data.color
+    };
     return (
       <a className={styles.container} href={url} onClick={this._onClick}>
         <div className={styles.item}>
           <div className={styles.name}>{data.stops.length} stops</div>
           <div className={styles.info}>
             <div className={styles.number}>{data.name}</div>
-            <div className={styles.type} style={type.style}>
-              {type.text}
+            <div className={styles.type} style={style}>
+              TROLLEY
             </div>
           </div>
         </div>

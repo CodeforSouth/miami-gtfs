@@ -96,15 +96,17 @@ export const layers = createSelector(
       });
       const stopFeatures = route.stops.map(stopId => {
         const data = stops.get(stopId);
+        const lngLat = [data.lng, data.lat];
         return {
           type: 'Feature',
           geometry: {
             type: 'Point',
-            coordinates: [data.lng, data.lat]
+            coordinates: lngLat
           },
           properties: {
             route: id,
-            stop: stopId
+            stop: stopId,
+            lngLat
           }
         };
       });
