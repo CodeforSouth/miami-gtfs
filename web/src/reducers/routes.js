@@ -124,7 +124,10 @@ export const layers = createSelector(
           paint: {
             'circle-color': route.color,
             'circle-stroke-color': '#fff',
-            'circle-radius': 5,
+            'circle-radius': {
+              base: 3,
+              stops: [[12, 3], [15, 10]]
+            },
             'circle-stroke-width': 1
           },
           layout: { visibility: 'visible' }

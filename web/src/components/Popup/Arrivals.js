@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import fetch from 'fetch-jsonp';
+import moment from 'moment';
 
 import styles from './styles.css';
 
 class Arrivals extends Component {
   state = {
-    times: ''
+    times: [],
+    refreshed: ''
   };
 
   async componentDidMount() {
@@ -23,21 +25,30 @@ class Arrivals extends Component {
     const res = await fetch(url)
       .then(res => res.json())
       .then(json => JSON.parse(json));
-    const times = res[1]
-      .map(time => {
-        const eta = parseInt(time.ETASeconds, 10);
-        const minutes = Math.floor(eta / 60);
-        const seconds = eta % 60;
-        return `${minutes}:${seconds}m`;
-      })
-      .join(' ');
+    const times = res[1].map(time => {
+      const eta = parseInt(time.ETASeconds, 10);
+      const minutes = Math.floor(eta / 60);
+      const seconds = eta % 60;
+      return {
+        text: moment()
+          .add(minutes, 'm')
+          .add(seconds, 's')
+          .format('h:mm a'),
+        eta: `${minutes}:${seconds}m`
+      };
+    });
     this.setState({
-      times
+      times,
+      refreshed: moment().format('h:mm')
     });
   };
 
   render() {
-    return <div className={styles.arrivals}>{this.state.times}</div>;
+    return (
+      <div className={styles.arrivals}>
+        {this.state.times.map(time => time.text).join(', ')}
+      </div>
+    );
   }
 }
 

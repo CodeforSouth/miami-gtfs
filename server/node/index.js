@@ -16,7 +16,7 @@ const json = require('body-parser').json();
 app.use(json);
 
 app.get('/import', importGTFS);
-app.get('/protobuf', protobuf);
+app.get('/api/protobuf', protobuf);
 app.post('/api/v1/routes', routes);
 app.post('/api/v1/trips', trips);
 

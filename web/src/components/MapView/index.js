@@ -7,6 +7,7 @@ import styles from './styles.css';
 import * as MapState from 'reducers/map';
 import * as Routes from 'reducers/routes';
 import * as Popup from 'reducers/popup';
+// import { colors } from 'contants.js';
 
 MapboxGl.accessToken =
   'pk.eyJ1IjoiaGFtZWVkbyIsImEiOiJHMnhTMDFvIn0.tFZs7sYMghY-xovxRPNNnw';
@@ -105,6 +106,94 @@ class MapView extends Component {
 
   _onLoad = () => {
     this.props.setLoaded();
+
+    this._userLocation();
+
+    this._trolleys();
+  };
+
+  _trolleys = () => {
+    function positionGEOJSON(entity) {
+      return {
+        type: 'Point',
+        coordinates: [
+          entity.vehicle.position.longitude,
+          entity.vehicle.position.latitude
+        ]
+      };
+    }
+
+    this._interval = setInterval(async () => {
+      const res = await fetch('https://d0c45bdf.ngrok.io/api/protobuf').then(
+        res => res.json()
+      );
+
+      res.entity.forEach(entity => {
+        const source = this._map.getSource(entity.id);
+        if (source) {
+          source.setData(positionGEOJSON(entity));
+          return;
+        }
+
+        this._map.addSource(entity.id, {
+          type: 'geojson',
+          data: {
+            type: 'Point',
+            coordinates: positionGEOJSON(entity)
+          }
+        });
+
+        this._map.addLayer({
+          id: entity.id,
+          source: entity.id,
+          type: 'circle',
+          paint: {
+            'circle-color': '#979797',
+            'circle-stroke-color': '#fff',
+            'circle-radius': 8,
+            'circle-stroke-width': 1
+          }
+        });
+      });
+    }, 2000);
+  };
+
+  _userLocation = () => {
+    function positionGEOJSON(position) {
+      return {
+        type: 'Point',
+        coordinates: [position.coords.longitude, position.coords.latitude]
+      };
+    }
+
+    navigator.geolocation.getCurrentPosition(position => {
+      this._map.addSource('user', {
+        type: 'geojson',
+        data: {
+          type: 'Point',
+          coordinates: positionGEOJSON(position)
+        }
+      });
+
+      this._map.addLayer({
+        id: 'user',
+        source: 'user',
+        type: 'circle',
+        paint: {
+          'circle-color': '#157afc',
+          'circle-stroke-color': '#fff',
+          'circle-radius': {
+            base: 3,
+            stops: [[12, 3], [15, 10]]
+          },
+          'circle-stroke-width': 1
+        }
+      });
+
+      const watchID = navigator.geolocation.watchPosition(position => {
+        this._map.getSource('user').setData(positionGEOJSON(position));
+      });
+    });
   };
 
   _setMapRef = ref => {

@@ -13,10 +13,10 @@ class Popup extends Component {
     return (
       <div className={styles.popup} style={style}>
         <div className={styles.body}>
-          <div className={styles.route}>
-            {route.name} #{stop.index}
+          <div className={styles.route}>{route.name}</div>
+          <div className={styles.stop}>
+            {stop.index}. {stop.name}
           </div>
-          <div className={styles.stop}>{stop.name}</div>
           <Arrivals id={id} />
         </div>
       </div>
