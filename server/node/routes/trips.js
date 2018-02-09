@@ -7,7 +7,10 @@ export default async function trips(req, res) {
   const routes = _(all)
     .groupBy('route_id')
     .mapValues(group => {
-      return _(group).map(trip => trip.direction_id).uniq().value();
+      return _(group)
+        .map(trip => trip.direction_id)
+        .uniq()
+        .value();
     })
     .value();
   const stops = await Promise.all(
@@ -23,6 +26,6 @@ export default async function trips(req, res) {
   );
   res.send({
     success: true,
-    stops,
+    stops
   });
 }

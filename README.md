@@ -13,6 +13,17 @@
 
 After starting the server the first time, `GET localhost:3600/import`
 
+#### Server Todo
+
+Rail:
+OBA: 19932
+XML:
+
+Gables:
+OBA: 17789
+SHAPE: 144537
+XML: 9011
+
 #### Setup Web
 
 `cd web && yarn`

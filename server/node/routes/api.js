@@ -5,11 +5,11 @@ const knex = require('knex')(knexconfig);
 const gtfsdb = require('gtfsdb')(knex);
 
 /* Enable CORS */
-/*router.all('*', function(req, res, next) {
+router.all('*', function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'X-Requested-With');
   next();
-});*/
+});
 
 router.get('/api/v1/agency', function(req, res, next) {
   gtfsdb
@@ -70,7 +70,7 @@ router.get('/api/v1/agency/:agency/route/:routeId', function(req, res, next) {
   const routeId = req.params.routeId;
   Promise.all([
     gtfsdb.getRoute(agencyKey, routeId),
-    gtfsdb.getRouteTrips(agencyKey, routeId),
+    gtfsdb.getRouteTrips(agencyKey, routeId)
   ])
     .then(values => {
       res.send(values);
@@ -149,7 +149,7 @@ router.get('/api/v1/agency/:agency/stop/:stopId/timetables', function(
 
   Promise.all([
     gtfsdb.getStop(agencyKey, stopId),
-    gtfsdb.getStopTimes(agencyKey, stopId),
+    gtfsdb.getStopTimes(agencyKey, stopId)
   ])
     .then(values => {
       res.send(values);

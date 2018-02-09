@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mongo:
-    image: 'mvertes/alpine-mongo'
+    image: 'mvertes/alpine-mongo:3.4.10-0'
     volumes:
       - ./mongo:/data/db
 

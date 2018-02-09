@@ -66,13 +66,13 @@ class MapView extends Component {
         data: layer.data
       });
       const sourceId = layer.layer.id;
-      this._map.addLayer(layer.layer, 'road-oneway-arrows-white');
+      this._map.addLayer(layer.layer /*, 'road-oneway-arrows-white' */);
       if (i % 2 === 0) return;
       this._map.on('mousemove', sourceId, this._onMouseMove);
       this._map.on('mouseleave', sourceId, this._onMouseLeave);
       this._map.on('click', sourceId, this._onClick);
 
-      this._map.addLayer(layer.labels, 'road-oneway-arrows-white');
+      this._map.addLayer(layer.labels /*, 'road-oneway-arrows-white' */);
     });
   };
 
@@ -150,8 +150,8 @@ class MapView extends Component {
           source: entity.id,
           type: 'circle',
           paint: {
-            'circle-color': '#979797',
-            'circle-stroke-color': '#fff',
+            'circle-color': '#e0e0e0',
+            'circle-stroke-color': '#979797',
             'circle-radius': 8,
             'circle-stroke-width': 1
           }
@@ -184,10 +184,7 @@ class MapView extends Component {
         paint: {
           'circle-color': '#157afc',
           'circle-stroke-color': '#fff',
-          'circle-radius': {
-            base: 3,
-            stops: [[12, 3], [15, 10]]
-          },
+          'circle-radius': 3,
           'circle-stroke-width': 1
         }
       });
