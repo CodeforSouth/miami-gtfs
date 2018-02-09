@@ -46,7 +46,14 @@ class Arrivals extends Component {
   render() {
     return (
       <div className={styles.arrivals}>
-        {this.state.times.map(time => time.text).join(', ')}
+        {this.state.times.map(time => {
+          return (
+            <div className={styles.arrival}>
+              <div className={styles.arrivalTime}>{time.text}</div>
+              <div className={styles.arrivalETA}>{time.eta}</div>
+            </div>
+          );
+        })}
       </div>
     );
   }

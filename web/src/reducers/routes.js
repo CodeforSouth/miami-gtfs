@@ -106,11 +106,13 @@ export const layers = createSelector(
           properties: {
             route: id,
             stop: stopId,
-            lngLat
+            lngLat,
+            index: data.index
           }
         };
       });
       const stopsId = `${id}Stops`;
+      const stopLabelsId = `${id}StopLabels`;
       const stopsName = `${id}StopsSource`;
       layers.push({
         data: {
@@ -131,6 +133,23 @@ export const layers = createSelector(
             'circle-stroke-width': 1
           },
           layout: { visibility: 'visible' }
+        },
+        labels: {
+          id: stopLabelsId,
+          type: 'symbol',
+          source: stopsName,
+          paint: {
+            'text-color': '#000',
+            'text-halo-width': 1,
+            'text-halo-color': '#fff'
+          },
+          layout: {
+            'text-field': '{index}',
+            'text-size': 10,
+            'text-offset': [0, 0],
+            'text-anchor': 'center',
+            'text-justify': 'center'
+          }
         }
       });
     });

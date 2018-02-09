@@ -1,7 +1,7 @@
 .popup {
   position: absolute;
   height: 100px;
-  width: 200px;
+  width: 400px;
 }
 
 .body {
@@ -29,6 +29,19 @@
 .arrivals {
   margin: 10px 0 0;
   font-size: 9px;
-  color: #979797;
   line-height: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.arrival {
+  margin: 0 10px 0 0;
+}
+
+.arrivalTime {
+  color: #000;
+}
+
+.arrivalETA {
+  color: #979797;
 }

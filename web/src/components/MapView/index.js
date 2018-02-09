@@ -13,7 +13,7 @@ MapboxGl.accessToken =
   'pk.eyJ1IjoiaGFtZWVkbyIsImEiOiJHMnhTMDFvIn0.tFZs7sYMghY-xovxRPNNnw';
 
 class MapView extends Component {
-  static style = 'mapbox://styles/mapbox/light-v9';
+  static style = 'mapbox://styles/mapbox/streets-v10';
   static center = [-80.2144, 25.772265];
   static zoom = [12];
 
@@ -71,6 +71,8 @@ class MapView extends Component {
       this._map.on('mousemove', sourceId, this._onMouseMove);
       this._map.on('mouseleave', sourceId, this._onMouseLeave);
       this._map.on('click', sourceId, this._onClick);
+
+      this._map.addLayer(layer.labels, 'road-oneway-arrows-white');
     });
   };
 
