@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build-map": "node scripts/geodata/index.js"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.5",
+    "xml2js": "^0.4.19"
+  }
+}

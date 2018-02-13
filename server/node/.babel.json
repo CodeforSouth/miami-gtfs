@@ -4750,7 +4750,7 @@
         "import gtfs from 'gtfs';\nimport mongoose from 'mongoose';\nconst config = require('./config.json');\n\nmongoose.Promise = global.Promise;\nmongoose.connect(config.mongoUrl);\n\nimport express from 'express';\nimport routes from 'routes/routes';\nimport trips from 'routes/trips';\nimport protobuf from 'routes/protobuf';\nimport importGTFS from 'routes/importGTFS';\n\nconst app = express();\nconst json = require('body-parser').json();\n\napp.use(json);\n\napp.get('/import', importGTFS);\napp.get('/api/protobuf', protobuf);\napp.post('/api/v1/routes', routes);\napp.post('/api/v1/trips', trips);\n\napp.listen(3000, () => {\n  console.log('Listening on port 3600!');\n});\n"
       ]
     },
-    "mtime": 1518213029000
+    "mtime": 1518236188000
   },
   "{\"filename\":\"/home/app/routes/routes.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"root\":[\"./\"]}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
     "metadata": {
@@ -4895,7 +4895,7 @@
         "import gtfs from 'gtfs';\n\nexport default async function routes(req, res) {\n  const routes = await gtfs.getRoutesByAgency('miami');\n  res.send({\n    routes\n  });\n}\n"
       ]
     },
-    "mtime": 1517286012000
+    "mtime": 1518225998000
   },
   "{\"filename\":\"/home/app/routes/trips.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"root\":[\"./\"]}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
     "metadata": {
@@ -5575,5 +5575,202 @@
       ]
     },
     "mtime": 1517270326000
+  },
+  "{\"filename\":\"/home/app/routes/route.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"root\":[\"./\"]}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/routes\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "gtfs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gtfs"
+              }
+            ]
+          },
+          {
+            "source": "lodash",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "_"
+              }
+            ]
+          },
+          {
+            "source": "@mapbox/polyline",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "polyline"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/routes/route.js",
+      "filenameRelative": "/home/app/routes/route.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "root": [
+              "./"
+            ]
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "route.js",
+      "sourceFileName": "route.js",
+      "sourceRoot": "/home/app/routes",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/routes",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "route"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _gtfs = require('gtfs');\n\nvar _gtfs2 = _interopRequireDefault(_gtfs);\n\nvar _lodash = require('lodash');\n\nvar _lodash2 = _interopRequireDefault(_lodash);\n\nvar _polyline = require('@mapbox/polyline');\n\nvar _polyline2 = _interopRequireDefault(_polyline);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nexports.default = (() => {\n  var _ref = _asyncToGenerator(function* (req, res) {\n    const routeId = req.body.routeId;\n\n    const shapes = yield _gtfs2.default.getShapesByRoute('miami', routeId).then(function (shapes) {\n      return shapes.map(function (shape) {\n        return _polyline2.default.encode(shape.map(function (point) {\n          return [point.loc[1], point.loc[0]];\n        }));\n      });\n    });\n\n    const all = yield _gtfs2.default.getDirectionsByRoute('miami', routeId);\n\n    const routes = (0, _lodash2.default)(all).groupBy('route_id').mapValues(function (group) {\n      return (0, _lodash2.default)(group).map(function (trip) {\n        return trip.direction_id;\n      }).uniq().value();\n    }).value();\n\n    const stops = yield Promise.all((0, _lodash2.default)(routes).map(function (directions, route) {\n      return Promise.all(directions.map(function (direction) {\n        return _gtfs2.default.getStopsByRoute('miami', route, direction);\n      }));\n    }).value());\n\n    const gables = {\n      poly: '_qh|C~xyhNAaBnAAd@?\\\\DLBd@Pl@\\\\TVP`@Rx@HTEZR`ARx@Nv@Tr@JTLVPXLRPTTRn@`@PJNJNFZLRFZHF@tA?j@A|AGl@?zAEl@?`AAVB^Bb@ZnBjBZ`@j@^LBVV^FXDnB?bDGbDExCEzCExBE^CzBE\\\\AZ@|BCxHMZ@tBClCE|GItCC`DCpBCjAAlAAlACbDER?RApAClAA`@?A?|BEvCEH?DBVDXFRFb@V??\\\\@bDI`@QJGf@Oz@GXA\\\\ApAAnCCtCCpCCZ?nBF\\\\@nBJbCJZDpBL`@DdBHfCJl@@|AAhC?dCKxCSLAHA??bDUbDI`EGbBErC@z@?FFNFRBJAHCHEDCBK@G?GAGCEQMOCU_@kE_G_@g@}@kA??c@o@??KEMAcDFwBFy@DEcE??rDKCYAUHg@FUXERBRJzBzC'\n    };\n\n    res.send({\n      shapes,\n      routes,\n      stops\n    });\n  });\n\n  function route(_x, _x2) {\n    return _ref.apply(this, arguments);\n  }\n\n  return route;\n})();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlLmpzIl0sIm5hbWVzIjpbInJlcSIsInJlcyIsInJvdXRlSWQiLCJib2R5Iiwic2hhcGVzIiwiZ2V0U2hhcGVzQnlSb3V0ZSIsInRoZW4iLCJtYXAiLCJlbmNvZGUiLCJzaGFwZSIsInBvaW50IiwibG9jIiwiYWxsIiwiZ2V0RGlyZWN0aW9uc0J5Um91dGUiLCJyb3V0ZXMiLCJncm91cEJ5IiwibWFwVmFsdWVzIiwiZ3JvdXAiLCJ0cmlwIiwiZGlyZWN0aW9uX2lkIiwidW5pcSIsInZhbHVlIiwic3RvcHMiLCJQcm9taXNlIiwiZGlyZWN0aW9ucyIsInJvdXRlIiwiZ2V0U3RvcHNCeVJvdXRlIiwiZGlyZWN0aW9uIiwiZ2FibGVzIiwicG9seSIsInNlbmQiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7Ozs7OytCQUVlLFdBQXFCQSxHQUFyQixFQUEwQkMsR0FBMUIsRUFBK0I7QUFDNUMsVUFBTUMsVUFBVUYsSUFBSUcsSUFBSixDQUFTRCxPQUF6Qjs7QUFFQSxVQUFNRSxTQUFTLE1BQU0sZUFDbEJDLGdCQURrQixDQUNELE9BREMsRUFDUUgsT0FEUixFQUVsQkksSUFGa0IsQ0FFYjtBQUFBLGFBQ0pGLE9BQU9HLEdBQVAsQ0FBVztBQUFBLGVBQ1QsbUJBQVNDLE1BQVQsQ0FBZ0JDLE1BQU1GLEdBQU4sQ0FBVTtBQUFBLGlCQUFTLENBQUNHLE1BQU1DLEdBQU4sQ0FBVSxDQUFWLENBQUQsRUFBZUQsTUFBTUMsR0FBTixDQUFVLENBQVYsQ0FBZixDQUFUO0FBQUEsU0FBVixDQUFoQixDQURTO0FBQUEsT0FBWCxDQURJO0FBQUEsS0FGYSxDQUFyQjs7QUFRQSxVQUFNQyxNQUFNLE1BQU0sZUFBS0Msb0JBQUwsQ0FBMEIsT0FBMUIsRUFBbUNYLE9BQW5DLENBQWxCOztBQUVBLFVBQU1ZLFNBQVMsc0JBQUVGLEdBQUYsRUFDWkcsT0FEWSxDQUNKLFVBREksRUFFWkMsU0FGWSxDQUVGLGlCQUFTO0FBQ2xCLGFBQU8sc0JBQUVDLEtBQUYsRUFDSlYsR0FESSxDQUNBO0FBQUEsZUFBUVcsS0FBS0MsWUFBYjtBQUFBLE9BREEsRUFFSkMsSUFGSSxHQUdKQyxLQUhJLEVBQVA7QUFJRCxLQVBZLEVBUVpBLEtBUlksRUFBZjs7QUFVQSxVQUFNQyxRQUFRLE1BQU1DLFFBQVFYLEdBQVIsQ0FDbEIsc0JBQUVFLE1BQUYsRUFDR1AsR0FESCxDQUNPLFVBQUNpQixVQUFELEVBQWFDLEtBQWIsRUFBdUI7QUFDMUIsYUFBT0YsUUFBUVgsR0FBUixDQUNMWSxXQUFXakIsR0FBWCxDQUFlLHFCQUFhO0FBQzFCLGVBQU8sZUFBS21CLGVBQUwsQ0FBcUIsT0FBckIsRUFBOEJELEtBQTlCLEVBQXFDRSxTQUFyQyxDQUFQO0FBQ0QsT0FGRCxDQURLLENBQVA7QUFLRCxLQVBILEVBUUdOLEtBUkgsRUFEa0IsQ0FBcEI7O0FBWUEsVUFBTU8sU0FBUztBQUNiQyxZQUNFO0FBRlcsS0FBZjs7QUFLQTVCLFFBQUk2QixJQUFKLENBQVM7QUFDUDFCLFlBRE87QUFFUFUsWUFGTztBQUdQUTtBQUhPLEtBQVQ7QUFLRCxHOztXQTdDNkJHLEs7Ozs7U0FBQUEsSyIsImZpbGUiOiJyb3V0ZS5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9hcHAvcm91dGVzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGd0ZnMgZnJvbSAnZ3Rmcyc7XG5pbXBvcnQgXyBmcm9tICdsb2Rhc2gnO1xuaW1wb3J0IHBvbHlsaW5lIGZyb20gJ0BtYXBib3gvcG9seWxpbmUnO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiByb3V0ZShyZXEsIHJlcykge1xuICBjb25zdCByb3V0ZUlkID0gcmVxLmJvZHkucm91dGVJZDtcblxuICBjb25zdCBzaGFwZXMgPSBhd2FpdCBndGZzXG4gICAgLmdldFNoYXBlc0J5Um91dGUoJ21pYW1pJywgcm91dGVJZClcbiAgICAudGhlbihzaGFwZXMgPT5cbiAgICAgIHNoYXBlcy5tYXAoc2hhcGUgPT5cbiAgICAgICAgcG9seWxpbmUuZW5jb2RlKHNoYXBlLm1hcChwb2ludCA9PiBbcG9pbnQubG9jWzFdLCBwb2ludC5sb2NbMF1dKSlcbiAgICAgIClcbiAgICApO1xuXG4gIGNvbnN0IGFsbCA9IGF3YWl0IGd0ZnMuZ2V0RGlyZWN0aW9uc0J5Um91dGUoJ21pYW1pJywgcm91dGVJZCk7XG5cbiAgY29uc3Qgcm91dGVzID0gXyhhbGwpXG4gICAgLmdyb3VwQnkoJ3JvdXRlX2lkJylcbiAgICAubWFwVmFsdWVzKGdyb3VwID0+IHtcbiAgICAgIHJldHVybiBfKGdyb3VwKVxuICAgICAgICAubWFwKHRyaXAgPT4gdHJpcC5kaXJlY3Rpb25faWQpXG4gICAgICAgIC51bmlxKClcbiAgICAgICAgLnZhbHVlKCk7XG4gICAgfSlcbiAgICAudmFsdWUoKTtcblxuICBjb25zdCBzdG9wcyA9IGF3YWl0IFByb21pc2UuYWxsKFxuICAgIF8ocm91dGVzKVxuICAgICAgLm1hcCgoZGlyZWN0aW9ucywgcm91dGUpID0+IHtcbiAgICAgICAgcmV0dXJuIFByb21pc2UuYWxsKFxuICAgICAgICAgIGRpcmVjdGlvbnMubWFwKGRpcmVjdGlvbiA9PiB7XG4gICAgICAgICAgICByZXR1cm4gZ3Rmcy5nZXRTdG9wc0J5Um91dGUoJ21pYW1pJywgcm91dGUsIGRpcmVjdGlvbik7XG4gICAgICAgICAgfSlcbiAgICAgICAgKTtcbiAgICAgIH0pXG4gICAgICAudmFsdWUoKVxuICApO1xuXG4gIGNvbnN0IGdhYmxlcyA9IHtcbiAgICBwb2x5OlxuICAgICAgJ19xaHxDfnh5aE5BYUJuQUFkQD9cXFxcRExCZEBQbEBcXFxcVFZQYEBSeEBIVEVaUmBBUnhATnZAVHJASlRMVlBYTFJQVFRSbkBgQFBKTkpORlpMUkZaSEZAdEE/akBBfEFHbEA/ekFFbEA/YEFBVkJeQmJAWm5CakJaYEBqQF5MQlZWXkZYRG5CP2JER2JERXhDRXpDRXhCRV5DekJFXFxcXEFaQHxCQ3hITVpAdEJDbENFfEdJdENDYERDcEJDakFBbEFBbEFDYkRFUj9SQXBBQ2xBQWBAP0E/fEJFdkNFSD9EQlZEWEZSRmJAVj8/XFxcXEBiRElgQFFKR2ZAT3pAR1hBXFxcXEFwQUFuQ0N0Q0NwQ0NaP25CRlxcXFxAbkJKYkNKWkRwQkxgQERkQkhmQ0psQEB8QUFoQz9kQ0t4Q1NMQUhBPz9iRFViRElgRUdiQkVyQ0B6QD9GRk5GUkJKQUhDSEVEQ0JLQEc/R0FHQ0VRTU9DVV9Aa0VfR19AZ0B9QGtBPz9jQG9APz9LRU1BY0RGd0JGeUBERWNFPz9yREtDWUFVSGdARlVYRVJCUkp6QnpDJ1xuICB9O1xuXG4gIHJlcy5zZW5kKHtcbiAgICBzaGFwZXMsXG4gICAgcm91dGVzLFxuICAgIHN0b3BzXG4gIH0pO1xufVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "route.js"
+      ],
+      "names": [
+        "req",
+        "res",
+        "routeId",
+        "body",
+        "shapes",
+        "getShapesByRoute",
+        "then",
+        "map",
+        "encode",
+        "shape",
+        "point",
+        "loc",
+        "all",
+        "getDirectionsByRoute",
+        "routes",
+        "groupBy",
+        "mapValues",
+        "group",
+        "trip",
+        "direction_id",
+        "uniq",
+        "value",
+        "stops",
+        "Promise",
+        "directions",
+        "route",
+        "getStopsByRoute",
+        "direction",
+        "gables",
+        "poly",
+        "send"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;AACA;;;;;;;;;+BAEe,WAAqBA,GAArB,EAA0BC,GAA1B,EAA+B;AAC5C,UAAMC,UAAUF,IAAIG,IAAJ,CAASD,OAAzB;;AAEA,UAAME,SAAS,MAAM,eAClBC,gBADkB,CACD,OADC,EACQH,OADR,EAElBI,IAFkB,CAEb;AAAA,aACJF,OAAOG,GAAP,CAAW;AAAA,eACT,mBAASC,MAAT,CAAgBC,MAAMF,GAAN,CAAU;AAAA,iBAAS,CAACG,MAAMC,GAAN,CAAU,CAAV,CAAD,EAAeD,MAAMC,GAAN,CAAU,CAAV,CAAf,CAAT;AAAA,SAAV,CAAhB,CADS;AAAA,OAAX,CADI;AAAA,KAFa,CAArB;;AAQA,UAAMC,MAAM,MAAM,eAAKC,oBAAL,CAA0B,OAA1B,EAAmCX,OAAnC,CAAlB;;AAEA,UAAMY,SAAS,sBAAEF,GAAF,EACZG,OADY,CACJ,UADI,EAEZC,SAFY,CAEF,iBAAS;AAClB,aAAO,sBAAEC,KAAF,EACJV,GADI,CACA;AAAA,eAAQW,KAAKC,YAAb;AAAA,OADA,EAEJC,IAFI,GAGJC,KAHI,EAAP;AAID,KAPY,EAQZA,KARY,EAAf;;AAUA,UAAMC,QAAQ,MAAMC,QAAQX,GAAR,CAClB,sBAAEE,MAAF,EACGP,GADH,CACO,UAACiB,UAAD,EAAaC,KAAb,EAAuB;AAC1B,aAAOF,QAAQX,GAAR,CACLY,WAAWjB,GAAX,CAAe,qBAAa;AAC1B,eAAO,eAAKmB,eAAL,CAAqB,OAArB,EAA8BD,KAA9B,EAAqCE,SAArC,CAAP;AACD,OAFD,CADK,CAAP;AAKD,KAPH,EAQGN,KARH,EADkB,CAApB;;AAYA,UAAMO,SAAS;AACbC,YACE;AAFW,KAAf;;AAKA5B,QAAI6B,IAAJ,CAAS;AACP1B,YADO;AAEPU,YAFO;AAGPQ;AAHO,KAAT;AAKD,G;;WA7C6BG,K;;;;SAAAA,K",
+      "file": "route.js",
+      "sourceRoot": "/home/app/routes",
+      "sourcesContent": [
+        "import gtfs from 'gtfs';\nimport _ from 'lodash';\nimport polyline from '@mapbox/polyline';\n\nexport default async function route(req, res) {\n  const routeId = req.body.routeId;\n\n  const shapes = await gtfs\n    .getShapesByRoute('miami', routeId)\n    .then(shapes =>\n      shapes.map(shape =>\n        polyline.encode(shape.map(point => [point.loc[1], point.loc[0]]))\n      )\n    );\n\n  const all = await gtfs.getDirectionsByRoute('miami', routeId);\n\n  const routes = _(all)\n    .groupBy('route_id')\n    .mapValues(group => {\n      return _(group)\n        .map(trip => trip.direction_id)\n        .uniq()\n        .value();\n    })\n    .value();\n\n  const stops = await Promise.all(\n    _(routes)\n      .map((directions, route) => {\n        return Promise.all(\n          directions.map(direction => {\n            return gtfs.getStopsByRoute('miami', route, direction);\n          })\n        );\n      })\n      .value()\n  );\n\n  const gables = {\n    poly:\n      '_qh|C~xyhNAaBnAAd@?\\\\DLBd@Pl@\\\\TVP`@Rx@HTEZR`ARx@Nv@Tr@JTLVPXLRPTTRn@`@PJNJNFZLRFZHF@tA?j@A|AGl@?zAEl@?`AAVB^Bb@ZnBjBZ`@j@^LBVV^FXDnB?bDGbDExCEzCExBE^CzBE\\\\AZ@|BCxHMZ@tBClCE|GItCC`DCpBCjAAlAAlACbDER?RApAClAA`@?A?|BEvCEH?DBVDXFRFb@V??\\\\@bDI`@QJGf@Oz@GXA\\\\ApAAnCCtCCpCCZ?nBF\\\\@nBJbCJZDpBL`@DdBHfCJl@@|AAhC?dCKxCSLAHA??bDUbDI`EGbBErC@z@?FFNFRBJAHCHEDCBK@G?GAGCEQMOCU_@kE_G_@g@}@kA??c@o@??KEMAcDFwBFy@DEcE??rDKCYAUHg@FUXERBRJzBzC'\n  };\n\n  res.send({\n    shapes,\n    routes,\n    stops\n  });\n}\n"
+      ]
+    },
+    "mtime": 1518230423000
   }
 }

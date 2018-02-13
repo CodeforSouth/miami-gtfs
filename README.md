@@ -13,17 +13,6 @@
 
 After starting the server the first time, `GET localhost:3600/import`
 
-#### Server Todo
-
-Rail:
-OBA: 19932
-XML:
-
-Gables:
-OBA: 17789
-SHAPE: 144537
-XML: 9011
-
 #### Setup Web
 
 `cd web && yarn`
@@ -36,3 +25,9 @@ XML: 9011
 
 * [ ] make a package.json to handle bootstrapping
 * [ ] write remaining code
+
+#### Miami Beach tracker:
+
+[link](https://publictransportation.tsomobile.com/webtracker/webtracker.htm?labels=false&tkn=825894C5-2B5F-402D-A055-88F2297AF99A&lan=en)
+
+`window.cwebtracker`

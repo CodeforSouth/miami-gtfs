@@ -6,13 +6,14 @@
   "author": "Sammy Yousif",
   "license": "MIT",
   "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
     "babel-preset-env": "^1.6.1",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "gtfs": "^0.10.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
-    "mongoose": "^4.10.8",
+    "mongoose": "^4",
     "protobuf-validator": "^1.1.0",
     "protobufjs": "5.0.1",
     "request": "^2.81.0"
