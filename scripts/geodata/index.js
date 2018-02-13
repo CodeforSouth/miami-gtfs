@@ -1,47 +1,51 @@
-const _ = require('lodash')
+const _ = require('lodash');
 
 const trolleys = require('./trolleys.json');
 
-const dade = require('./dade')
-const gables = require('./gables')
+const dade = require('./dade');
+// const gables = require('./gables');
 
 async function main() {
-  const { mover, train } = dade()
-  const gables = gables()
+  const { mover: movers, train: trains } = await dade();
+  // const gables = gables()
 
   let routes = trolleys.map(route => {
-    route.type = 'miami-trolley'
+    route.type = 'trolley';
     route.stops = route.stops.map(stop => {
-      type: 'miami-trolley'
-    })
-    return route
-  })
+      return { ...stop, type: route.type };
+    });
+    return route;
+  });
 
-  let train = {
+  const train = {
     type: 'rail',
-    id: 'rail',
-    name: 'Rail',
-    poly: mover.shapes,
-    color: {
-      ORG: '',
-      GRN: ''
+    ids: ['GRN', 'ORG'],
+    name: 'RAIL',
+    poly: trains.shapes,
+    colors: {
+      ORG: '#f21d41',
+      GRN: '#50A66A'
     },
-    stops: 
-  }
+    stops: trains.stops
+  };
 
-  _(mover.shapes).map((shape, id) => {
-    return {
-      
-    }
-  }).value()
+  const mover = {
+    type: 'mover',
+    ids: ['OMN', 'BKL', 'INN', 'OTR'],
+    names: ['OMNI', 'BRICKELL', 'INNER LOOP', 'OUTER LOOP'],
+    poly: movers.shapes,
+    colors: {
+      OMN: '#24BBED',
+      BKL: '#24BBED',
+      INN: '#24BBED',
+      OTR: '#24BBED'
+    },
+    stops: movers.stops
+  };
 
-  _(train.shapes).map((shape, id) => {
-    return {
-      type: 'mover',
-      id: 'rail',
-      name: 
-    }
-  }).value()
+  routes = [train, mover, ...routes];
+
+  console.log(routes);
 }
 
 main();

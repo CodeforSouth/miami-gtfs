@@ -1,0 +1,2130 @@
+[
+  {
+    "ID": "820746",
+    "Name": "65th Street Allison Park",
+    "StopNumber": "300 - 65th Street Allison Park",
+    "Latitude": "25.848413",
+    "Longitude": "-80.120868",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929919",
+    "Name": "17 Street at Convention Center Drive",
+    "StopNumber": "200 - 17 Street at Convention Center",
+    "Latitude": "25.792248",
+    "Longitude": "-80.134530",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939021",
+    "Name": "Collins Avenue at 38 Street",
+    "StopNumber": "213 - Collins Avenue at 38 Street",
+    "Latitude": "25.811210",
+    "Longitude": "-80.123325",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028393",
+    "Name": "17 Street and Pennsylvania Avenue",
+    "StopNumber": "100 - 17 Street and Pennsylvania Ave",
+    "Latitude": "25.792173",
+    "Longitude": "-80.134677",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028429",
+    "Name": "17 Street at Convention Center Drive",
+    "StopNumber": "200 - 17 Street at Convention Center",
+    "Latitude": "25.792310",
+    "Longitude": "-80.134558",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028463",
+    "Name": "17 Street and Pennsylvania Avenue",
+    "StopNumber": "100 - 17 Street and Pennsylvania Ave",
+    "Latitude": "25.792173",
+    "Longitude": "-80.134677",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723064",
+    "Name": "67th Street and Collins Avenue",
+    "StopNumber": "301 - 67th Street and Collins Avenue",
+    "Latitude": "25.850411",
+    "Longitude": "-80.120291",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "939022",
+    "Name": "Collins Avenue at 41 Street",
+    "StopNumber": "214 - Collins Avenue at 41 Street",
+    "Latitude": "25.812826",
+    "Longitude": "-80.123058",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "954177",
+    "Name": "17 Street and Meridian Ave",
+    "StopNumber": "2001 - 17 Street and Meridian Ave",
+    "Latitude": "25.792222",
+    "Longitude": "-80.136419",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1028430",
+    "Name": "Meridian Avenue and Lincoln Road",
+    "StopNumber": "133 - Meridian Avenue and Lincoln Ro",
+    "Latitude": "25.790554",
+    "Longitude": "-80.136634",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028464",
+    "Name": "Washington Avenue and 17 Street",
+    "StopNumber": "101 - Washington Avenue and 17 Stree",
+    "Latitude": "25.791917",
+    "Longitude": "-80.131996",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045207",
+    "Name": "Washington Avenue and 17 Street",
+    "StopNumber": "190 - Washington Avenue and 17 Stree",
+    "Latitude": "25.792511",
+    "Longitude": "-80.131915",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "723065",
+    "Name": "Publix at Collins Avenue and 69th Street",
+    "StopNumber": "302 - Publix at Collins Avenue and 6",
+    "Latitude": "25.854116",
+    "Longitude": "-80.120410",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929920",
+    "Name": "Convention Center Drive at Convention Center Entrance",
+    "StopNumber": "201 - Convention Center Drive at Con",
+    "Latitude": "25.794675",
+    "Longitude": "-80.136627",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939023",
+    "Name": "Collins Avenue at 43 Street",
+    "StopNumber": "215 - Collins Avenue at 43 Street",
+    "Latitude": "25.814345",
+    "Longitude": "-80.122803",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028431",
+    "Name": "16 Street and Jefferson Avenue",
+    "StopNumber": "134 - 16 Street and Jefferson Avenue",
+    "Latitude": "25.789074",
+    "Longitude": "-80.137734",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028465",
+    "Name": "Washington Avenue and Lincoln Road",
+    "StopNumber": "102 - Washington Avenue and Lincoln ",
+    "Latitude": "25.789866",
+    "Longitude": "-80.131957",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045208",
+    "Name": "Washington Avenue and 18 Street",
+    "StopNumber": "191 - Washington Avenue and 18 Stree",
+    "Latitude": "25.794105",
+    "Longitude": "-80.131945",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "723066",
+    "Name": "Bandshell Park",
+    "StopNumber": "303 - Bandshell Park",
+    "Latitude": "25.857759",
+    "Longitude": "-80.120712",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "1023431",
+    "Name": "Dade Blvd and Michigan Avenue",
+    "StopNumber": "2011 - Dade Blvd and Michigan Avenue",
+    "Latitude": "25.794197",
+    "Longitude": "-80.140010",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1028432",
+    "Name": "16 Street and Michigan Avenue",
+    "StopNumber": "135 - 16 Street and Michigan Avenue",
+    "Latitude": "25.789038",
+    "Longitude": "-80.138834",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028466",
+    "Name": "Washington Avenue and 15 Street",
+    "StopNumber": "103 - Washington Avenue and 15 Stree",
+    "Latitude": "25.787467",
+    "Longitude": "-80.131885",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045209",
+    "Name": "Washington Avenue and 20 Street",
+    "StopNumber": "192 - Washington Avenue and 20 Stree",
+    "Latitude": "25.796858",
+    "Longitude": "-80.131984",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1050853",
+    "Name": "Collins Avenue and 44 Street",
+    "StopNumber": "216 - Collins Avenue and 44 Street",
+    "Latitude": "25.815738",
+    "Longitude": "-80.122567",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "723067",
+    "Name": "Collins Avenue and 76th Street North Shore Library",
+    "StopNumber": "304 - Collins Avenue and 76th Street",
+    "Latitude": "25.861075",
+    "Longitude": "-80.121019",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "939025",
+    "Name": "Collins Avenue at 4441",
+    "StopNumber": "250 - Collins Avenue at 4441",
+    "Latitude": "25.818085",
+    "Longitude": "-80.123069",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023432",
+    "Name": "Alton Rd and 19 Street",
+    "StopNumber": "182 - Alton Rd and 19 Street",
+    "Latitude": "25.794533",
+    "Longitude": "-80.141231",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1028433",
+    "Name": "Alton Road and 16 Street - Lincoln Road Mall",
+    "StopNumber": "180 - Alton Road and 16 Street - Lin",
+    "Latitude": "25.789103",
+    "Longitude": "-80.141044",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028467",
+    "Name": "Washington Avenue and 14 Street",
+    "StopNumber": "104 - Washington Avenue and 14 Stree",
+    "Latitude": "25.785597",
+    "Longitude": "-80.132030",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045210",
+    "Name": "23 Street and Liberty Avenue",
+    "StopNumber": "194 - 23 Street and Liberty Avenue",
+    "Latitude": "25.798558",
+    "Longitude": "-80.128681",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "939026",
+    "Name": "Collins Avenue at 4525",
+    "StopNumber": "251 - Collins Avenue at 4525",
+    "Latitude": "25.820343",
+    "Longitude": "-80.122634",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "966984",
+    "Name": "Collins Avenue and 77 Street",
+    "StopNumber": "305 - Collins Avenue and 77 Street",
+    "Latitude": "25.862102",
+    "Longitude": "-80.121023",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "1023433",
+    "Name": "19 Street and Alton Rd",
+    "StopNumber": "2012 - 19 Street and Alton Rd",
+    "Latitude": "25.794839",
+    "Longitude": "-80.140283",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1028434",
+    "Name": "Alton Road and 19 Street",
+    "StopNumber": "182 - Alton Road and 19 Street",
+    "Latitude": "25.794559",
+    "Longitude": "-80.141230",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028468",
+    "Name": "Washington Avenue and 13 Street",
+    "StopNumber": "105 - Washington Avenue and 13 Stree",
+    "Latitude": "25.784385",
+    "Longitude": "-80.132220",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045211",
+    "Name": "Collins Avenue and 21 Street",
+    "StopNumber": "243 - Collins Avenue and 21 Street",
+    "Latitude": "25.796626",
+    "Longitude": "-80.128784",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "723068",
+    "Name": "79th Street and Collins Avenue",
+    "StopNumber": "306 - 79th Street and Collins Avenue",
+    "Latitude": "25.864335",
+    "Longitude": "-80.121074",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "939027",
+    "Name": "Collins Avenue at 4747",
+    "StopNumber": "252 - Collins Avenue at 4747",
+    "Latitude": "25.821617",
+    "Longitude": "-80.122613",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028394",
+    "Name": "Washington Avenue and 17 Street",
+    "StopNumber": "101 - Washington Avenue and 17 Stree",
+    "Latitude": "25.791917",
+    "Longitude": "-80.131996",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028435",
+    "Name": "West Avenue and 20 Street",
+    "StopNumber": "183 - West Avenue and 20 Street",
+    "Latitude": "25.795189",
+    "Longitude": "-80.142654",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028469",
+    "Name": "Washington Avenue and 12 Street",
+    "StopNumber": "106 - Washington Avenue and 12 Stree",
+    "Latitude": "25.782652",
+    "Longitude": "-80.132484",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1046124",
+    "Name": "Dade Blvd and Convention Center Dr",
+    "StopNumber": "2013 - Dade Blvd and Convention Cente",
+    "Latitude": "25.796679",
+    "Longitude": "-80.135195",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "929922",
+    "Name": "20 Street at Liberty Avenue",
+    "StopNumber": "203 - 20 Street at Liberty Avenue",
+    "Latitude": "25.796007",
+    "Longitude": "-80.130288",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939028",
+    "Name": "Collins Avenue at 4833",
+    "StopNumber": "253 - Collins Avenue at 4833",
+    "Latitude": "25.824227",
+    "Longitude": "-80.122071",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "954180",
+    "Name": "Collins Avenue at 81 Street",
+    "StopNumber": "307 - Collins Avenue at 81 Street",
+    "Latitude": "25.866333",
+    "Longitude": "-80.121121",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "1028395",
+    "Name": "Washington Avenue and Lincoln Road",
+    "StopNumber": "102 - Washington Avenue and Lincoln ",
+    "Latitude": "25.790586",
+    "Longitude": "-80.131926",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028436",
+    "Name": "18 Street and Purdy Avenue",
+    "StopNumber": "184 - 18 Street and Purdy Avenue",
+    "Latitude": "25.793612",
+    "Longitude": "-80.144274",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028470",
+    "Name": "10 Street and Pennsylvania Ave. - Southbound",
+    "StopNumber": "107 - 10 Street and Pennsylvania Ave",
+    "Latitude": "25.780740",
+    "Longitude": "-80.133957",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723069",
+    "Name": "Collins Avenue and 83rd Street North Shore Park",
+    "StopNumber": "308 - Collins Avenue and 83rd Street",
+    "Latitude": "25.868298",
+    "Longitude": "-80.121220",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929923",
+    "Name": "Collins Avenue at 22 Street",
+    "StopNumber": "204 - Collins Avenue at 22 Street",
+    "Latitude": "25.797375",
+    "Longitude": "-80.128398",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939029",
+    "Name": "Collins Avenue at 4925",
+    "StopNumber": "254 - Collins Avenue at 4925",
+    "Latitude": "25.825278",
+    "Longitude": "-80.121865",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028396",
+    "Name": "Washington Avenue and 15 Street",
+    "StopNumber": "103 - Washington Avenue and 15 Stree",
+    "Latitude": "25.787467",
+    "Longitude": "-80.131885",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028437",
+    "Name": "Venetian Way and E Island Ave",
+    "StopNumber": "185 - Venetian Way and E Island Ave",
+    "Latitude": "25.791403",
+    "Longitude": "-80.147812",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028471",
+    "Name": "10 St. and Meridian Ave. - Southbound",
+    "StopNumber": "108 - 10 St. and Meridian Ave. - Sou",
+    "Latitude": "25.780710",
+    "Longitude": "-80.136206",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723070",
+    "Name": "85th Street and Collins Avenue",
+    "StopNumber": "309 - 85th Street and Collins Avenue",
+    "Latitude": "25.870317",
+    "Longitude": "-80.121360",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929924",
+    "Name": "Collins Avenue at 23 Street",
+    "StopNumber": "205 - Collins Avenue at 23 Street",
+    "Latitude": "25.798959",
+    "Longitude": "-80.127765",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939030",
+    "Name": "Collins Avenue at 5005",
+    "StopNumber": "255 - Collins Avenue at 5005",
+    "Latitude": "25.826478",
+    "Longitude": "-80.121677",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028397",
+    "Name": "Washington Avenue and 14 Street",
+    "StopNumber": "104 - Washington Avenue and 14 Stree",
+    "Latitude": "25.785597",
+    "Longitude": "-80.132030",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028438",
+    "Name": "Purdy Avenue and 18 Street",
+    "StopNumber": "186 - Purdy Avenue and 18 Street",
+    "Latitude": "25.793264",
+    "Longitude": "-80.144307",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028472",
+    "Name": "10 Street and Michigan Avenue - Southbound",
+    "StopNumber": "109 - 10 Street and Michigan Avenue ",
+    "Latitude": "25.780637",
+    "Longitude": "-80.138423",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723071",
+    "Name": "87th Street Last stop on Collins Avenue",
+    "StopNumber": "310 - 87th Street Last stop on Colli",
+    "Latitude": "25.871933",
+    "Longitude": "-80.121489",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929925",
+    "Name": "Collins Avenue at 24 Street",
+    "StopNumber": "206 - Collins Avenue at 24 Street",
+    "Latitude": "25.800384",
+    "Longitude": "-80.126950",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939031",
+    "Name": "Collins Avenue at 5101",
+    "StopNumber": "256 - Collins Avenue at 5101",
+    "Latitude": "25.828245",
+    "Longitude": "-80.121757",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028398",
+    "Name": "Washington Avenue and 13 Street",
+    "StopNumber": "105 - Washington Avenue and 13 Stree",
+    "Latitude": "25.784385",
+    "Longitude": "-80.132220",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028439",
+    "Name": "20 Street and Bay Rd",
+    "StopNumber": "187 - 20 Street and Bay Rd",
+    "Latitude": "25.795495",
+    "Longitude": "-80.143411",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028473",
+    "Name": "Alton Road and 8 Street",
+    "StopNumber": "112 - Alton Road and 8 Street",
+    "Latitude": "25.778332",
+    "Longitude": "-80.140955",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723072",
+    "Name": "Harding Avenue and 87th Street Stella Maris",
+    "StopNumber": "312 - Harding Avenue and 87th Street",
+    "Latitude": "25.872164",
+    "Longitude": "-80.122233",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929926",
+    "Name": "Collins Avenue at 26 Street",
+    "StopNumber": "207 - Collins Avenue at 26 Street",
+    "Latitude": "25.802855",
+    "Longitude": "-80.125967",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939032",
+    "Name": "Collins Avenue at 5225",
+    "StopNumber": "257 - Collins Avenue at 5225",
+    "Latitude": "25.829894",
+    "Longitude": "-80.121964",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028399",
+    "Name": "Washington Avenue and 12 Street",
+    "StopNumber": "106 - Washington Avenue and 12 Stree",
+    "Latitude": "25.782512",
+    "Longitude": "-80.132500",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028440",
+    "Name": "Alton Road and Lincoln Road",
+    "StopNumber": "189 - Alton Road and Lincoln Road",
+    "Latitude": "25.790142",
+    "Longitude": "-80.141326",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028474",
+    "Name": "6 Street and Lenox",
+    "StopNumber": "113 - 6 Street and Lenox",
+    "Latitude": "25.775695",
+    "Longitude": "-80.139738",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723073",
+    "Name": "85th Street Last stop on Harding Avenue",
+    "StopNumber": "313 - 85th Street Last stop on Hardi",
+    "Latitude": "25.870403",
+    "Longitude": "-80.122499",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929927",
+    "Name": "Collins Avenue at 27 Street",
+    "StopNumber": "208 - Collins Avenue at 27 Street",
+    "Latitude": "25.804137",
+    "Longitude": "-80.125479",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939033",
+    "Name": "Collins Avenue at 5313",
+    "StopNumber": "258 - Collins Avenue at 5313",
+    "Latitude": "25.831579",
+    "Longitude": "-80.121755",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028400",
+    "Name": "Washington Avenue and 9 Street",
+    "StopNumber": "144 - Washington Avenue and 9 Street",
+    "Latitude": "25.779697",
+    "Longitude": "-80.133142",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028441",
+    "Name": "Alton Road and 15 Street",
+    "StopNumber": "136 - Alton Road and 15 Street",
+    "Latitude": "25.787475",
+    "Longitude": "-80.141210",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028475",
+    "Name": "Alton Road and 4 Street",
+    "StopNumber": "114 - Alton Road and 4 Street",
+    "Latitude": "25.773344",
+    "Longitude": "-80.140165",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "891616",
+    "Name": "Byron Ave and 85th Street",
+    "StopNumber": "314 - Byron Ave and 85th Street",
+    "Latitude": "25.869913",
+    "Longitude": "-80.123682",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929928",
+    "Name": "Collins Avenue at 29 Street",
+    "StopNumber": "209 - Collins Avenue at 29 Street",
+    "Latitude": "25.805379",
+    "Longitude": "-80.124777",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939034",
+    "Name": "Collins Avenue at 5401",
+    "StopNumber": "259 - Collins Avenue at 5401",
+    "Latitude": "25.832815",
+    "Longitude": "-80.121395",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028401",
+    "Name": "Washington Avenue and 8 Street",
+    "StopNumber": "145 - Washington Avenue and 8 Street",
+    "Latitude": "25.778578",
+    "Longitude": "-80.133373",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028442",
+    "Name": "Alton Road and 14 Street",
+    "StopNumber": "137 - Alton Road and 14 Street",
+    "Latitude": "25.785344",
+    "Longitude": "-80.141153",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028476",
+    "Name": "Alton Road and 2 Street",
+    "StopNumber": "115 - Alton Road and 2 Street",
+    "Latitude": "25.770640",
+    "Longitude": "-80.138350",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "891617",
+    "Name": "Crespi Blvd and 85th Street",
+    "StopNumber": "315 - Crespi Blvd and 85th Street",
+    "Latitude": "25.869822",
+    "Longitude": "-80.125516",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929929",
+    "Name": "Collins Avenue at 31 Street",
+    "StopNumber": "210 - Collins Avenue at 31 Street",
+    "Latitude": "25.806865",
+    "Longitude": "-80.124211",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939035",
+    "Name": "Collins Avenue at 5445",
+    "StopNumber": "260 - Collins Avenue at 5445",
+    "Latitude": "25.834336",
+    "Longitude": "-80.120695",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028402",
+    "Name": "Washington Avenue and 7 Street",
+    "StopNumber": "146 - Washington Avenue and 7 Street",
+    "Latitude": "25.777240",
+    "Longitude": "-80.133678",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028443",
+    "Name": "Alton Road and 13 Street",
+    "StopNumber": "138 - Alton Road and 13 Street",
+    "Latitude": "25.783662",
+    "Longitude": "-80.141087",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028477",
+    "Name": "S Pointe Dr and Washington Avenue",
+    "StopNumber": "116 - S Pointe Dr and Washington Ave",
+    "Latitude": "25.768198",
+    "Longitude": "-80.135835",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723074",
+    "Name": "85th Street",
+    "StopNumber": "316 - 85th Street",
+    "Latitude": "25.869759",
+    "Longitude": "-80.127214",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929930",
+    "Name": "Collins Avenue at 32 Street",
+    "StopNumber": "211 - Collins Avenue at 32 Street",
+    "Latitude": "25.807696",
+    "Longitude": "-80.123876",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939036",
+    "Name": "Collins Avenue at 5555",
+    "StopNumber": "261 - Collins Avenue at 5555",
+    "Latitude": "25.835579",
+    "Longitude": "-80.120617",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028403",
+    "Name": "Washington Avenue and 5 Street",
+    "StopNumber": "147 - Washington Avenue and 5 Street",
+    "Latitude": "25.774780",
+    "Longitude": "-80.134266",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028478",
+    "Name": "Washington Avenue and 1 Street",
+    "StopNumber": "117 - Washington Avenue and 1 Street",
+    "Latitude": "25.770091",
+    "Longitude": "-80.135038",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1031476",
+    "Name": "Alton Rd and 10 Street",
+    "StopNumber": "111 - Alton Rd and 10 Street",
+    "Latitude": "25.780735",
+    "Longitude": "-80.141021",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "723075",
+    "Name": "Hawthorne Avenue and Stillwater Drive",
+    "StopNumber": "317 - Hawthorne Avenue and Stillwate",
+    "Latitude": "25.868932",
+    "Longitude": "-80.128642",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929931",
+    "Name": "Collins Avenue at 35 Street",
+    "StopNumber": "212 - Collins Avenue at 35 Street",
+    "Latitude": "25.809188",
+    "Longitude": "-80.123629",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939037",
+    "Name": "Collins Avenue at 5601",
+    "StopNumber": "262 - Collins Avenue at 5601",
+    "Latitude": "25.837460",
+    "Longitude": "-80.120776",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028404",
+    "Name": "Washington Avenue and 4 Street",
+    "StopNumber": "148 - Washington Avenue and 4 Street",
+    "Latitude": "25.773492",
+    "Longitude": "-80.134535",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028444",
+    "Name": "Alton Road and 8 Street",
+    "StopNumber": "112 - Alton Road and 8 Street",
+    "Latitude": "25.778289",
+    "Longitude": "-80.140930",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028479",
+    "Name": "Washington Avenue and 2 Street",
+    "StopNumber": "118 - Washington Avenue and 2 Street",
+    "Latitude": "25.771282",
+    "Longitude": "-80.134826",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723030",
+    "Name": "81st Street and Hawthorne Avenue",
+    "StopNumber": "319 - 81st Street and Hawthorne Aven",
+    "Latitude": "25.866750",
+    "Longitude": "-80.128599",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929932",
+    "Name": "Collins Avenue at 38 Street",
+    "StopNumber": "213 - Collins Avenue at 38 Street",
+    "Latitude": "25.811245",
+    "Longitude": "-80.123329",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939038",
+    "Name": "Collins Avenue at 5775",
+    "StopNumber": "263 - Collins Avenue at 5775",
+    "Latitude": "25.839275",
+    "Longitude": "-80.120886",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028405",
+    "Name": "Washington Avenue and 2 Street",
+    "StopNumber": "149 - Washington Avenue and 2 Street",
+    "Latitude": "25.771320",
+    "Longitude": "-80.134993",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028445",
+    "Name": "6 Street & Lenox Ave",
+    "StopNumber": "113 - 6 Street & Lenox Ave",
+    "Latitude": "25.775715",
+    "Longitude": "-80.139622",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028480",
+    "Name": "Washington Avenue and 4 Street",
+    "StopNumber": "119 - Washington Avenue and 4 Street",
+    "Latitude": "25.773502",
+    "Longitude": "-80.134315",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "891618",
+    "Name": "77th Street and Hawthorne Drive",
+    "StopNumber": "321 - 77th Street and Hawthorne Driv",
+    "Latitude": "25.861888",
+    "Longitude": "-80.127653",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929933",
+    "Name": "Collins Avenue at 41 Street",
+    "StopNumber": "214 - Collins Avenue at 41 Street",
+    "Latitude": "25.812795",
+    "Longitude": "-80.123071",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939039",
+    "Name": "Collins Avenue at 5875",
+    "StopNumber": "264 - Collins Avenue at 5875",
+    "Latitude": "25.840893",
+    "Longitude": "-80.121186",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028406",
+    "Name": "Washington Avenue and 1 Street",
+    "StopNumber": "150 - Washington Avenue and 1 Street",
+    "Latitude": "25.769840",
+    "Longitude": "-80.135285",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028446",
+    "Name": "Alton Road and 4 Street",
+    "StopNumber": "114 - Alton Road and 4 Street",
+    "Latitude": "25.773319",
+    "Longitude": "-80.140188",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028481",
+    "Name": "Washington Avenue and 5 Street",
+    "StopNumber": "120 - Washington Avenue and 5 Street",
+    "Latitude": "25.774920",
+    "Longitude": "-80.133982",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723076",
+    "Name": "77 Street and Tatum Waterway Drive",
+    "StopNumber": "323 - 77 Street and Tatum Waterway D",
+    "Latitude": "25.862021",
+    "Longitude": "-80.126155",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929934",
+    "Name": "Collins Avenue at 43 Street",
+    "StopNumber": "215 - Collins Avenue at 43 Street",
+    "Latitude": "25.814350",
+    "Longitude": "-80.122797",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939040",
+    "Name": "Collins Avenue at 63",
+    "StopNumber": "265 - Collins Avenue at 63",
+    "Latitude": "25.844197",
+    "Longitude": "-80.120717",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028407",
+    "Name": "S Pointe Dr and Washington Avenue",
+    "StopNumber": "151 - S Pointe Dr and Washington Ave",
+    "Latitude": "25.768454",
+    "Longitude": "-80.135583",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028447",
+    "Name": "Alton Road and 2 Street",
+    "StopNumber": "115 - Alton Road and 2 Street",
+    "Latitude": "25.770640",
+    "Longitude": "-80.138343",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028482",
+    "Name": "Washington Avenue and 7 Street",
+    "StopNumber": "121 - Washington Avenue and 7 Street",
+    "Latitude": "25.777641",
+    "Longitude": "-80.133410",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723077",
+    "Name": "Temple Menorah",
+    "StopNumber": "324 - Temple Menorah",
+    "Latitude": "25.860142",
+    "Longitude": "-80.125447",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929936",
+    "Name": "Indian Creek Drive at 43 Street",
+    "StopNumber": "217 - Indian Creek Drive at 43 Stree",
+    "Latitude": "25.815007",
+    "Longitude": "-80.123667",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939041",
+    "Name": "Collins Avenue at 6365",
+    "StopNumber": "266 - Collins Avenue at 6365",
+    "Latitude": "25.846367",
+    "Longitude": "-80.120226",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028408",
+    "Name": "Alton Road and 2 Street",
+    "StopNumber": "152 - Alton Road and 2 Street",
+    "Latitude": "25.770877",
+    "Longitude": "-80.138296",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028448",
+    "Name": "S Pointe Dr and Washington Avenue",
+    "StopNumber": "116 - S Pointe Dr and Washington Ave",
+    "Latitude": "25.768169",
+    "Longitude": "-80.135921",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028483",
+    "Name": "Washington Avenue and 8 Street",
+    "StopNumber": "122 - Washington Avenue and 8 Street",
+    "Latitude": "25.778694",
+    "Longitude": "-80.133191",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723078",
+    "Name": "North Shore Park and Youth Center",
+    "StopNumber": "325 - North Shore Park and Youth Cen",
+    "Latitude": "25.858261",
+    "Longitude": "-80.123523",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929937",
+    "Name": "Pine Tree Drive at 41 Street",
+    "StopNumber": "218 - Pine Tree Drive at 41 Street",
+    "Latitude": "25.813727",
+    "Longitude": "-80.126402",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939042",
+    "Name": "Collins Avenue at 65 Street",
+    "StopNumber": "267 - Collins Avenue at 65 Street",
+    "Latitude": "25.847956",
+    "Longitude": "-80.120261",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028409",
+    "Name": "Alton Road and 4 Street",
+    "StopNumber": "153 - Alton Road and 4 Street",
+    "Latitude": "25.773296",
+    "Longitude": "-80.139946",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028449",
+    "Name": "Washington Avenue and 1 Street",
+    "StopNumber": "117 - Washington Avenue and 1 Street",
+    "Latitude": "25.770107",
+    "Longitude": "-80.135064",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028484",
+    "Name": "Washington Avenue and 9 Street",
+    "StopNumber": "123 - Washington Avenue and 9 Street",
+    "Latitude": "25.779968",
+    "Longitude": "-80.132917",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "777311",
+    "Name": "Abbott Avenue and 72 Street",
+    "StopNumber": "326 - Abbott Avenue and 72 Street",
+    "Latitude": "25.857179",
+    "Longitude": "-80.122388",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929938",
+    "Name": "Sheridan Avenue and 41 Street",
+    "StopNumber": "219 - Sheridan Avenue and 41 Street",
+    "Latitude": "25.814051",
+    "Longitude": "-80.127566",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939044",
+    "Name": "Collins Avenue at 69 Street",
+    "StopNumber": "302 - Collins Avenue at 69 Street",
+    "Latitude": "25.854010",
+    "Longitude": "-80.120411",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028450",
+    "Name": "Washington Avenue and 2 Street",
+    "StopNumber": "118 - Washington Avenue and 2 Street",
+    "Latitude": "25.771270",
+    "Longitude": "-80.134759",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028485",
+    "Name": "10 Street and Pennsylvania Ave. - Northbound",
+    "StopNumber": "107 - 10 Street and Pennsylvania Ave",
+    "Latitude": "25.780639",
+    "Longitude": "-80.133972",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1028507",
+    "Name": "Alton Rd & 6th Street",
+    "StopNumber": "154 - Alton Rd & 6th Street",
+    "Latitude": "25.775424",
+    "Longitude": "-80.140649",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "777312",
+    "Name": "US Post Office",
+    "StopNumber": "327 - US Post Office",
+    "Latitude": "25.856058",
+    "Longitude": "-80.123573",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929939",
+    "Name": "41 Street and Sheridan Avenue",
+    "StopNumber": "220 - 41 Street and Sheridan Avenue",
+    "Latitude": "25.813940",
+    "Longitude": "-80.128183",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939045",
+    "Name": "Collins Avenue at 72 Street",
+    "StopNumber": "303 - Collins Avenue at 72 Street",
+    "Latitude": "25.857806",
+    "Longitude": "-80.120773",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028411",
+    "Name": "Alton Road and 8 Street",
+    "StopNumber": "155 - Alton Road and 8 Street",
+    "Latitude": "25.778359",
+    "Longitude": "-80.140741",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028451",
+    "Name": "Washington Avenue and 4 Street",
+    "StopNumber": "119 - Washington Avenue and 4 Street",
+    "Latitude": "25.773489",
+    "Longitude": "-80.134311",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028486",
+    "Name": "10 St. and Meridian Ave. - Northbound",
+    "StopNumber": "108 - 10 St. and Meridian Ave. - Nor",
+    "Latitude": "25.780612",
+    "Longitude": "-80.136168",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723079",
+    "Name": "71st Street and Bonita Dr.",
+    "StopNumber": "328 - 71st Street and Bonita Dr.",
+    "Latitude": "25.856018",
+    "Longitude": "-80.126227",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929940",
+    "Name": "41 Street between Prairie and Chase Avenue",
+    "StopNumber": "221 - 41 Street between Prairie and ",
+    "Latitude": "25.813906",
+    "Longitude": "-80.131091",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939046",
+    "Name": "Collins Avenue and 77 Street",
+    "StopNumber": "305 - Collins Avenue and 77 Street",
+    "Latitude": "25.862087",
+    "Longitude": "-80.121035",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028452",
+    "Name": "Washington Avenue and 5 Street",
+    "StopNumber": "120 - Washington Avenue and 5 Street",
+    "Latitude": "25.774993",
+    "Longitude": "-80.133986",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028487",
+    "Name": "10 Street and Michigan Avenue - Northbound",
+    "StopNumber": "109 - 10 Street and Michigan Avenue ",
+    "Latitude": "25.780520",
+    "Longitude": "-80.138453",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1030798",
+    "Name": "Alton Rd and 10 Street",
+    "StopNumber": "156 - Alton Rd and 10 Street",
+    "Latitude": "25.780704",
+    "Longitude": "-80.140849",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "723080",
+    "Name": "Normandy Drive and Rue Versailles Drive",
+    "StopNumber": "329 - Normandy Drive and Rue Versail",
+    "Latitude": "25.855794",
+    "Longitude": "-80.129530",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929941",
+    "Name": "41 Street at Meridian Avenue",
+    "StopNumber": "222 - 41 Street at Meridian Avenue",
+    "Latitude": "25.813911",
+    "Longitude": "-80.133328",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1023434",
+    "Name": "Collins Avenue and 85 Street",
+    "StopNumber": "309 - Collins Avenue and 85 Street",
+    "Latitude": "25.870254",
+    "Longitude": "-80.121315",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028412",
+    "Name": "Alton Road and 11 Street",
+    "StopNumber": "124 - Alton Road and 11 Street",
+    "Latitude": "25.781930",
+    "Longitude": "-80.140897",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028453",
+    "Name": "Washington Avenue and 7 Street",
+    "StopNumber": "121 - Washington Avenue and 7 Street",
+    "Latitude": "25.777647",
+    "Longitude": "-80.133404",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028488",
+    "Name": "Alton Road and 11 Street",
+    "StopNumber": "124 - Alton Road and 11 Street",
+    "Latitude": "25.781949",
+    "Longitude": "-80.140865",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723081",
+    "Name": "Nomandy Dr. and Rue Notre Dame",
+    "StopNumber": "331 - Nomandy Dr. and Rue Notre Dame",
+    "Latitude": "25.855033",
+    "Longitude": "-80.133098",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929943",
+    "Name": "Alton Road at 41 Street",
+    "StopNumber": "224 - Alton Road at 41 Street",
+    "Latitude": "25.813160",
+    "Longitude": "-80.135778",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1023435",
+    "Name": "Harding Avenue and 87 Street",
+    "StopNumber": "312 - Harding Avenue and 87 Street",
+    "Latitude": "25.872161",
+    "Longitude": "-80.122267",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028413",
+    "Name": "Alton Road and 13 Street",
+    "StopNumber": "125 - Alton Road and 13 Street",
+    "Latitude": "25.784110",
+    "Longitude": "-80.140911",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028454",
+    "Name": "Washington Avenue and 8 Street",
+    "StopNumber": "122 - Washington Avenue and 8 Street",
+    "Latitude": "25.778716",
+    "Longitude": "-80.133184",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028489",
+    "Name": "Alton Road and 13 Street",
+    "StopNumber": "125 - Alton Road and 13 Street",
+    "Latitude": "25.784110",
+    "Longitude": "-80.140911",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723082",
+    "Name": "Normandy Dr. and Rue Bordeaux Dr.",
+    "StopNumber": "333 - Normandy Dr. and Rue Bordeaux ",
+    "Latitude": "25.853325",
+    "Longitude": "-80.135821",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929944",
+    "Name": "Mount Sinai Medical Center",
+    "StopNumber": "225 - Mount Sinai Medical Center",
+    "Latitude": "25.813481",
+    "Longitude": "-80.139266",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1023436",
+    "Name": "Harding Avenue and 85 Street",
+    "StopNumber": "313 - Harding Avenue and 85 Street",
+    "Latitude": "25.870370",
+    "Longitude": "-80.122513",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028414",
+    "Name": "Alton Road and 14 Street",
+    "StopNumber": "126 - Alton Road and 14 Street",
+    "Latitude": "25.785339",
+    "Longitude": "-80.140974",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028455",
+    "Name": "Washington Avenue and 9 Street",
+    "StopNumber": "123 - Washington Avenue and 9 Street",
+    "Latitude": "25.779962",
+    "Longitude": "-80.132906",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028490",
+    "Name": "Alton Road and 14 Street",
+    "StopNumber": "126 - Alton Road and 14 Street",
+    "Latitude": "25.785344",
+    "Longitude": "-80.140953",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723083",
+    "Name": "Normandy Isle Park and Pool",
+    "StopNumber": "334 - Normandy Isle Park and Pool",
+    "Latitude": "25.852373",
+    "Longitude": "-80.138052",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929945",
+    "Name": "Mount Sinai Medical Center",
+    "StopNumber": "226 - Mount Sinai Medical Center",
+    "Latitude": "25.812003",
+    "Longitude": "-80.140516",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "1023437",
+    "Name": "Harding Avenue and 81 Street",
+    "StopNumber": "3131 - Harding Avenue and 81 Street",
+    "Latitude": "25.865842",
+    "Longitude": "-80.122259",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028415",
+    "Name": "Alton Road and 15 Street",
+    "StopNumber": "127 - Alton Road and 15 Street",
+    "Latitude": "25.787510",
+    "Longitude": "-80.141023",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028456",
+    "Name": "Washington Avenue and 11 Street",
+    "StopNumber": "157 - Washington Avenue and 11 Stree",
+    "Latitude": "25.782157",
+    "Longitude": "-80.132426",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028491",
+    "Name": "Alton Road and 15 Street",
+    "StopNumber": "127 - Alton Road and 15 Street",
+    "Latitude": "25.787491",
+    "Longitude": "-80.140985",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723084",
+    "Name": "Rue Granville Last stop on Normandy Drive",
+    "StopNumber": "335 - Rue Granville Last stop on Nor",
+    "Latitude": "25.852255",
+    "Longitude": "-80.140341",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929946",
+    "Name": "41 Street and Alton Road",
+    "StopNumber": "227 - 41 Street and Alton Road",
+    "Latitude": "25.813119",
+    "Longitude": "-80.135280",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "963479",
+    "Name": "Harding Ave and 75 Street",
+    "StopNumber": "2081 - Harding Ave and 75 Street",
+    "Latitude": "25.860402",
+    "Longitude": "-80.122252",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028416",
+    "Name": "Alton Road and 16 Street - Lincoln Road Mall",
+    "StopNumber": "180 - Alton Road and 16 Street - Lin",
+    "Latitude": "25.789103",
+    "Longitude": "-80.141044",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028457",
+    "Name": "Washington Avenue and 13 Street",
+    "StopNumber": "158 - Washington Avenue and 13 Stree",
+    "Latitude": "25.784346",
+    "Longitude": "-80.132016",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028492",
+    "Name": "Alton Road and 16 Street - Lincoln Road Mall",
+    "StopNumber": "180 - Alton Road and 16 Street - Lin",
+    "Latitude": "25.789103",
+    "Longitude": "-80.141044",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723085",
+    "Name": "71st Street and Biarritz Dr.",
+    "StopNumber": "336 - 71st Street and Biarritz Dr.",
+    "Latitude": "25.851262",
+    "Longitude": "-80.141461",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929947",
+    "Name": "41 Street at Meridian Avenue",
+    "StopNumber": "228 - 41 Street at Meridian Avenue",
+    "Latitude": "25.813810",
+    "Longitude": "-80.133188",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939048",
+    "Name": "Abbott Avenue at 72 Street",
+    "StopNumber": "326 - Abbott Avenue at 72 Street",
+    "Latitude": "25.857336",
+    "Longitude": "-80.122361",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028417",
+    "Name": "Alton Road and 19 Street",
+    "StopNumber": "182 - Alton Road and 19 Street",
+    "Latitude": "25.794525",
+    "Longitude": "-80.141257",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028458",
+    "Name": "Washington Avenue and 14 Street",
+    "StopNumber": "159 - Washington Avenue and 14 Stree",
+    "Latitude": "25.785589",
+    "Longitude": "-80.131818",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028493",
+    "Name": "Alton Road and 19 Street",
+    "StopNumber": "182 - Alton Road and 19 Street",
+    "Latitude": "25.794525",
+    "Longitude": "-80.141257",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723090",
+    "Name": "71st Street and Rue Granville",
+    "StopNumber": "337 - 71st Street and Rue Granville",
+    "Latitude": "25.851299",
+    "Longitude": "-80.139762",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929948",
+    "Name": "41 Street between Prairie and Chase Avenue",
+    "StopNumber": "229 - 41 Street between Prairie and ",
+    "Latitude": "25.813797",
+    "Longitude": "-80.131075",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939049",
+    "Name": "Abbott Avenue at 69 Street",
+    "StopNumber": "345 - Abbott Avenue at 69 Street",
+    "Latitude": "25.854801",
+    "Longitude": "-80.122299",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028418",
+    "Name": "West Avenue and 20 Street",
+    "StopNumber": "183 - West Avenue and 20 Street",
+    "Latitude": "25.795189",
+    "Longitude": "-80.142654",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028459",
+    "Name": "Washington Avenue and 15 Street",
+    "StopNumber": "160 - Washington Avenue and 15 Stree",
+    "Latitude": "25.787349",
+    "Longitude": "-80.131693",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028494",
+    "Name": "West Avenue and 20 Street",
+    "StopNumber": "183 - West Avenue and 20 Street",
+    "Latitude": "25.795189",
+    "Longitude": "-80.142654",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723091",
+    "Name": "71st Street and Trouville Esplanade",
+    "StopNumber": "338 - 71st Street and Trouville Espl",
+    "Latitude": "25.851648",
+    "Longitude": "-80.136990",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929950",
+    "Name": "41 Street and Sheridan Avenue",
+    "StopNumber": "231 - 41 Street and Sheridan Avenue",
+    "Latitude": "25.813720",
+    "Longitude": "-80.127143",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939051",
+    "Name": "Indian Creek Drive at 65 Street",
+    "StopNumber": "272 - Indian Creek Drive at 65 Stree",
+    "Latitude": "25.848832",
+    "Longitude": "-80.121500",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028419",
+    "Name": "18 Street and Purdy Avenue",
+    "StopNumber": "184 - 18 Street and Purdy Avenue",
+    "Latitude": "25.793612",
+    "Longitude": "-80.144274",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028460",
+    "Name": "Washington Avenue and 16 Street",
+    "StopNumber": "161 - Washington Avenue and 16 Stree",
+    "Latitude": "25.789876",
+    "Longitude": "-80.131782",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028495",
+    "Name": "18 Street and Purdy Avenue",
+    "StopNumber": "184 - 18 Street and Purdy Avenue",
+    "Latitude": "25.793612",
+    "Longitude": "-80.144274",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723092",
+    "Name": "71st Street and Rue Bordeaux Drive",
+    "StopNumber": "339 - 71st Street and Rue Bordeaux D",
+    "Latitude": "25.852901",
+    "Longitude": "-80.134767",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929951",
+    "Name": "41 Street and Pine Tree Drive",
+    "StopNumber": "232 - 41 Street and Pine Tree Drive",
+    "Latitude": "25.813592",
+    "Longitude": "-80.126035",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939052",
+    "Name": "Indian Creek Drive at 63 Street",
+    "StopNumber": "273 - Indian Creek Drive at 63 Stree",
+    "Latitude": "25.844134",
+    "Longitude": "-80.121505",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028420",
+    "Name": "Venetian Way and E Island Ave",
+    "StopNumber": "185 - Venetian Way and E Island Ave",
+    "Latitude": "25.791403",
+    "Longitude": "-80.147812",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028461",
+    "Name": "Washington Avenue and Lincoln Road",
+    "StopNumber": "248 - Washington Avenue and Lincoln ",
+    "Latitude": "25.791089",
+    "Longitude": "-80.131837",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028496",
+    "Name": "Venetian Way and E Island Ave",
+    "StopNumber": "185 - Venetian Way and E Island Ave",
+    "Latitude": "25.791403",
+    "Longitude": "-80.147812",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "723093",
+    "Name": "71st Street and Rue Notre Dame",
+    "StopNumber": "340 - 71st Street and Rue Notre Dame",
+    "Latitude": "25.854373",
+    "Longitude": "-80.132124",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929952",
+    "Name": "Indian Creek Drive at 41 Street",
+    "StopNumber": "233 - Indian Creek Drive at 41 Stree",
+    "Latitude": "25.812554",
+    "Longitude": "-80.124259",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939053",
+    "Name": "Collins Avenue at 5800 BLK",
+    "StopNumber": "274 - Collins Avenue at 5800 BLK",
+    "Latitude": "25.841151",
+    "Longitude": "-80.121505",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028421",
+    "Name": "Purdy Avenue and 18 Street",
+    "StopNumber": "186 - Purdy Avenue and 18 Street",
+    "Latitude": "25.793264",
+    "Longitude": "-80.144307",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028497",
+    "Name": "Purdy Avenue and 18 Street",
+    "StopNumber": "186 - Purdy Avenue and 18 Street",
+    "Latitude": "25.793264",
+    "Longitude": "-80.144307",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045212",
+    "Name": "Washington Avenue and 17 Street",
+    "StopNumber": "190 - Washington Avenue and 17 Stree",
+    "Latitude": "25.792558",
+    "Longitude": "-80.131907",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "723094",
+    "Name": "71st Street and Rue Versailles Dr.",
+    "StopNumber": "341 - 71st Street and Rue Versailles",
+    "Latitude": "25.854903",
+    "Longitude": "-80.129334",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929960",
+    "Name": "Collins Avenue at 24 Street",
+    "StopNumber": "241 - Collins Avenue at 24 Street",
+    "Latitude": "25.800326",
+    "Longitude": "-80.127113",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939054",
+    "Name": "Collins Avenue at 5750",
+    "StopNumber": "275 - Collins Avenue at 5750",
+    "Latitude": "25.839471",
+    "Longitude": "-80.121146",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028422",
+    "Name": "20 Street and Bay Rd",
+    "StopNumber": "187 - 20 Street and Bay Rd",
+    "Latitude": "25.795495",
+    "Longitude": "-80.143411",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028498",
+    "Name": "20 Street and Bay Rd",
+    "StopNumber": "187 - 20 Street and Bay Rd",
+    "Latitude": "25.795495",
+    "Longitude": "-80.143411",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045213",
+    "Name": "Washington Avenue and 18 Street",
+    "StopNumber": "191 - Washington Avenue and 18 Stree",
+    "Latitude": "25.794209",
+    "Longitude": "-80.131970",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "723095",
+    "Name": "Bay Drive Last stop on 71st Street",
+    "StopNumber": "342 - Bay Drive Last stop on 71st St",
+    "Latitude": "25.855918",
+    "Longitude": "-80.127436",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929961",
+    "Name": "Collins Avenue between 24 and 23 Street",
+    "StopNumber": "242 - Collins Avenue between 24 and ",
+    "Latitude": "25.799191",
+    "Longitude": "-80.127714",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939055",
+    "Name": "Collins Avenue at 5660",
+    "StopNumber": "276 - Collins Avenue at 5660",
+    "Latitude": "25.837325",
+    "Longitude": "-80.121017",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028423",
+    "Name": "Alton Rd and Lincoln Rd",
+    "StopNumber": "189 - Alton Rd and Lincoln Rd",
+    "Latitude": "25.790127",
+    "Longitude": "-80.141324",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028499",
+    "Name": "Alton Rd and Lincoln Rd",
+    "StopNumber": "189 - Alton Rd and Lincoln Rd",
+    "Latitude": "25.790127",
+    "Longitude": "-80.141324",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045214",
+    "Name": "Washington Avenue and 20 Street",
+    "StopNumber": "192 - Washington Avenue and 20 Stree",
+    "Latitude": "25.796933",
+    "Longitude": "-80.131997",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "723096",
+    "Name": "71 Street and Indian Creek Dr",
+    "StopNumber": "343 - 71 Street and Indian Creek Dr",
+    "Latitude": "25.855959",
+    "Longitude": "-80.124586",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "929962",
+    "Name": "Collins Avenue at 21 Street",
+    "StopNumber": "243 - Collins Avenue at 21 Street",
+    "Latitude": "25.796600",
+    "Longitude": "-80.128792",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939056",
+    "Name": "Collins Avenue at 5500 BLK",
+    "StopNumber": "277 - Collins Avenue at 5500 BLK",
+    "Latitude": "25.835999",
+    "Longitude": "-80.120894",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028424",
+    "Name": "16 Street and Lenox Avenue",
+    "StopNumber": "128 - 16 Street and Lenox Avenue",
+    "Latitude": "25.788889",
+    "Longitude": "-80.139858",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028500",
+    "Name": "16 Street and Lenox Avenue",
+    "StopNumber": "128 - 16 Street and Lenox Avenue",
+    "Latitude": "25.788889",
+    "Longitude": "-80.139858",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045215",
+    "Name": "23 Street and Liberty Avenue",
+    "StopNumber": "194 - 23 Street and Liberty Avenue",
+    "Latitude": "25.798518",
+    "Longitude": "-80.128620",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "929964",
+    "Name": "Collins Avenue at 18 Street",
+    "StopNumber": "245 - Collins Avenue at 18 Street",
+    "Latitude": "25.794052",
+    "Longitude": "-80.129524",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939057",
+    "Name": "Collins Avenue at 5400 BLK",
+    "StopNumber": "278 - Collins Avenue at 5400 BLK",
+    "Latitude": "25.833484",
+    "Longitude": "-80.121328",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023428",
+    "Name": "71 Street and Byron Avenue",
+    "StopNumber": "344 - 71 Street and Byron Avenue",
+    "Latitude": "25.855963",
+    "Longitude": "-80.123705",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "1028425",
+    "Name": "16 Street and Michigan Avenue",
+    "StopNumber": "129 - 16 Street and Michigan Avenue",
+    "Latitude": "25.788920",
+    "Longitude": "-80.138683",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028501",
+    "Name": "16 Street and Michigan Avenue",
+    "StopNumber": "129 - 16 Street and Michigan Avenue",
+    "Latitude": "25.788920",
+    "Longitude": "-80.138683",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "1045216",
+    "Name": "Collins Avenue and 21 Street",
+    "StopNumber": "243 - Collins Avenue and 21 Street",
+    "Latitude": "25.796605",
+    "Longitude": "-80.128798",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "929965",
+    "Name": "Collins Avenue at 17 Street",
+    "StopNumber": "246 - Collins Avenue at 17 Street",
+    "Latitude": "25.792492",
+    "Longitude": "-80.129774",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939058",
+    "Name": "Collins Avenue at 5333",
+    "StopNumber": "279 - Collins Avenue at 5333",
+    "Latitude": "25.831849",
+    "Longitude": "-80.121948",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023429",
+    "Name": "Abbott Avenue and 69 Street",
+    "StopNumber": "345 - Abbott Avenue and 69 Street",
+    "Latitude": "25.854795",
+    "Longitude": "-80.122347",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "1028426",
+    "Name": "16 Street and Jefferson Avenue",
+    "StopNumber": "130 - 16 Street and Jefferson Avenue",
+    "Latitude": "25.788968",
+    "Longitude": "-80.137567",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028462",
+    "Name": "Washington Avenue and 17 Street",
+    "StopNumber": "249 - Washington Avenue and 17 Stree",
+    "Latitude": "25.792352",
+    "Longitude": "-80.132892",
+    "RouteID": "85863"
+  },
+  {
+    "ID": "1028502",
+    "Name": "16 Street and Jefferson Avenue",
+    "StopNumber": "130 - 16 Street and Jefferson Avenue",
+    "Latitude": "25.788968",
+    "Longitude": "-80.137567",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "929966",
+    "Name": "Lincoln Road at Washington Avenue",
+    "StopNumber": "247 - Lincoln Road at Washington Ave",
+    "Latitude": "25.790743",
+    "Longitude": "-80.131579",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939059",
+    "Name": "Collins Avenue at 5200 BLK",
+    "StopNumber": "280 - Collins Avenue at 5200 BLK",
+    "Latitude": "25.830232",
+    "Longitude": "-80.122240",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023430",
+    "Name": "Abbott Avenue and Indian Creek Dr",
+    "StopNumber": "346 - Abbott Avenue and Indian Creek",
+    "Latitude": "25.852282",
+    "Longitude": "-80.122298",
+    "RouteID": "40756"
+  },
+  {
+    "ID": "1028427",
+    "Name": "Meridian Avenue and Lincoln Rd",
+    "StopNumber": "131 - Meridian Avenue and Lincoln Rd",
+    "Latitude": "25.790463",
+    "Longitude": "-80.136499",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028503",
+    "Name": "Meridian Avenue and Lincoln Rd",
+    "StopNumber": "131 - Meridian Avenue and Lincoln Rd",
+    "Latitude": "25.790463",
+    "Longitude": "-80.136499",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "929967",
+    "Name": "Washington Avenue just north of Lincoln Road",
+    "StopNumber": "248 - Washington Avenue just north o",
+    "Latitude": "25.791961",
+    "Longitude": "-80.131933",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939061",
+    "Name": "Collins Avenue at 5000 BLK",
+    "StopNumber": "282 - Collins Avenue at 5000 BLK",
+    "Latitude": "25.826944",
+    "Longitude": "-80.121913",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1028428",
+    "Name": "17 Street and Meridian Avenue",
+    "StopNumber": "132 - 17 Street and Meridian Avenue",
+    "Latitude": "25.792159",
+    "Longitude": "-80.135976",
+    "RouteID": "85862"
+  },
+  {
+    "ID": "1028504",
+    "Name": "17 Street and Meridian Avenue",
+    "StopNumber": "132 - 17 Street and Meridian Avenue",
+    "Latitude": "25.792159",
+    "Longitude": "-80.135976",
+    "RouteID": "85864"
+  },
+  {
+    "ID": "929968",
+    "Name": "17 Street west of Washington Avenue",
+    "StopNumber": "249 - 17 Street west of Washington A",
+    "Latitude": "25.792275",
+    "Longitude": "-80.132966",
+    "RouteID": "72486"
+  },
+  {
+    "ID": "939062",
+    "Name": "Collins Avenue at 4900 BLK",
+    "StopNumber": "283 - Collins Avenue at 4900 BLK",
+    "Latitude": "25.825249",
+    "Longitude": "-80.122144",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "939063",
+    "Name": "Collins Avenue at 4700 BLK",
+    "StopNumber": "284 - Collins Avenue at 4700 BLK",
+    "Latitude": "25.822146",
+    "Longitude": "-80.122728",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "939064",
+    "Name": "Collins Avenue at 4500 BLK",
+    "StopNumber": "285 - Collins Avenue at 4500 BLK",
+    "Latitude": "25.819169",
+    "Longitude": "-80.123026",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "939065",
+    "Name": "Collins Avenue at 4441 Entrance",
+    "StopNumber": "286 - Collins Avenue at 4441 Entranc",
+    "Latitude": "25.817390",
+    "Longitude": "-80.123383",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "939066",
+    "Name": "Collins Avenue north of 44 Street",
+    "StopNumber": "287 - Collins Avenue north of 44 Str",
+    "Latitude": "25.816535",
+    "Longitude": "-80.123522",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "939067",
+    "Name": "Indian Creek Drive at 43 Street",
+    "StopNumber": "217 - Indian Creek Drive at 43 Stree",
+    "Latitude": "25.815014",
+    "Longitude": "-80.123656",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "939068",
+    "Name": "Indian Creek Drive at 41 Street",
+    "StopNumber": "233 - Indian Creek Drive at 41 Stree",
+    "Latitude": "25.812573",
+    "Longitude": "-80.124244",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023438",
+    "Name": "Collins Avenue and 24 Street",
+    "StopNumber": "241 - Collins Avenue and 24 Street",
+    "Latitude": "25.800217",
+    "Longitude": "-80.127282",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023439",
+    "Name": "Collins Avenue and 21 Street",
+    "StopNumber": "243 - Collins Avenue and 21 Street",
+    "Latitude": "25.796585",
+    "Longitude": "-80.128821",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023440",
+    "Name": "Washington Avenue and 17 Street",
+    "StopNumber": "101 - Washington Avenue and 17 Stree",
+    "Latitude": "25.791972",
+    "Longitude": "-80.132005",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023441",
+    "Name": "Lincoln Rd and Washington Avenue",
+    "StopNumber": "288 - Lincoln Rd and Washington Aven",
+    "Latitude": "25.790644",
+    "Longitude": "-80.131094",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023442",
+    "Name": "Collins Avenue and 17 Street",
+    "StopNumber": "289 - Collins Avenue and 17 Street",
+    "Latitude": "25.792141",
+    "Longitude": "-80.129770",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023443",
+    "Name": "Collins Avenue and 22 Street",
+    "StopNumber": "204 - Collins Avenue and 22 Street",
+    "Latitude": "25.797382",
+    "Longitude": "-80.128385",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023444",
+    "Name": "Collins Avenue and 24 Street",
+    "StopNumber": "206 - Collins Avenue and 24 Street",
+    "Latitude": "25.800395",
+    "Longitude": "-80.126922",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1050851",
+    "Name": "Collins Avenue and 27 Street",
+    "StopNumber": "208 - Collins Avenue and 27 Street",
+    "Latitude": "25.804138",
+    "Longitude": "-80.125457",
+    "RouteID": "73772"
+  },
+  {
+    "ID": "1023445",
+    "Name": "Collins Avenue and 31 Street",
+    "StopNumber": "210 - Collins Avenue and 31 Street",
+    "Latitude": "25.806843",
+    "Longitude": "-80.124168",
+    "RouteID": "73772"
+  }
+]

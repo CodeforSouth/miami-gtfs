@@ -71,7 +71,7 @@ async function getStops(url) {
     .value();
 }
 
-export default async () => {
+module.exports = async () => {
   const moverShape = getShapes(
     'https://www.miamidade.gov/transit/WebServices/MoverMapShape/',
     'Loop'
@@ -92,11 +92,11 @@ export default async () => {
 
   return {
     mover: {
-      shape: await moverShape,
+      shapes: await moverShape,
       stops: await moverStops
     },
     train: {
-      shape: await trainShape,
+      shapes: await trainShape,
       stops: await trainStops
     }
   };

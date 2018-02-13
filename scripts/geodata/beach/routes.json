@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "73772",
+    "Name": "Collins Express",
+    "RoutePath":
+      "agp|Cxa`hNuF_@mAU}@KqFg@uGm@k@VKPEPIjBqDMkCc@oAQaD[}Dg@aBSkAGsDBaA?uAQ_CQI_@gFg@sBSe@Iw@K{BYsBIgBG}@Dc@Gk@?oANYHoAReCXkADYKM?sBGwAEeC[qB[cCi@sAg@uAs@[OkB_@gAMoDA{CDsBBgBToAH{GJeCDs@DkB^[NMR_@NiA@c@I_@QUQu@s@[Qa@Ok@GWAkGHk@?g@Iu@k@]KsB_@e@CoBB}HDqHFkNH{KJeLPkEF{AZi@Py@TcHRiFJoG?}d@RaLb@gIZcCF{@IcAMBzDhEI^ApB`ArEOjBErVg@h@Cd_@Kx@HlDGdFMt@@ZDXDbB\\r@@fMMlHKzHL`FeCdBUvFEpLe@rCK^Aj@BvEt@`ACpLGhAHvAA~Cu@h@Gj@GxAArIMxAKpAOtDI|CArABV?rAL~@TxAp@rBz@nA\\`C`@nBXlBTdBHhBDxAI~Iy@l@C~@?jCJ`BNbBP`LnAhEd@~@FjC@fBCxBVdD\\xFp@hBRtARrAFpHZvAF|BRr@VbCZxAb@lCb@xARd@@jCEhCLxCMxEZ~DdDlFrCpIdCfHOnAmB|DHfB~@nBbCj@\\dI~BdJtCdHpBhFb@tHp@H`EDpFbA?hGS?aDSgAJqAA_AaHm@yK_AwD]eMuDePeFu@_A{@eAkBaAgEMyBs@aGyAgD}Aa@]qIeCcEkA_OkAaDO",
+    "LineColor": "#24C37E",
+    "StopIcon": "Stop_Small_Orange.png",
+    "UnitIcon": "Unit_Green.png",
+    "CompanyID": "22844"
+  },
+  {
+    "ID": "72486",
+    "Name": "Middle Beach Loop",
+    "RoutePath":
+      "qpl|CxgbhNDxJ@`@mNFyC@uAdAnIzQ`B|D?x@cDCm@IO{A?wAQiGT_AeEeKmDiHgIqQrIQxBoJlAcF}IuC}H_CcEoAa@QQMc@q@u@}@]Sg@Yw@YiAIqBGe@IwAa@aGaBsBw@]U_@QWUm@UqBo@sBe@cA[eDaAiHq@{K{@mFa@gAQuHu@_Hg@k@VMfDtETxABbCVnA`@LXFj@k@|DW~EiAWmAIe@vF|BR`@FKpBDdQ?~L@`AfDbLSBeAn@o@l@s@`A{@fAe@`@y@`@W\\Kb@?z@DfA@|AZ`Cv@Ib@Iz@Av@It@FT@`CYXGT@XPFRNt@l@zDVFj@G^[q@}BM[q@w@y@i@m@G_BR}@JmAGu@F}@Bc@Fo@F[wBAoBHa@Eo@?[DSFMHKJGl@[JGLKJKJILM`AuAT]NMNMPMTQzAi@i@qB}BiHIe@AqA@gLD{SHuBX}ELsCd@_ERi@NG\\ExAh@bC^`BRrD@zCZpBa@fEL~Av@~BxB`CdB~DxAjFrAjCBbC?d@KT]Ji@r@e@xA?fAHZDf@Pd@Pd@^nAvAV\\PJl@VjCt@d@PzBp@xBr@hF~AxDnAxAX\\FjE^vHp@rIt@@z@DLCz@@h@AXDhB?r@uAFUDgCBaA@BlEBrH",
+    "LineColor": "#E3CA29",
+    "StopIcon": "Stop_Small_Red.png",
+    "UnitIcon": "Unit_Orange.png",
+    "CompanyID": "22844"
+  },
+  {
+    "ID": "40756",
+    "Name": "North Beach Loop",
+    "RoutePath":
+      "qow|Clr_hN@yBqKDeVVoKNkEF{Bb@eCh@qORkE?uBDgIBoKHiKRgEJkENaIXsCFkBa@DzDhCI`ACd@@rB~@dEKvAGHrFPnJJpIHbHtACdAArLGrTWzGKDAIwCQcAGgFE}BfBAzEGx@CnBSnBIzCGC{ISyGjFv@xEMDxFFrO@tCDfBLrA?nAVpFDbBFpAJjBRtAZjBVxARv@J\\Tt@Tr@Zx@\\x@Xn@\\n@Zl@p@fAl@z@l@v@`@l@jApBh@rAb@~ALz@VzAN`E@|BBhCBtAFhBJ`BVtAd@nAN\\j@z@FBJ?PCHGDMDOBM?u@CaAAs@CgA?YCoECcCGcEEyAIoASkBYoAk@wB[}@[u@uCoEgA}AcAiBm@mAa@gAc@iAe@iBWeA[qBMaAO_DEoAGs@IOmAwBmByCOgBC_@A_BCgC?yBAwAB_B?oDOkGvFC|HOxDDjBBnB_ArAm@l@Wt@Mx@G|ACdA?l@At@Ep@E?aB",
+    "LineColor": "#29C0D1",
+    "StopIcon": "Stop_Small_Orange.png",
+    "UnitIcon": "Unit_Blue.png",
+    "CompanyID": "22844"
+  },
+  {
+    "ID": "85862",
+    "Name": "SOBE Loop A CW",
+    "RoutePath":
+      "apl|CvhbhNOmOs@Y}HDiJL}DGkHVkEuJfAw@zA}Ff@cCxIvCn@LkC`K~CfAxF~AA`BpRUhGMnRIvBG|Fd@pFd@vJv@pP~B~El@jG|@jNtB`Gr@pLzAfHx@xEn@z@JRHDrE[h@kADwKpGaJpFaCvAsD`Ck@DgEBi@B_B?aML_INsCDwED]BsL@uFJqLHuGHg@EaKX_OL{DBcAOm@YiB}Aa@p@d@`CFhFjA?vHKBnIF`@pJIFtA\\tNCf@Yh@JnGl@X@mACmE?uAc@ePi@cAeHBu@@?oBkK@@gAOaKvAMbGBdVUrFQBqGEkFI}EEwEkD@wB?mIRE{BAgF",
+    "LineColor": "#C302C3",
+    "StopIcon": "Stop_Small_Gray.png",
+    "UnitIcon": "Unit_Blue.png",
+    "CompanyID": "22844"
+  },
+  {
+    "ID": "85863",
+    "Name": "SOBE Loop B CCW",
+    "RoutePath":
+      "}pl|C~gbhN\\zK`I@fHG?bFDzE`@~Lm@EaHPmQTsEA}@Im@YiB}Aa@p@d@`CFhFjA?vHKBnIF`@pJIFtA\\tNCf@Yh@JnGl@X@mACmE?uAc@ePi@cAeHBu@@?oBkK@@gAOaKvAMf^OrOWjLKnIKfQMhNQ`OS?qFtFKFhCSpAjAHhDgBvOqJtJaG`BQX}@CqCKyAwJqAgF{@{LyAkH_AsOuBuEk@wFu@wC_@uFy@i@EuLqAwFg@wD[gD@yNPqFJsFTq@GiIJqJLmDG}GTmE{JhAo@bBmG\\uB`JxCd@JgC~JxK`DDnBpOQ@dDJxG",
+    "LineColor": "#C332BE",
+    "StopIcon": "Stop_Small_Gray.png",
+    "UnitIcon": "Unit_Green.png",
+    "CompanyID": "22844"
+  },
+  {
+    "ID": "85864",
+    "Name": "SOBE Loop Via 10 st.",
+    "RoutePath":
+      "apl|CvhbhNOmO`AIxKG~MOvBG|Fd@pFd@zIr@|BTvFz@FtED`MLxLb@hOhLMhOa@?{ADuBB]lFKChE`@h@dEsBnCgBjKcGvIkFfB[l@g@EgEGcAqJyAmFi@{LeB{GcA_PqBqEk@_Gu@oCYHjFDvLPfMPxMmGJa@AoLFuFFmLDyGPg@EaKX_OL{DBcAOm@YiB}Aa@p@d@`CFhFjA?vHKBnIF`@pJIFtA\\tNCf@Yh@JnGl@X@mACmE?uAc@ePi@cAeHBu@@?oBkK@@gAOaKvAMbGBdVUrFQBqGEkFI}EEwEkD@wB?mIRE{BAgF",
+    "LineColor": "#8F17C3",
+    "StopIcon": "Stop_Small_Gray.png",
+    "UnitIcon": "Unit_Yellow.png",
+    "CompanyID": "22844"
+  }
+]
