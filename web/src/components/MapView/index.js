@@ -43,6 +43,7 @@ class MapView extends Component {
     const newLayerIds = this.props.layers
       .map(layer => layer.layer.id)
       .filter((id, i) => i % 2 !== 0);
+
     const removedLayers = previous.layers.filter((layer, i) => {
       if (i % 2 === 0) return false;
       return newLayerIds.indexOf(layer.layer.id) === -1;
@@ -67,7 +68,9 @@ class MapView extends Component {
       });
       const sourceId = layer.layer.id;
       this._map.addLayer(layer.layer /*, 'road-oneway-arrows-white' */);
+
       if (i % 2 === 0) return;
+
       this._map.on('mousemove', sourceId, this._onMouseMove);
       this._map.on('mouseleave', sourceId, this._onMouseLeave);
       this._map.on('click', sourceId, this._onClick);

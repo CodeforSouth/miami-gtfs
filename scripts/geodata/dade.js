@@ -35,37 +35,33 @@ async function getShapes(url, id) {
       const line = _(points)
         .orderBy(point => parseInt(point.OrderNum[0]))
         .map(point => [
-          parseFloat(point.Latitude[0]),
-          parseFloat(point.Longitude[0])
+          parseFloat(point.Latitude[0], 10),
+          parseFloat(point.Longitude[0], 10)
         ])
         .value();
-      return polyline.encode(line);
+      const encoded = polyline.encode(line);
+      return encoded;
     })
     .value();
 
   return lines;
 }
 
-async function getStops(url) {
+async function getStops(url, type) {
   const xml = await getStopsXml(url);
 
   return _(xml)
     .map(station => {
-      const address = `${station.Address[0]}`;
-      const city = `Miami, FL ${station.Zip[0]}`;
-      const latitude = parseFloat(station.StationLat[0], 10);
-      const longitude = parseFloat(station.StationLong[0], 10);
+      const lat = parseFloat(station.StationLat[0], 10);
+      const lng = parseFloat(station.StationLong[0], 10);
       const name = station.Station[0];
       const id = station.StationID[0];
       return {
+        type,
         id,
         name,
-        address,
-        city,
-        coords: {
-          latitude,
-          longitude
-        }
+        lat,
+        lng
       };
     })
     .value();
@@ -83,11 +79,13 @@ module.exports = async () => {
   );
 
   const moverStops = getStops(
-    'http://www.miamidade.gov/transit/mobile/xml/MoverStations/'
+    'http://www.miamidade.gov/transit/mobile/xml/MoverStations/',
+    'mover'
   );
 
   const trainStops = getStops(
-    'http://www.miamidade.gov/transit/mobile/xml/TrainStations/'
+    'http://www.miamidade.gov/transit/mobile/xml/TrainStations/',
+    'rail'
   );
 
   return {
