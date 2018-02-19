@@ -11,17 +11,23 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "gtfs": "^0.10.0",
+    "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "mongoose": "^4",
     "protobuf-validator": "^1.1.0",
     "protobufjs": "5.0.1",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-preset-stage-0": "^6.24.1",
-    "eslint-config-node": "^1.6.0"
+    "eslint-config-node": "^1.6.0",
+    "nodemon": "^1.15.1"
+  },
+  "scripts": {
+    "start": "nodemon -L index.js --exec babel-node"
   }
 }

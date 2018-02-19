@@ -1,0 +1,8 @@
+{
+  "extends": "node",
+  "rules": {
+    "import/no-commonjs": 0,
+    "no-console": 1,
+    "no-unused-vars": 1
+  }
+}

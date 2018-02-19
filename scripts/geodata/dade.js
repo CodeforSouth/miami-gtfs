@@ -2,7 +2,7 @@ require('isomorphic-fetch');
 const _ = require('lodash');
 const polyline = require('@mapbox/polyline');
 
-var parseString = require('xml2js').parseString;
+const parseString = require('xml2js').parseString;
 
 async function getShapeXml(url) {
   const text = await fetch(url).then(res => res.text());
