@@ -8,7 +8,7 @@ function Train({
   direction = null,
   pointing = null
 }) {
-  this.kind = 'train';
+  this.kind = 'rail';
   this.id = id;
   this.lat = parseFloat(lat, 10);
   this.lng = parseFloat(lng, 10);
@@ -35,7 +35,7 @@ module.exports = async function getTrains(
       lat: record.Latitude[0],
       lng: record.Longitude[0],
       route: record.LineID[0],
-      direction: record.Service[0],
+      direction: record.ServiceDirection[0],
       pointing: record.Direction[0]
     });
   });

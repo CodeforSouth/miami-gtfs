@@ -20,7 +20,7 @@ function Arrival({
   return this;
 }
 
-const times = [1, 2, 3];
+const loop = [1, 2, 3];
 
 module.exports = async function getArrivals(id) {
   const url = `https://www.miamidade.gov/transit/mobile/xml/TrainTracker/?StationID=${id}`;
@@ -34,41 +34,33 @@ module.exports = async function getArrivals(id) {
   });
 
   const schedule = {
-    Northbound: [],
-    Southbound: [],
+    NB: [],
+    SB: [],
     updatedAt: moment(),
-    kind: 'train'
+    kind: 'rail'
   };
 
-  times.forEach(i => {
-    let time = xml[`NB_Time${i}`][0];
-    if (time.indexOf('*') > -1) {
-      return;
-    } else {
+  ['NB_Time', 'SB_Time'].forEach((direction, index) => {
+    loop.forEach(i => {
+      let time = xml[`${direction}${i}`][0];
+
+      if (time.indexOf('*') > -1) {
+        return;
+      }
+
       time = time.split(' ')[0];
-    }
-    if (time) {
-      schedule.Northbound.push({
-        time,
-        arrival: xml[`NB_Time${i}_Arrival`][0],
-        color: xml[`NB_Time${i}_LineID`][0]
-      });
-    }
+      if (time) {
+        const key = ['NB', 'SB'][index];
+        schedule[key].push({
+          time,
+          arrival: xml[`${direction}${i}_Arrival`][0],
+          color: xml[`${direction}${i}_LineID`][0],
+          id: xml[`${direction}${i}_Train`][0],
+          kind: 'rail'
+        });
+      }
+    });
   });
-  times.forEach(i => {
-    let time = xml[`SB_Time${i}`][0];
-    if (time.indexOf('*') > -1) {
-      return;
-    } else {
-      time = time.split(' ')[0];
-    }
-    if (time) {
-      schedule.Southbound.push({
-        time,
-        arrival: xml[`SB_Time${i}_Arrival`][0],
-        color: xml[`SB_Time${i}_LineID`][0]
-      });
-    }
-  });
+
   return schedule;
 };
