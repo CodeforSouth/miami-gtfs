@@ -1,4 +1,6 @@
 import 'isomorphic-fetch';
+import 'scraper';
+
 const app = require('express')();
 
 app.use(require('body-parser').json());

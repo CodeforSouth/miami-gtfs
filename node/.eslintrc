@@ -3,7 +3,8 @@
   "rules": {
     "import/no-commonjs": 0,
     "no-console": 1,
-    "no-unused-vars": 1
+    "no-unused-vars": 1,
+    "no-invalid-this": 0
   },
   "globals": {
     "fetch": true
