@@ -4,7 +4,8 @@
     "import/no-commonjs": 0,
     "no-console": 1,
     "no-unused-vars": 1,
-    "no-invalid-this": 0
+    "no-invalid-this": 0,
+    "import/no-namespace": 0
   },
   "globals": {
     "fetch": true

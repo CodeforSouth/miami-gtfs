@@ -1,4 +1,4 @@
-const parseString = require('xml2js').parseString;
+import moment from 'moment';
 
 export default async function getStopArrivals(rail) {
   const stopArrivalPromises = rail.stops.map(stop => getStopArrival(stop.id));
@@ -16,7 +16,7 @@ async function getStopArrival(id) {
   const text = await fetch(url).then(res => res.text());
 
   const xml = await new Promise(resolve => {
-    parseString(text, (err, result) => {
+    require('xml2js').parseString(text, (err, result) => {
       resolve(result.TrainTracker.Info[0]);
     });
   });
@@ -36,14 +36,23 @@ async function getStopArrival(id) {
       }
 
       time = time.split(' ')[0];
-      if (time) {
+
+      const [minutes, seconds] = time.split(':');
+
+      if (!seconds) return;
+
+      const timestamp = moment()
+        .add({ minutes, seconds })
+        .valueOf();
+
+      if (timestamp) {
         const key = ['NB', 'SB'][index];
         schedule[key].push({
-          time,
-          arrival: xml[`${direction}${i}_Arrival`][0],
-          color: xml[`${direction}${i}_LineID`][0],
-          id: xml[`${direction}${i}_Train`][0],
-          kind: 'rail'
+          timestamp,
+          route: xml[`${direction}${i}_LineID`][0],
+          vehicle: xml[`${direction}${i}_Train`][0],
+          kind: 'rail',
+          station: id
         });
       }
     });
