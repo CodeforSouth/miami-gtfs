@@ -1,12 +1,12 @@
 // const shape = {
 //   arrivals: {
 //     key: {
-//       key,
-//       timestamp,
-//       kind,
-//       vehicle,
-//       route,
-//       station
+//       key: String,
+//       timestamp: Number,
+//       kind: String,
+//       vehicle: String,
+//       route: String,
+//       station: String
 //     }
 //   },
 //   positions: {
@@ -54,26 +54,30 @@ class Scraper {
   }
 
   _refresh = async () => {
-    const [rail, mover] = await Promise.all([
-      _rail(this.rail),
-      _mover(this.mover)
-      // this._trolleys()
-    ]);
+    try {
+      const [rail, mover] = await Promise.all([
+        _rail(this.rail),
+        _mover(this.mover)
+        // this._trolleys()
+      ]);
 
-    positions.set({
-      rail: rail.positions,
-      mover: mover.positions
-    });
+      positions.set({
+        rail: rail.positions,
+        mover: mover.positions
+      });
 
-    arrivals.set({
-      rail: rail.arrivals,
-      mover: mover.arrivals
-    });
+      arrivals.set({
+        rail: rail.arrivals,
+        mover: mover.arrivals
+      });
 
-    this.state = {
-      rail,
-      mover
-    };
+      this.state = {
+        rail,
+        mover
+      };
+    } catch (error) {
+      console.log(error);
+    }
 
     setTimeout(this._refresh, 5000);
   };

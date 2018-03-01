@@ -11,6 +11,10 @@ export default async rail => {
 
   const positions = _.mapValues(locations, (position, vehicle) => {
     const direction = position.direction;
+    if (!direction.match(/(NB|SB)/)) {
+      position.arrivals = [];
+      return;
+    }
     _.each(arrivals, times => {
       times[direction].forEach(time => {
         if (time.vehicle === vehicle) {
