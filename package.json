@@ -3,9 +3,9 @@
     "build-map": "node scripts/geodata/index.js"
   },
   "dependencies": {
-    "@mapbox/polyline": "^0.2.0",
+    "@mapbox/polyline": "^1.1.0",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.13",
-    "xml2js": "^0.4.19"
+    "lodash": "^4.17.15",
+    "xml2js": "^0.4.22"
   }
 }
