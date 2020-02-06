@@ -45,3 +45,7 @@ After starting the server the first time, `GET localhost:3600/import`
 * [Transit Feeds](https://transitfeeds.com/p/miami-dade-county-transit/48)
 * [Miami-Dade County Website](https://www8.miamidade.gov/global/transportation/open-data-feeds.page)
 * [Miami-Dade Open Data Portal](https://gis-mdc.opendata.arcgis.com/datasets/ba2e2044d5894e44a8c5fa69b04377d5)
+
+
+## City of Miami
+* [Requirements](https://docs.google.com/document/d/1_j5QvwBZ7yHSMatBBxph3NNzCj_H5Ew9Xu-gjt4eJSM/edit?usp=sharing)
