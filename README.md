@@ -14,6 +14,7 @@ Documentation is contained in Markdown files within the repository
 | ------------- | -----------|
 | [README.md](README.md) | This root document |
 | [LICENSE.md](LICENSE.md) | Our software license |
+| [Documentation](https://github.com/cscape/miamitransit-docs) | See documentation on Miami Transit provided by member @ciolt |
 
 
 ### Visualize data on a map of GTFS Transit
