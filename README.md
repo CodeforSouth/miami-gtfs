@@ -1,8 +1,5 @@
 # Miami GTFS Data
-
-## Overview
-
-Miami-Dade County transportation is known to give very bad user experiences. Depending on if your a resident knowing where transit happens or when it's going to come could be difficult. In Miami-Dade County and with the City of Miami they have open data feed called General Transit Feed Specication (GTFS) which is a set of open data feeds given by Miami-Dade County. 
+The General Transit Feed Specification (GTFS) is an open format that Google created to allow transit agencies to easily provide schedule data to Google Transit. However, Google encourages its use for other applications, and it’s available under a Creative Commons Attribution-ShareAlike (free) license. Miami-Dade County released a feed, but City of Miami doesn't have it's own feed. This is a project explore publishing a City of Miami local feed and building service-based application for residents.
 
 ### Visualize data on a map of GTFS Transit
 
