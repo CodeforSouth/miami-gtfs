@@ -6,27 +6,27 @@
   "author": "Sammy Yousif",
   "license": "MIT",
   "dependencies": {
-    "@mapbox/polyline": "^0.2.0",
+    "@mapbox/polyline": "^1.1.0",
     "babel-preset-env": "^1.6.1",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "firebase-admin": "^5.9.0",
-    "gtfs": "^0.10.0",
+    "firebase-admin": "^8.11.0",
+    "gtfs": "^1.10.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.13",
     "moment": "^2.19.3",
-    "mongoose": "^5",
+    "mongoose": "^5.9.10",
     "protobuf-validator": "^1.1.0",
-    "protobufjs": ">=5.0.3",
-    "request": "^2.81.0",
-    "xml2js": "^0.4.19"
+    "protobufjs": ">=6.9.0",
+    "request": "^2.88.2",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-stage-0": "^6.24.1",
-    "eslint-config-node": "^1.6.0",
-    "nodemon": "^1.15.1"
+    "eslint-config-node": "^4.0.0",
+    "nodemon": "^2.0.3"
   },
   "scripts": {
     "start": "nodemon -L index.js --exec babel-node"
