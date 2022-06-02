@@ -17,7 +17,7 @@
     "moment": "^2.19.3",
     "mongoose": "^5.9.10",
     "protobuf-validator": "^1.1.0",
-    "protobufjs": ">=6.9.0",
+    "protobufjs": ">=6.11.3",
     "request": "^2.88.2",
     "xml2js": "^0.4.23"
   },
